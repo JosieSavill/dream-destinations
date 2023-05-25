@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.073c9b0a.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.56bea817.js",
-    "static/js/787.a9677a29.chunk.js": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js",
-    "static/media/logo.svg": "/josie-savill-web-developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/josie-savill-web-developer/index.html",
-    "main.073c9b0a.css.map": "/josie-savill-web-developer/static/css/main.073c9b0a.css.map",
-    "main.56bea817.js.map": "/josie-savill-web-developer/static/js/main.56bea817.js.map",
-    "787.a9677a29.chunk.js.map": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js.map"
+    "main.css": "/githubportfolio/static/css/main.a640dd54.css",
+    "main.js": "/githubportfolio/static/js/main.866d95e2.js",
+    "static/js/787.65d525a1.chunk.js": "/githubportfolio/static/js/787.65d525a1.chunk.js",
+    "static/media/dark-horse.mp4": "/githubportfolio/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
+    "static/media/Horiseon.jpg": "/githubportfolio/static/media/Horiseon.f4a5275ec18a6debc47f.jpg",
+    "static/media/gem.jpg": "/githubportfolio/static/media/gem.3b31a192db4a26efc816.jpg",
+    "static/media/BeagzCal.jpg": "/githubportfolio/static/media/BeagzCal.8e34d7edaa5d2fbd99ac.jpg",
+    "static/media/awakening500.png": "/githubportfolio/static/media/awakening500.9d6a0c48c1c7fedcd0cd.png",
+    "static/media/pleiades.jpg": "/githubportfolio/static/media/pleiades.08e7cf71394d261ac2a6.jpg",
+    "static/media/campeones.jpg": "/githubportfolio/static/media/campeones.9f48974db9bdb355253a.jpg",
+    "static/media/profile.jpg": "/githubportfolio/static/media/profile.c4ceff486361b753e7c5.jpg",
+    "static/media/github-logo.jpg": "/githubportfolio/static/media/github-logo.a9654661dfa08223d7a2.jpg",
+    "static/media/linkedin-logo.png": "/githubportfolio/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
+    "static/media/logo.svg": "/githubportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/githubportfolio/index.html",
+    "main.a640dd54.css.map": "/githubportfolio/static/css/main.a640dd54.css.map",
+    "main.866d95e2.js.map": "/githubportfolio/static/js/main.866d95e2.js.map",
+    "787.65d525a1.chunk.js.map": "/githubportfolio/static/js/787.65d525a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.56bea817.js"
+    "static/css/main.a640dd54.css",
+    "static/js/main.866d95e2.js"
   ]
 }
