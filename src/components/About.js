@@ -2,7 +2,7 @@ import Nav from "./Nav";
 
 import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/dark-horse.mp4";
-
+import Footer from "./Footer";
 
 export default function About ({setScreen}){
     return <div>
@@ -47,7 +47,7 @@ export default function About ({setScreen}){
             
 
         </aside>
-        
+        <Footer />
     </div>
         
 }
