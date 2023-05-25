@@ -37,6 +37,7 @@ export default function About ({setScreen}){
                     
                     
                     
+                    
                 </div> 
 
                
@@ -47,6 +48,7 @@ export default function About ({setScreen}){
 
         </aside>
         
-    </div>    
+    </div>
+        
 }
 
