@@ -75,7 +75,7 @@ export default function Portfolio ({setScreen}){
         <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/campeones/">
                 <div>
-                    <h3>Campeones 2023</h3>
+                    <h3>Campeones</h3>
                     <img src={img3} style={{width: "500px"}}
                     className="horeison" alt="img of argentine flag"/>
                 </div>
