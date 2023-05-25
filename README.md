@@ -39,17 +39,19 @@ Technologies used in building this site were React, Pexels for *.mp4 download.
 ## *Instructions*  
 <br>
 
-Visit GitHub deployed link below and be sure to check out all the sections in the navigation bar.  
+To view the site click on  GitHub deployed link at bottom of README.
 
-The about section gives a brief description of how I approach each project.  
+The nav bar provides links to several sections.
 
-The resume section displays  my proficiencies as a junior developer as well a link to view and download my resume.  
+The About section gives a brief description of how I approach each project.  
 
-The porfolio section displays all of my latest works, along with a link to corresponding repository.  
+The Resume section displays  my proficiencies as a junior developer as well a link to view and download my resume.  
+
+The Porfolio section displays all of my latest works, along with a link to corresponding repository.  
 
 Be sure to click on an image to visit the site itself!  
 
-The contact section will take you to a form where you can enter your name, email address and send me a message.  
+The Contact section will take you to a form where you can enter your name, email address and send me a message.  
 
 
 
