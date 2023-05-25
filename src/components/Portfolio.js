@@ -28,14 +28,14 @@ export default function Portfolio ({setScreen}){
      <section id="work" className="portfolio">
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/HoriseonWebsite/">
+            <a href="https://josiesavill.github.io/horses/">
                 <div>
                     <h3>Horses</h3>
                 <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
                    
                 </div>
             </a>
-            <a href="https://josiesavill.github.io/horses/" style={{ fontSize: "20px" }}>View Repository</a> 
+            <a href="https://github.com/JosieSavill/horses" style={{ fontSize: "20px" }}>View Repository</a> 
         </div>
 
         <div id="horeison" className="work-horeison">
