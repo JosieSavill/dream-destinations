@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/githubportfolio/static/css/main.a640dd54.css",
-    "main.js": "/githubportfolio/static/js/main.866d95e2.js",
+    "main.js": "/githubportfolio/static/js/main.c936737e.js",
     "static/js/787.65d525a1.chunk.js": "/githubportfolio/static/js/787.65d525a1.chunk.js",
     "static/media/dark-horse.mp4": "/githubportfolio/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/Horiseon.jpg": "/githubportfolio/static/media/Horiseon.f4a5275ec18a6debc47f.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/githubportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/githubportfolio/index.html",
     "main.a640dd54.css.map": "/githubportfolio/static/css/main.a640dd54.css.map",
-    "main.866d95e2.js.map": "/githubportfolio/static/js/main.866d95e2.js.map",
+    "main.c936737e.js.map": "/githubportfolio/static/js/main.c936737e.js.map",
     "787.65d525a1.chunk.js.map": "/githubportfolio/static/js/787.65d525a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a640dd54.css",
-    "static/js/main.866d95e2.js"
+    "static/js/main.c936737e.js"
   ]
 }
