@@ -31,8 +31,8 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/HoriseonWebsite/">
                 <div>
                     <h3>Horses</h3>
-                    <img src={img6} style={{width: "500px"}}
-                    className="horeison" alt="img of horse"/>
+                <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
+                   
                 </div>
             </a>
             <a href="https://josiesavill.github.io/horses/" style={{ fontSize: "20px" }}>View Repository</a> 
@@ -42,8 +42,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/space-weather-blog/">
                 <div>
                     <h3>Space Weather Blog</h3>
-                    <img src={img5} style={{width: "500px"}}
-                    className="horeison" alt="img of pleiades"/>
+                    <div className="bgBox" style={{backgroundImage: `url(${img5})`}}></div>
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/space-weather-blog" style={{ fontSize: "20px" }}>View Repository</a>
@@ -53,8 +52,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/beagzcal/">
                 <div>
                     <h3>Beagz & Cal</h3>
-                    <img src={img1} style={{width: "500px"}}
-                    className="horeison" alt="img of dog and cat"/>
+                    <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/beagzcal" style={{ fontSize: "20px" }}>View Repository</a>
@@ -64,8 +62,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/gem/">
                 <div>
                     <h3>Gem</h3>
-                    <img src={img4} style={{width: "500px"}}
-                    className="horeison" alt="img of kitten"/>
+                    <div className="bgBox" style={{backgroundImage: `url(${img4})`}}></div>
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/gem" style={{ fontSize: "20px" }}>View Repository</a>
@@ -76,8 +73,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/campeones/">
                 <div>
                     <h3>Campeones</h3>
-                    <img src={img3} style={{width: "500px"}}
-                    className="horeison" alt="img of argentine flag"/>
+                    <div className="bgBox" style={{backgroundImage: `url(${img3})`}}></div>
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/campeones" style={{ fontSize: "20px" }}>View Repository</a>
@@ -87,8 +83,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/HoriseonWebsite/">
                 <div>
                     <h3>Horeison Website</h3>
-                    <img src={img2} style={{width: "500px"}}
-                    className="horeison" alt="img of office workers"/>
+                    <div className="bgBox" style={{backgroundImage: `url(${img2})`}}></div>
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/HoriseonWebsite" style={{ fontSize: "20px" }}>View Repository</a>
