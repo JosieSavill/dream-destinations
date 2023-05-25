@@ -1,0 +1,57 @@
+1. do email regex on form 
+2. do hover state on portoflio images and new portfolio
+3. link portfolio to github repo
+
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+
+need build working website for each img after horeison
+add hover highlighting and repository links to all
+
+need change link in resume to just the page without editing capabilities
+
+
+
+
+ <div style={{position:"relative",width:"fit-content",height:"fit-content"}}>
+                <a style={{position:"absolute",top:"20px",right:"1rem",opacity:"0.8"}} href="https://clipchamp.com/watch/JOBbl5cpKng?utm_source=embed&utm_medium=embed&utm_campaign=watch">
+                    <img style={{height:"22px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+                </a>
+                <iframe allow="autoplay;" allowfullscreen style={{border:"none}} src="https://clipchamp.com/watch/JOBbl5cpKng/embed" width="640" height="360"></iframe>
+            </div>
+
+
+
+<input type="text" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+
+
+<input
+                        type="text"
+                        required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+
+
+
+
+https://github.com/pricing    
+
+Uploading LFS objects:   0% (0/2), 0 B | 0 B/s, done.
+batch response: This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.
+error: failed to push some refs to 'github.com:JosieSavill/githubportfolio.git'
+client_loop: send disconnect: Connection reset by peer 
+
+Delta compression using up to 4 threads
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (37/37), 160.60 MiB | 154.00 KiB/s, done.
+Total 37 (delta 24), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (24/24), completed with 7 local objects.
+remote: error: Trace: d4b6e40620291e5b1b5a467bf6879b368f9d9fbb453472e66039eda00995f634
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File src/Assets/Awakening - Made with Clipchamp.mp4 is 161.12 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:JosieSavill/githubportfolio.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:JosieSavill/githubportfolio.git'               />
+
+This week, you’ll take starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
+
+
