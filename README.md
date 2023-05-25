@@ -69,10 +69,10 @@ The contact section will take you to a form where you can enter your name, email
 [Link Here](https://josiesavill.github.io/josie-savill-web-developer/)  
 
 
-![DevTools Manifest Img](/client/src/images/manifest.png)   
+ 
  
 
-![DevTools Service Worker Img](/client/src/images/serviceworker.png) 
+
 
 
 
