@@ -8,7 +8,7 @@ export default function Footer(){
 
     return <footer className="footer">
         
-        <a href="https://www.linkedin.com/in/josie-fiorda-savill-bab409277?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLgeyQMJiQ%2Be47N5nspODWA%3D%3D">
+        <a href="https://www.linkedin.com/in/josiefiordasavill">
         <img src={linkLogo} style={{width: "20px", height: "20px"}} /> LinkedIn</a>
         <a href="https://github.com/JosieSavill?tab=repositories">
         <img src={githubLogo}  style={{width: "20px", height: "20px"}}/> GitHub</a>

@@ -6,7 +6,7 @@ export default function Nav ({setScreen}){
     return <header className="header">
          <div className="logo">JOSIE SAVILL{' '}
          <span style={{ fontSize: '1.1rem', fontStyle: 'italic', color: "white"}}>
-            Full Stack Web Developer</span></div>
+            Web Developer</span></div>
         <nav>
        
         <ul>
