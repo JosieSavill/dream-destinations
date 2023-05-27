@@ -19,13 +19,13 @@ export default function Resume ({setScreen}){
          <br></br>
                
          
-<h1 style={{fontSize: '33px', color: 'white', paddingBottom: '10px'}}><strong>Front End Proficiencies</strong></h1>
+<h1 style={{fontSize: '24px', color: 'white', paddingBottom: '10px'}}><strong>Front End Proficiencies</strong></h1>
 <ul style={{fontSize: '24px', color: 'white' }}><li>React</li><li>Tailwind</li><li>Handlebars</li><li>Cloudinary</li><li>JavaScript</li><li>JQuery</li><li>Bootstrap</li></ul>
 <br></br>
 <br></br>
 
 
-<h1 style={{fontSize: '33px', color: 'whitesmoke', paddingBottom: '10px'}}><strong>Back End Proficiencies</strong></h1>
+<h1 style={{fontSize: '24px', color: 'whitesmoke', paddingBottom: '10px'}}><strong>Back End Proficiencies</strong></h1>
 <ul style={{fontSize: '24px', color: 'white' }}><li>Apollo, GraphQL</li><li>MongoDB, Mongoose</li><li>REST</li><li>MySQL, Sequelize</li><li>Express</li><li>Node</li><li>APIs</li></ul>
 
 

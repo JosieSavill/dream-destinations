@@ -21,7 +21,7 @@ export default function About ({setScreen}){
             
             <section id="about" className="aside-about">
                  <div>
-                    <h2>About:</h2>
+                    <h2 style={{ fontSize: '1.7rem', color: "white"}}>About:</h2>
                     <p>
                         All of my designs are centered on user perspectives.
                     </p>   
