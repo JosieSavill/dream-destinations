@@ -12,7 +12,7 @@ export default function Resume ({setScreen}){
         <br></br>
         <br></br>
        
-        <a href="https://onedrive.live.com/?authkey=%21AL9%2DkpCBddDnoIk&cid=39BBF03792AAC217&id=39BBF03792AAC217%21472&parId=39BBF03792AAC217%21104&o=OneUp" style={{ fontSize: '20px' }}><strong>Download My Resume</strong></a> <br/>
+        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5g1hcT0LZKGOsXVUu?e=tDTGHD" style={{ fontSize: '20px' }}><strong>Download My Resume</strong></a> <br/>
                
          <br></br>
          <br></br>

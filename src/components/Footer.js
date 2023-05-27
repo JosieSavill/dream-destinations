@@ -13,10 +13,10 @@ export default function Footer(){
         <a href="https://github.com/JosieSavill?tab=repositories">
         <img src={githubLogo}  style={{width: "20px", height: "20px"}}/> GitHub</a>
         <a href="https://stackexchange.com/users/27657333/josie-fiorda-savill">
-            <img src={stackLogo} style={{width:"40px", height: "20px"}}/> stackexchange
+            <img src={stackLogo} style={{width:"88px", height: "20px"}}/> StackExchange
             </a>
         
-        <h3>Updated: May, 2023</h3>
+        <h4>Updated: May, 2023</h4>
         
         
     </footer>
