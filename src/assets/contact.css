@@ -15,8 +15,9 @@ form {
 
 form label {
     margin-top: 10px;
-    color: white;
+    color: rgb(3, 53, 12);
     font-size: 22px;
+    font-weight: bold;
     align-self: flex-start;
     text-shadow: 0, 0, 0, 1.0;
     
@@ -49,6 +50,7 @@ form input[type="Submit"] {
     margin-top: 10px;
     background-color: #4caf50;
     color: white;
+    font-weight: bold;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0);
 }

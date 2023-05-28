@@ -33,19 +33,6 @@ export default function Home({ setScreen }) {
 
 
 
-// import React from "react";
-// import Nav from "./Nav";
-// import Horse from "./Horse";
 
-
-// export default function Home ({setScreen}){
-
-//     return <div>
-     
-//         <Nav setScreen={setScreen}/>
-//         animated dark horse will go here
-//         <Horse />
-//     </div>
-// }
 
 
