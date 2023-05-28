@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Horse from "./Horse";
+// import Horse from "./Horse";
 import myVideo  from "../assets/dark-horse.mp4";
 
 export default function Home({ setScreen }) {

@@ -16,7 +16,7 @@ export default function Footer(){
             <img src={stackLogo} style={{width:"88px", height: "20px"}} alt="stackexchange logo img"/> StackExchange
             </a>
         
-        <h4>Updated: May, 2023</h4>
+        {/* <h4>Updated: May, 2023</h4> */}
         
         
     </footer>

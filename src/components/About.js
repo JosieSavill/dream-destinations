@@ -2,7 +2,10 @@ import Nav from "./Nav";
 
 import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/dark-horse.mp4";
-import Footer from "./Footer";
+// import Footer from "./Footer";
+import linkLogo from "../assets/linkedin-logo.png";
+import githubLogo from "../assets/github-logo.jpg";
+import stackLogo from "../assets/stack-exchange-logo-transparent.png";
 
 export default function About ({setScreen}){
     return <div>
@@ -38,16 +41,31 @@ export default function About ({setScreen}){
                     
                     
                     
-                </div> 
+                </div>
 
-               
+                <div>
+                    <br></br>
+                    <br></br>
+                    <h5>LinkedIn  <a href="https://www.linkedin.com/in/josiefiordasavill" className="linkedinlogo" >
+                    <img src={linkLogo} style={{width: "20px", height: "17px"}} alt="linkedin logo img"/></a></h5> 
+                    <br></br>
+                    <h5>GitHub  <a href="https://github.com/JosieSavill?tab=repositories" className="githublogo">
+                    <img src={githubLogo}  style={{width: "20px", height: "17px"}} alt="github logo img"/></a></h5>
+                    <br></br>
+                    <h5>StackExchange<a href="https://stackexchange.com/users/27657333/josie-fiorda-savill" className="stacklogo">
+                    <img src={stackLogo} style={{width:"88px", height: "20px"}} alt="stackexchange logo img"/>
+                    </a></h5>
+                </div>
                 
             </section>
 
             
 
         </aside>
-        <Footer />
+        <br></br>
+        <br></br>
+        <br></br>
+        {/* <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical' }}/> */}
     </div>
         
 }
