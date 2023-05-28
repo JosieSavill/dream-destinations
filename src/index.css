@@ -307,6 +307,14 @@ p {
  flex: wrap;
 }
 
+.downloadresume {
+  fontSize: 20px;
+  color: white;
+}
+.downloadresume:hover {
+  color:rgb(85, 114, 7);
+}
+
 .footer {
   padding: 30px;
   clear: both;

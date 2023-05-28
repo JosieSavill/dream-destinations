@@ -12,7 +12,7 @@ export default function Resume ({setScreen}){
         <br></br>
         <br></br>
        
-        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5g1hcT0LZKGOsXVUu?e=tDTGHD" style={{ fontSize: '20px' }}><strong>Download My Resume</strong></a> <br/>
+        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5g1hcT0LZKGOsXVUu?e=tDTGHD" style={{ fontSize: '20px' }} className="downloadresume"><strong>Download My Resume</strong></a> <br/>
                
          <br></br>
          <br></br>
