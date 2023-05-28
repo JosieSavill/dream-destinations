@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,12 @@ form label {
     align-self: flex-start;
     text-shadow: 0, 0, 0, 1.0;
     
+    
+}
+
+form label:hover {
+    color:rgb(156, 238, 171);
+    text-shadow: 0, 0, 0, 2.0;
 }
 
 form input[type="text"],
@@ -45,14 +55,20 @@ form input[type="Submit"] {
 }
 
 .submit-button {
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     margin-top: 10px;
     background-color: #4caf50;
     color: white;
+    font-size: 22px;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0);
+}
+
+.submit-button:hover {
+    color:rgb(136, 243, 149);
+    background-color: rgb(4, 51, 13); 
 }
 
 @media (max-width: 600px) {
