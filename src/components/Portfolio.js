@@ -6,6 +6,7 @@ import img3 from "../assets/campeones.jpg";
 import img4 from "../assets/gem.jpg";
 import img5  from "../assets/pleiades.jpg";
 import img6 from "../assets/awakening500.png";
+import img7 from "../assets/ShareMealDesktop.png";
 
 // import profile from "../assets/profile.jpg";
 
@@ -36,6 +37,16 @@ export default function Portfolio ({setScreen}){
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/horses" style={{ fontSize: "20px" }}>View Repository</a> 
+        </div>
+
+        <div id="horeison" className="work-horeison">
+            <a href="https://sharemeal.herokuapp.com/">
+                <div>
+                    <h3>ShareMeal</h3>
+                    <div className="bgBox" style={{backgroundImage: `url(${img7})`}}></div>
+                </div>
+            </a>
+            <a href="https://github.com/LL8719/ShareMeal" style={{ fontSize: "20px" }}>View Repository</a>
         </div>
 
         <div id="horeison" className="work-horeison">
