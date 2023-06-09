@@ -20,7 +20,7 @@ export default function Resume ({setScreen}){
                
          
 <h1 style={{fontSize: '24px', color: 'white', paddingBottom: '10px'}}><strong>Front End Proficiencies</strong></h1>
-<ul style={{fontSize: '24px', color: 'white' }}><li>React</li><li>Tailwind</li><li>Handlebars</li><li>Cloudinary</li><li>JavaScript</li><li>JQuery</li><li>Bootstrap</li></ul>
+<ul style={{fontSize: '24px', color: 'white' }}><li>React</li><li>Chakra</li><li>Handlebars</li><li>Cloudinary</li><li>JavaScript</li><li>JQuery</li><li>Bootstrap</li></ul>
 <br></br>
 <br></br>
 
