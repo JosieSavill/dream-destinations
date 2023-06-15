@@ -12,7 +12,7 @@ export default function Resume ({setScreen}){
         <br></br>
         <br></br>
        
-        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=Yubgme" className="downloadresume"><strong>Download My Resume</strong></a> <br/>
+        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP" className="downloadresume"><strong>Download My Resume</strong></a> <br/>
                
          <br></br>
          <br></br>
