@@ -34,7 +34,7 @@ export default function About ({setScreen}){
                     </p>    
                     <br></br>  
                     <p>    
-                        I enjoy collaboration, as well as reasearching and creating design solutions.
+                        I enjoy collaboration, as well as researching and creating design solutions.
 
                     </p>
                     
