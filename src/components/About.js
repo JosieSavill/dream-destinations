@@ -76,7 +76,7 @@ export default function About ({setScreen}){
         {/* <br></br>
         <br></br> */}
         {/* <br></br> */}
-        <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical' }}/>
+        <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical', margin: '0' }}/>
     </div>
         
 }
