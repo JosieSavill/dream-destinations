@@ -30,7 +30,7 @@ export default function About ({setScreen}){
                     </p>    */}
                     {/* <br></br>   */}
                     <p>
-                        <a href="mailto:FiordaSavillJosie@gmail.com" className="downloadresume">FiordaSavillJosie@gmail.com</a> 
+                        <a href="mailto:FiordaSavillJosie@gmail.com" className="email">FiordaSavillJosie@gmail.com</a> 
                     </p>
                     <br></br>
 
@@ -55,8 +55,7 @@ export default function About ({setScreen}){
                 </div>
 
                 {/* <div>
-                    <br></br>
-                    <br></br>
+                    
                     <h5>LinkedIn  <a href="https://www.linkedin.com/in/josiefiordasavill" className="linkedinlogo" >
                     <img src={linkLogo} style={{width: "20px", height: "17px"}} alt="linkedin logo img"/></a></h5> 
                     <br></br>
@@ -76,7 +75,8 @@ export default function About ({setScreen}){
         {/* <br></br>
         <br></br> */}
         {/* <br></br> */}
-        <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical', margin: '0' }}/>
+        <Footer />
+        {/* <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical', margin: '0' }}/> */}
     </div>
         
 }
