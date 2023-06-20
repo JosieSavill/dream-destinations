@@ -37,6 +37,9 @@ export default function About ({setScreen}){
                         I enjoy collaboration, as well as researching and creating design solutions.
 
                     </p>
+                    <p>
+                       <a href="mailto:FiordaSavillJosie@gmail.com">FiordaSavillJosie@gmail.com</a>
+                    </p>
                     
                     
                     

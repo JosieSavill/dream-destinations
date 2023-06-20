@@ -21,6 +21,10 @@ export default function Portfolio ({setScreen}){
 
                 <h2 style={{ fontSize: '20px'}}>Click on any image to visit</h2>
 
+                <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP" className="downloadresume"><strong>Download My Resume</strong></a> <br/>
+       
+                <a href="mailto:FiordaSavillJosie@gmail.com">FiordaSavillJosie@gmail.com</a>
+
                 <br></br>
                 <br></br>
         
