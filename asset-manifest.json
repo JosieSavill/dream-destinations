@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/josie-savill-web-developer/static/css/main.45d1f1c5.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.2c2626af.js",
+    "main.js": "/josie-savill-web-developer/static/js/main.72146b9c.js",
     "static/js/787.7de8c4f3.chunk.js": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/Horiseon.jpg": "/josie-savill-web-developer/static/media/Horiseon.f4a5275ec18a6debc47f.jpg",
@@ -18,11 +18,11 @@
     "static/media/logo.svg": "/josie-savill-web-developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/josie-savill-web-developer/index.html",
     "main.45d1f1c5.css.map": "/josie-savill-web-developer/static/css/main.45d1f1c5.css.map",
-    "main.2c2626af.js.map": "/josie-savill-web-developer/static/js/main.2c2626af.js.map",
+    "main.72146b9c.js.map": "/josie-savill-web-developer/static/js/main.72146b9c.js.map",
     "787.7de8c4f3.chunk.js.map": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45d1f1c5.css",
-    "static/js/main.2c2626af.js"
+    "static/js/main.72146b9c.js"
   ]
 }
