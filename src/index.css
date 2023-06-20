@@ -338,7 +338,9 @@ p {
 }
 
 .downloadresume:hover {
-  color:rgb(161, 189, 84);
+  /* color:rgb(161, 189, 84); */
+  
+  scale: 1.09;
 }
 
 .footer {
