@@ -248,10 +248,7 @@ p {
 }
 
 .content {
-
-  
   display: flex;
-
 }
 
 .aside-about h2 {
@@ -259,17 +256,27 @@ p {
   text-align: center;
   display: flex;
   flex: wrap;
-  font-size: 25px;
+  font-size: 20px;
   color:white;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
+.profile-pic {
+  
+  display: flex;
+  flex: wrap;
+  
+}
 
 .aside-contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 0;
-  padding: 20px;
+  margin-bottom: 5px;
+  padding: 17px;
   clear: both;
   float: right;   
   width: 20%;
@@ -279,7 +286,7 @@ p {
 }
 
 .aside-contact-links {
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   color: white;
   display: flex;
   flex: wrap;
@@ -308,14 +315,16 @@ p {
  font-size: 20px;
  display: flex;
  flex: wrap;
+ margin-bottom: 0;
 }
 
 .downloadresume {
   fontSize: 20px;
   color: white;
+  margin-bottom: 0;
 }
 .downloadresume:hover {
-  color:rgb(85, 114, 7);
+  color:rgb(161, 189, 84);
 }
 
 .footer {

@@ -4,7 +4,7 @@ import img1 from "../assets/BeagzCal.jpg";
 import img2 from "../assets/Horiseon.jpg";
 import img3 from "../assets/campeones.jpg";
 import img4 from "../assets/gem.jpg";
-import img5  from "../assets/pleiades.jpg";
+// import img5  from "../assets/pleiades.jpg";
 import img6 from "../assets/awakening500.png";
 import img7 from "../assets/ShareMealDesktop.png";
 
@@ -19,14 +19,17 @@ export default function Portfolio ({setScreen}){
                 <br></br>
                 <br></br>
 
-                <h2 style={{ fontSize: '20px'}}>Click on any image to visit</h2>
+                {/* <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Download My Resume</h2></a> <br/>
+                <br></br> */}
 
-                <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP" className="downloadresume"><strong>Download My Resume</strong></a> <br/>
-       
-                <a href="mailto:FiordaSavillJosie@gmail.com">FiordaSavillJosie@gmail.com</a>
+                <h2 style={{ fontSize: '20px'}}>Click image to visit:</h2>
+                {/* <br></br> */}
+
+                
+                {/* <a href="mailto:FiordaSavillJosie@gmail.com">FiordaSavillJosie@gmail.com</a> */}
 
                 <br></br>
-                <br></br>
+                
         
         
     
@@ -53,7 +56,7 @@ export default function Portfolio ({setScreen}){
             <a href="https://github.com/LL8719/ShareMeal" style={{ fontSize: "20px" }}>View Repository</a>
         </div>
 
-        <div id="horeison" className="work-horeison">
+        {/* <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/space-weather-blog/">
                 <div>
                     <h3>Space Weather Blog</h3>
@@ -61,7 +64,7 @@ export default function Portfolio ({setScreen}){
                 </div>
             </a>
             <a href="https://github.com/JosieSavill/space-weather-blog" style={{ fontSize: "20px" }}>View Repository</a>
-        </div>
+        </div> */}
 
         <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/beagzcal/">
