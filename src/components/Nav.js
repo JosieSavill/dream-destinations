@@ -20,7 +20,7 @@ export default function Nav ({setScreen}){
 
             <li>
             
-            <a href="mailto:FiordaSavillJosie@gmail.com">Contact Me</a>
+            <a href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
             </li>
 
         </ul>
