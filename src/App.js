@@ -26,9 +26,9 @@ function App() {
        {
         screen === "Portfolio" && <Portfolio setScreen={setScreen}/>
       }
-       {
+       {/* {
         screen === "Resume" && <Resume setScreen={setScreen}/>
-      }
+      } */}
      
       
     </div>

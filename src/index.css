@@ -43,6 +43,7 @@ body {
 
 .header {
   padding: 20px;
+  clear: both;
   font-family: "Trebuchet MS", sans-serif, Arial;
   background-color: darkseagreen;
   color: #000;
