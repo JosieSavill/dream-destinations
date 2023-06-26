@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.71fcc296.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.78483fb7.js",
+    "main.css": "/josie-savill-web-developer/static/css/main.cf06a438.css",
+    "main.js": "/josie-savill-web-developer/static/js/main.6feb58ce.js",
     "static/js/787.7de8c4f3.chunk.js": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/Horiseon.jpg": "/josie-savill-web-developer/static/media/Horiseon.f4a5275ec18a6debc47f.jpg",
@@ -16,12 +16,12 @@
     "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "static/media/logo.svg": "/josie-savill-web-developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/josie-savill-web-developer/index.html",
-    "main.71fcc296.css.map": "/josie-savill-web-developer/static/css/main.71fcc296.css.map",
-    "main.78483fb7.js.map": "/josie-savill-web-developer/static/js/main.78483fb7.js.map",
+    "main.cf06a438.css.map": "/josie-savill-web-developer/static/css/main.cf06a438.css.map",
+    "main.6feb58ce.js.map": "/josie-savill-web-developer/static/js/main.6feb58ce.js.map",
     "787.7de8c4f3.chunk.js.map": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71fcc296.css",
-    "static/js/main.78483fb7.js"
+    "static/css/main.cf06a438.css",
+    "static/js/main.6feb58ce.js"
   ]
 }
