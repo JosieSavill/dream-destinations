@@ -10,8 +10,7 @@ export default function Nav ({setScreen}){
         <nav>
        
         <ul>
-            <li><a onClick={()=>setScreen("Home")}>Home</a></li>
-
+           
             <li><a onClick={()=>setScreen("About")}>About</a></li>
 
       

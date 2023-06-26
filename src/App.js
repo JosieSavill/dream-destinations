@@ -10,13 +10,11 @@ import Resume from './components/Resume';
 
 function App() {
 
-  const [screen, setScreen] = useState("Home");
+  const [screen, setScreen] = useState("About");
 
   return (
     <div >
-      {
-        screen === "Home" && <Home setScreen={setScreen} />
-      }
+     
       {
         screen === "About" && <About setScreen={setScreen}/>
       }
