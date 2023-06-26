@@ -300,6 +300,12 @@ p {
   background-color: rgba(67, 177, 241, 0.5) 
 }
 
+@media (max-width: 600px) {
+  .aside-contact {
+    width: 100%;
+  }  
+}
+
 .aside-contact-links {
   margin-bottom: 0px;
   color: white;
@@ -368,6 +374,13 @@ p {
   justify-content: space-between;
   max-width: 900px;
   margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    
+    flex-direction: column;
+  }  
 }
 .footer ul{
   display: flex;
