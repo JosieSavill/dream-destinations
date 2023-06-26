@@ -286,7 +286,7 @@ p {
 }
 
 .aside-contact {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 0;
