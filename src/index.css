@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  display: flex;
+  flex: column;
+  text-align: center;
   
 }
 
@@ -266,7 +269,20 @@ p {
   flex: 1;
 }
 
-.aside-about h2 {
+.aside-about  {
+  margin-bottom: 10px;
+  text-align: center;
+  /* display: flex; */
+  flex: wrap;
+  font-size: 20px;
+  color:white;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+/* .aside-about h2 {
   margin-bottom: 10px;
   text-align: center;
   display: flex;
@@ -276,12 +292,15 @@ p {
   padding: 8px;
   margin-top: 8px;
   margin-bottom: 8px;
-}
+} */
 
 .profile-pic {
   
-  display: flex;
+  opacity: 0.8;
+  /* display: flex; */
   flex: wrap;
+  box-shadow: 4px 4px 10px black;
+  border-radius: 90px;
   
 }
 
@@ -291,11 +310,12 @@ p {
   justify-content: space-between;
   margin-right: 0;
   margin-bottom: 5px;
+  margin-top: 30px;
   padding: 17px;
   min-height: 80vh;
-   
+  border-radius: 20px; 
   width: 20%;
-
+  margin-left: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgba(67, 177, 241, 0.5) 
 }
@@ -339,10 +359,38 @@ p {
  margin-bottom: 0;
 }
 
+button {
+  background-color: seagreen;
+  opacity: 0.8;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: auto;
+  transition: 0.15s;
+  box-shadow: 4px 4px 10px black;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
 .downloadresume {
   font-size: 20px;
   color: white;
-  margin-bottom: 0;
+  margin: 8px;
+  transition: scale 0.17s;
+  text-align: center;
 }
 
 .email {
@@ -357,9 +405,9 @@ p {
 }
 
 .downloadresume:hover {
-  /* color:rgb(161, 189, 84); */
   
-  scale: 1.09;
+  
+  scale: 1.17;
 }
 
 .footer {

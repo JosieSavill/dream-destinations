@@ -29,23 +29,27 @@ export default function About ({setScreen}){
                         All of my designs are centered on user perspectives.
                     </p>    */}
                     {/* <br></br>   */}
-                    <p>
-                        <a href="mailto:FiordaSavillJosie@gmail.com" className="email">FiordaSavillJosie@gmail.com</a> 
-                    </p>
+                    {/* <p>
+                        <a href="mailto:FiordaSavillJosie@gmail.com" className="email"><strong>FiordaSavillJosie@gmail.com</strong></a> 
+                    </p> */}
                     <br></br>
 
                     <p>    
                         My goal is to make information easily accessible and visually appealing.
                     </p>    
-                    <br></br>  
+                    {/* <br></br>   */}
                     <p>    
                         I enjoy collaboration, as well as researching and creating design solutions.
 
                     </p>
+
+                    <button className="portallink">
+                        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"> Download Resume</a>
+                    </button>
                     
-                    <p>
+                    {/* <p>
                         <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Download My Resume</h2></a> <br/>
-                    </p>
+                    </p> */}
 
                     
                     
