@@ -361,8 +361,8 @@ p {
 }
 
 button {
-  background-color: rgb(65, 141, 98);
-  opacity: 0.8;
+  /* background-color: rgb(65, 141, 98); */
+  background-color: transparent;
   color: white;
   border: none;
   height: 50px;
@@ -372,7 +372,7 @@ button {
   text-align: center;
   padding: auto;
   transition: 0.15s;
-  box-shadow: 4px 4px 10px black;
+  box-shadow: 14px 14px 42px black;
   margin-top: 30px;
   margin-bottom: 5px;
   padding-bottom: 5px;
