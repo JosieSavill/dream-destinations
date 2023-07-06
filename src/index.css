@@ -203,7 +203,7 @@ a {
 }
 
 nav a:hover {
-  color: rgb(7, 23, 114);
+  color: rgb(9, 23, 126);
   transition: color 0.2s;
 }
 
@@ -296,10 +296,10 @@ p {
 
 .profile-pic {
   
-  opacity: 0.8;
+  opacity: 0.9;
   /* display: flex; */
   flex: wrap;
-  box-shadow: 4px 4px 10px black;
+  box-shadow: 4px 4px 17px black;
   border-radius: 90px;
   
 }
@@ -361,12 +361,12 @@ p {
 }
 
 button {
-  background-color: seagreen;
+  background-color: rgb(65, 141, 98);
   opacity: 0.8;
   color: white;
   border: none;
   height: 50px;
-  width: 200px;
+  width: 170px;
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
@@ -376,21 +376,31 @@ button {
   margin-top: 30px;
   margin-bottom: 5px;
   padding-bottom: 5px;
+  transition: background-color 0.2s ease;
+  transition: color 0.2s ease-in-out;
+  transition: text-shadow 0.2s ease-in-out;
 }
 
 button:hover {
-  opacity: 0.6;
+  background-color: transparent;
+  color: white;
+  text-shadow: 4px 4px 42px black;
+  
+  
 }
 
 button:active {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .downloadresume {
   font-size: 20px;
+  /* font-family: 'Great Vibes', cursive; */
+ 
+  font-weight: bolder;
   color: white;
   margin: 8px;
-  transition: scale 0.17s;
+  transition: text-shadow 0.2s ease;
   text-align: center;
 }
 
@@ -406,9 +416,10 @@ button:active {
 }
 
 .downloadresume:hover {
+  font-style: bolder;
+  font-size: 22px;
+  text-shadow: 4px 4px 42px black; 
   
-  
-  scale: 1.17;
 }
 
 .footer {
