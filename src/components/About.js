@@ -80,7 +80,7 @@ export default function About ({setScreen}){
         <br></br> */}
         {/* <br></br> */}
         <Footer />
-        {/* <Footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'vertical', margin: '0' }}/> */}
+        
     </div>
         
 }

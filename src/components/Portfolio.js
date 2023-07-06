@@ -1,11 +1,11 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 import img1 from "../assets/BeagzCal.jpg";
-import img2 from "../assets/Horiseon.jpg";
-import img3 from "../assets/campeones.jpg";
-import img4 from "../assets/gem.jpg";
+// import img2 from "../assets/Horiseon.jpg";
+// import img3 from "../assets/campeones.jpg";
+// import img4 from "../assets/gem.jpg";
 // import img5  from "../assets/pleiades.jpg";
-import img6 from "../assets/awakening500.png";
+import img6 from "../assets/horses.png";
 import img7 from "../assets/ShareMealDesktop.png";
 
 // import profile from "../assets/profile.jpg";
