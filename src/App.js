@@ -15,19 +15,8 @@ function App() {
   return (
     <div >
      
-      {
-        screen === "About" && <About setScreen={setScreen}/>
-      }
-       {
-        screen === "Contact" && <Contact setScreen={setScreen}/>
-      }
-       {
-        screen === "Portfolio" && <Portfolio setScreen={setScreen}/>
-      }
-       {/* {
-        screen === "Resume" && <Resume setScreen={setScreen}/>
-      } */}
-     
+     <About setScreen={setScreen} screen={screen}/>
+      
       
     </div>
   );

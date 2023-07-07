@@ -325,6 +325,12 @@ p {
   /* background-color: rgba(67, 177, 241, 0.5);  */
 }
 
+@media (max-width: 950px) {
+  .aside-contact {
+    width: 40%;
+  }  
+}
+
 @media (max-width: 600px) {
   .aside-contact {
     width: 100%;

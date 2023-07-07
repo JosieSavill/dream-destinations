@@ -3,6 +3,8 @@ import Nav from "./Nav";
 import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
+import NewPortfolio from "./NewPortfolio";
+import Resume from "./NewResume";
 
 
 
@@ -10,8 +12,7 @@ import Footer from "./Footer";
 
 
 
-
-export default function About ({setScreen}){
+export default function About ({setScreen, screen}){
     return <div>
         <Nav setScreen={setScreen}/>
         <div className="video-background">
@@ -41,12 +42,12 @@ export default function About ({setScreen}){
                     </p>
 
                     <button className="portallink">
-                        <ul><li><a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" >View Resume</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("resume")} >View Resume</a></li></ul>
                     </button>
 
                     <button className="portallink">
                         
-                        <ul><li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
                     </button>
 
                     {/* <button className="portallink">
@@ -70,6 +71,10 @@ export default function About ({setScreen}){
             
 
         </aside>
+        <div>
+            {screen === "portfolio" && <NewPortfolio/>  }
+            {screen === "resume" && <Resume/>  }
+        </div>
         
         <Footer />
         
