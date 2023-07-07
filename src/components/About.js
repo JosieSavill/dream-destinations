@@ -4,6 +4,9 @@ import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 
+
+
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 </style>
@@ -28,7 +31,7 @@ export default function About ({setScreen}){
             <section id="about" className="aside-about">
                  <div>
                   
-                    {/* <br></br> */}
+                    
 
                     <p>    
                         My goal is to make information easily accessible and visually appealing.
@@ -40,8 +43,18 @@ export default function About ({setScreen}){
                     </p>
 
                     <button className="portallink">
-                        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume" > View Resume</a>
+                        <ul><li><a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" >View Resume</a></li></ul>
                     </button>
+
+                    <button className="portallink">
+                        
+                        <ul><li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li></ul>
+                    </button>
+
+                    <button className="portallink">
+                       <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
+                    </button>
+
                     
                     
 

@@ -58,6 +58,8 @@ body {
   color: white;
   font-size: 44px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+ 
+
   
   
 }
@@ -301,6 +303,8 @@ p {
   flex: wrap;
   box-shadow: 4px 4px 17px black;
   border-radius: 90px;
+  height: 140px;
+  width: 160px;
   
 }
 
@@ -310,7 +314,7 @@ p {
   justify-content: space-between;
   margin-right: 0;
   margin-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 17px;
   min-height: 80vh;
   border-radius: 20px; 
@@ -385,7 +389,8 @@ button:hover {
   background-color: transparent;
   color: white;
   text-shadow: 4px 4px 42px black;
-  
+  font-style: bolder;
+  font-size: 22px;
   
 }
 
@@ -394,10 +399,10 @@ button:active {
 }
 
 .downloadresume {
+  font-family: 'Gill Sans', sans-serif, Calibri;
   font-size: 20px;
-  /* font-family: 'Great Vibes', cursive; */
  
-  font-weight: bolder;
+  
   color: white;
   margin: 8px;
   transition: text-shadow 0.2s ease;

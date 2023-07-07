@@ -19,14 +19,13 @@ export default function Portfolio ({setScreen}){
                 <br></br>
                 <br></br>
 
-                {/* <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Download My Resume</h2></a> <br/>
-                <br></br> */}
+                
 
                 <h2 style={{ fontSize: '20px'}}>Click image to visit:</h2>
-                {/* <br></br> */}
+                
 
                 
-                {/* <a href="mailto:FiordaSavillJosie@gmail.com">FiordaSavillJosie@gmail.com</a> */}
+                
 
                 <br></br>
                 
