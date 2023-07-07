@@ -7,9 +7,7 @@ import Footer from "./Footer";
 
 
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-</style>
+
 
 
 
@@ -51,9 +49,9 @@ export default function About ({setScreen}){
                         <ul><li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li></ul>
                     </button>
 
-                    <button className="portallink">
+                    {/* <button className="portallink">
                        <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
-                    </button>
+                    </button> */}
 
                     
                     

@@ -11,11 +11,11 @@ export default function Nav ({setScreen}){
        
         <ul>
            
-            <li><a onClick={()=>setScreen("About")}>About</a></li>
+            <li><a onClick={()=>setScreen("About")}>Home</a></li>
 
       
 
-            <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li>
+            {/* <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> */}
 
             <li>
             
