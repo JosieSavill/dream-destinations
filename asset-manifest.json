@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.08826a5e.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.e7be67ca.js",
+    "main.css": "/josie-savill-web-developer/static/css/main.92f15e61.css",
+    "main.js": "/josie-savill-web-developer/static/js/main.881be24f.js",
     "static/js/787.a9677a29.chunk.js": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/BeagzCal.jpg": "/josie-savill-web-developer/static/media/BeagzCal.8e34d7edaa5d2fbd99ac.jpg",
@@ -11,14 +11,13 @@
     "static/media/github-logo.jpg": "/josie-savill-web-developer/static/media/github-logo.a9654661dfa08223d7a2.jpg",
     "static/media/linkedin-logo.png": "/josie-savill-web-developer/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
     "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
-    "static/media/logo.svg": "/josie-savill-web-developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/josie-savill-web-developer/index.html",
-    "main.08826a5e.css.map": "/josie-savill-web-developer/static/css/main.08826a5e.css.map",
-    "main.e7be67ca.js.map": "/josie-savill-web-developer/static/js/main.e7be67ca.js.map",
+    "main.92f15e61.css.map": "/josie-savill-web-developer/static/css/main.92f15e61.css.map",
+    "main.881be24f.js.map": "/josie-savill-web-developer/static/js/main.881be24f.js.map",
     "787.a9677a29.chunk.js.map": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08826a5e.css",
-    "static/js/main.e7be67ca.js"
+    "static/css/main.92f15e61.css",
+    "static/js/main.881be24f.js"
   ]
 }
