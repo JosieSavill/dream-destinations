@@ -43,11 +43,12 @@ export default function NewResume (){
                 </div>
             <div className="resumeBold">
                 Projects
-                <br></br>
-                <br></br>
-                <br></br>
                 </div>
-            
+            <div className="resume">
+                <a href="https://josiesavill.github.io/horses/">Horses In America</a><br></br>
+                ShareMeal<br></br>
+                To Be Announced<br></br>
+                </div>
             <div className="resumeBold">
                 Certifications
                 </div>
