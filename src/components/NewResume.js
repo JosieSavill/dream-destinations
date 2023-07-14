@@ -42,15 +42,18 @@ export default function NewResume (){
                 English, Spanish
                 </div>
             <div className="resumeBold">
-                Portfolio
+                Projects
+                <br></br>
+                <br></br>
+                <br></br>
                 </div>
-            {/* <link rel="portfolio" href="https://josiesavill.github.io/josie-savill-web-developer/">Josie Savill Web Developer</link> */}
+            
             <div className="resumeBold">
                 Certifications
                 </div>
             <div className="resume">
                 University of Arizona,<br></br> 
-                Full Stack Web Developer Bootcamp
+                Full Stack Web Developer Bootcamp 2023
                 </div>
             <div  className="resumeBold">
                 Work History
@@ -65,8 +68,8 @@ export default function NewResume (){
                 Contact
                 </div>
             <div className="resume">
-                602.502.2022
-                FiordaSavillJosie@gmail.com
+                602.502.2022<br></br>
+                FiordaSavillJosie@gmail.com<br></br>
                 linkedin.com/in/josiefiordasavill
                 </div>
 
