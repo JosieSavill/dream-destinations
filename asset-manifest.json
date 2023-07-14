@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.4ac6d4d6.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.a708bad9.js",
+    "main.css": "/josie-savill-web-developer/static/css/main.5dad4947.css",
+    "main.js": "/josie-savill-web-developer/static/js/main.cda9e496.js",
     "static/js/787.a9677a29.chunk.js": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/BeagzCal.jpg": "/josie-savill-web-developer/static/media/BeagzCal.8e34d7edaa5d2fbd99ac.jpg",
@@ -12,12 +12,12 @@
     "static/media/linkedin-logo.png": "/josie-savill-web-developer/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
     "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "index.html": "/josie-savill-web-developer/index.html",
-    "main.4ac6d4d6.css.map": "/josie-savill-web-developer/static/css/main.4ac6d4d6.css.map",
-    "main.a708bad9.js.map": "/josie-savill-web-developer/static/js/main.a708bad9.js.map",
+    "main.5dad4947.css.map": "/josie-savill-web-developer/static/css/main.5dad4947.css.map",
+    "main.cda9e496.js.map": "/josie-savill-web-developer/static/js/main.cda9e496.js.map",
     "787.a9677a29.chunk.js.map": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac6d4d6.css",
-    "static/js/main.a708bad9.js"
+    "static/css/main.5dad4947.css",
+    "static/js/main.cda9e496.js"
   ]
 }
