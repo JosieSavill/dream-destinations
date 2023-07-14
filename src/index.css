@@ -103,6 +103,9 @@ main {
   flex-direction: column;
   color: white;
   background-color: transparent;
+  border: none;
+  box-shadow: 14px 14px 42px black;
+  padding: 20px;
 
 }
 
