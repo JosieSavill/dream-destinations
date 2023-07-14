@@ -21,60 +21,62 @@ export default function About ({setScreen, screen}){
                     Your browser does not support the video tag.
                 </video>
             </div>
-        <aside className="aside-contact">
-            
-            <section className="aside-contact-links">
-                <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-            </section>
-            
-            <section id="about" className="aside-about">
-                 <div>
-                  
-                    
-
-                    <p>    
-                        My goal is to make information easily accessible and visually appealing.
-                    </p>    
-                    
-                    <p>    
-                        I enjoy collaboration, as well as researching and creating design solutions.
-
-                    </p>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("resume")} >View Resume</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
+            <div className="row">
+                    <aside className="aside-contact">
                         
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
-                    </button>
+                        <section className="aside-contact-links">
+                            <img src={profile} className="profile-pic" alt="JosieSavill img"/>
+                        </section>
+                        
+                        <section id="about" className="aside-about">
+                            <div>
+                            
+                                
 
-                    {/* <button className="portallink">
-                       <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
-                    </button> */}
+                                <p>    
+                                    My goal is to make information easily accessible and visually appealing.
+                                </p>    
+                                
+                                <p>    
+                                    I enjoy collaboration, as well as researching and creating design solutions.
 
-                    
-                    
+                                </p>
 
-                    
-                    
-                    
-                    
-                    
-                </div>
+                                <button className="portallink">
+                                    <ul><li><a onClick={()=>setScreen("resume")} >View Resume</a></li></ul>
+                                </button>
 
-                
-                
-            </section>
+                                <button className="portallink">
+                                    
+                                    <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
+                                </button>
 
-            
+                                {/* <button className="portallink">
+                                <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
+                                </button> */}
 
-        </aside>
-        <div>
-            {screen === "portfolio" && <NewPortfolio/>  }
-            {screen === "resume" && <Resume/>  }
-        </div>
+                                
+                                
+
+                                
+                                
+                                
+                                
+                                
+                            </div>
+
+                            
+                            
+                        </section>
+
+                        
+
+                    </aside>
+                    <div className="feature">
+                        {screen === "portfolio" && <NewPortfolio/>  }
+                        {screen === "resume" && <Resume/>  }
+                    </div>
+            </div>
         
         <Footer />
         

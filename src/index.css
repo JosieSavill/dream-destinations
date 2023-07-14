@@ -103,20 +103,15 @@ main {
 .newResume {
   display: flex;
   flex-direction: column;
-  text-shadow: 14px 14px 42px black;
   color: white;
-  background-color: transparent;
+  background-color: rgba(0,0,0,.7);
   border: none;
-  box-shadow: 14px 14px 42px black;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-left: 260px;
-  margin-right: 260px;
+  box-shadow: 14px 14px 10px rgba(0,0,0,.5);
+  padding: 40px 80px 40px 80px;
   margin-top: 5px;
   margin-bottom: 20px;
   border-radius: 20px;
+  width: 100%;;
 
 
 }
@@ -597,4 +592,13 @@ code {
   .video-background{
     position: relative;
   }
+}
+
+.row{
+  display: flex;
+  gap: 20px;
+}
+.feature{
+  width:  65%;
+  padding-top: 40px;
 }

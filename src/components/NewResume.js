@@ -1,5 +1,5 @@
 
-
+import {BsArrowRightShort} from 'react-icons/bs';
 
 
 export default function NewResume (){
@@ -45,7 +45,7 @@ export default function NewResume (){
                 Projects
                 </div>
             <div className="resume">
-                <a href="https://josiesavill.github.io/horses/">Horses In America</a><br></br>
+                <a href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a><br></br>
                 ShareMeal<br></br>
                 To Be Announced<br></br>
                 </div>
