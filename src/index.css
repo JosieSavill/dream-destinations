@@ -98,6 +98,14 @@ main {
 
 }
 
+.newResume {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: transparent;
+
+}
+
 .portfolio{
   display: flex;
   flex-wrap: wrap;
