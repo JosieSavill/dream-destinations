@@ -43,7 +43,7 @@ export default function About ({setScreen, screen}){
                                 </p>
 
                                 <button className="portallink">
-                                    <ul><li><a onClick={()=>setScreen("resume")} >View Resume</a></li></ul>
+                                    <ul><li><a onClick={()=>setScreen("resume")} >Resume</a></li></ul>
                                 </button>
 
                                 <button className="portallink">

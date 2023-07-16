@@ -12,16 +12,16 @@ export default function Nav ({setScreen}){
        
         <ul>
            
-            <li><a onClick={()=>setScreen("About")}>Home</a></li>
+            <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li>
 
       
 
             {/* <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> */}
 
-            <li>
+            {/* <li>
             
-            <a href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
-            </li>
+            <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
+            </li> */}
 
         </ul>
         </nav></header>

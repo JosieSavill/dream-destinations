@@ -7,12 +7,12 @@ import img7 from "../assets/ShareMealDesktop.png";
 
 export default function NewPortfolio (){
 
-    return  <section id="work" className="portfolio">
+    return  <section className="portfolio">
 
-       <div id="horeison" className="work-horeison">
+       <div className="work-horeison">
            <a href="https://josiesavill.github.io/horses/">
                <div>
-                   <h3>Horses In America</h3>
+                   <h3>Horses</h3>
                <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
                   
                </div>

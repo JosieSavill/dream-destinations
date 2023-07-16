@@ -37,7 +37,7 @@ export default function Portfolio ({setScreen}){
         <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/horses/">
                 <div>
-                    <h3>Horses In America</h3>
+                    <h3>Horses</h3>
                 <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
                    
                 </div>

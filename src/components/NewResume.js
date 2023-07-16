@@ -38,7 +38,7 @@ export default function NewResume (){
                 </div>
             
             <div className="resumeBold">
-                Project Links
+                Projects
                 </div>
             <div className="resume">
                 <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a><br></br>
@@ -57,7 +57,7 @@ export default function NewResume (){
                 </div>
             <div className="resume">
                 Registered Respiratory Therapist 2006 thru current<br></br>
-                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP"><BsArrowRightShort/>Detailed Work History Link</a>
+                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP"><BsArrowRightShort/>Download Full Resume</a>
                 </div>
             <div  className="resumeBold">
                 Contact
