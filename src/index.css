@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
   display: flex;
-  flex: column;
+  flex-direction: column;
   text-align: center;
   
 }
@@ -77,8 +77,11 @@ body {
 }
 
 .header nav ul li {
+  
+  justify-content: space-between;
   display: inline-block;
   margin-left: 25px;
+  margin-bottom: 25px;
   cursor: pointer;
   transition: color 1s;
 }
@@ -104,7 +107,7 @@ main {
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.5);
   border: none;
   box-shadow: 14px 14px 10px rgba(0,0,0,.5);
   padding: 40px 80px 40px 80px;
@@ -114,6 +117,12 @@ main {
   width: 100%;;
 
 
+}
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
 .resumeHeading {
@@ -210,6 +219,12 @@ main {
   border-width: 1px;
 }
 
+.work-portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 
 .portfolio {
 
@@ -250,6 +265,7 @@ main {
 a {
   color: aliceblue;
   text-decoration: none;
+  margin: 10px;
 }
 
 nav a:hover {
@@ -320,7 +336,8 @@ p {
 }
 
 .aside-about  {
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   /* display: flex; */
   flex: wrap;
@@ -374,17 +391,13 @@ p {
   /* background-color: rgba(67, 177, 241, 0.5);  */
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
   .aside-contact {
     width: 40%;
   }  
-}
+} */
 
-@media (max-width: 600px) {
-  .aside-contact {
-    width: 100%;
-  }  
-}
+
 
 .aside-contact-links {
   margin-bottom: 0px;
@@ -471,6 +484,17 @@ button:active {
 
 }
 
+.gmail {
+  
+  transition: 0.15s ease-in-out;
+}
+
+.gmail:hover {
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
 .email:hover {
   color: rgb(7, 23, 114);
 }
@@ -496,12 +520,7 @@ button:active {
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  .footer {
-    
-    flex-direction: column;
-  }  
-}
+
 .footer ul{
   display: flex;
   flex-direction: row;
@@ -592,13 +611,64 @@ code {
   .video-background{
     position: relative;
   }
+
+ 
 }
 
 .row{
   display: flex;
-  gap: 20px;
+  flex: column;
+  /* gap: 30px; */
 }
 .feature{
-  width:  65%;
+  width:  55%;
   padding-top: 40px;
+  
+}
+
+@media (max-width: 600px) {
+  .row {
+    
+    flex-direction: column;
+  }
+  
+  .aside-contact {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .work-portfolio {
+    width: 100%;
+    
+  }
+
+
+  .feature {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    
+    flex-direction: column;
+  }
+  
+  .header {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .work-portfolio {
+    width: 100%;
+    flex-direction: column;
+  }  
+}
+
+@media (max-width: 600px) {
+  .aside-contact {
+    width: 100%;
+  }  
 }

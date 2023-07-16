@@ -4,9 +4,10 @@ export default function Nav ({setScreen}){
 
 
     return <header className="header">
-         <div className="logo">JOSIE SAVILL{' '}
+         <div className="logo">JOSIE SAVILL{' '}<br></br>
          <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
-            Full Stack Developer</span></div>
+            Full Stack Web Developer</span></div>
+            
         <nav>
        
         <ul>
