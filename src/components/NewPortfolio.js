@@ -1,7 +1,7 @@
 
 import img1 from "../assets/BeagzCal.jpg";
 import img6 from "../assets/horses.png";
-import img7 from "../assets/ShareMealDesktop.png";
+import img7 from "../assets/techblog.png";
 
 
 
@@ -25,16 +25,16 @@ export default function NewPortfolio (){
        </div>
 
        <div id="horeison" className="work-horeison">
-           <a href="https://sharemeal.herokuapp.com/">
+           <a href="https://josiestechblog.herokuapp.com/">
                <div>
-                   <h3>ShareMeal</h3>
+                   <h3>TechBlog</h3>
                    <div className="bgBox" style={{backgroundImage: `url(${img7})`}}></div>
                </div>
            </a>
-           <a href="https://github.com/LL8719/ShareMeal" className="viewrepository">Group Project-View Repository</a>
+           <a href="https://github.com/LL8719/ShareMeal" className="viewrepository">View Repository</a>
                    
                    <p style={{ fontSize: "20px", color: "black" }}>    
-                       Styled Header/Footer/Navbar using HTML, JavaScript, CSS, Pexels, Chakra
+                       HTML, JavaScript, CSS
 
                    </p> 
 
