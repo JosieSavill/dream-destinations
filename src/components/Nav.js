@@ -12,7 +12,7 @@ export default function Nav ({setScreen}){
        
         <ul>
            
-            <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li>
+            {/* <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li> */}
 
       
 

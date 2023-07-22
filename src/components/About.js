@@ -51,6 +51,11 @@ export default function About ({setScreen, screen}){
                                     <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
                                 </button>
 
+                                <button className="portallink">
+                                    
+                                    <ul><li><a onClick={()=>setScreen("about")}>Home</a></li></ul>
+                                </button>
+
                                 {/* <button className="portallink">
                                 <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
                                 </button> */}

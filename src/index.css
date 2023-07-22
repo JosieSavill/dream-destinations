@@ -52,6 +52,7 @@ body {
   color: #000;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 
@@ -59,6 +60,9 @@ body {
   color: white;
   font-size: 44px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+  position: fixed;
+  margin: 40px;
+  
  
 
   
@@ -106,7 +110,7 @@ main {
 
 .newResume {
   display: flex;
-  flex-direction: column;
+  flex-direction: columns;
   color: white;
   background-color: rgba(0,0,0,.5);
   border: none;
@@ -118,6 +122,12 @@ main {
   width: 100%;;
 
 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 
 .resumeContainer {
@@ -158,8 +168,10 @@ main {
 
 .portfolio{
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 40px;
+  margin-top: 60px;
 }
 .portfolio > div{
   width: 31%;;
@@ -277,6 +289,7 @@ a {
 p {
   font-size: 20px;
   padding-top: 10px;
+  
 
 }
 
@@ -348,6 +361,10 @@ p {
   margin-top: 10px;
   margin-bottom: 8px;
   border-radius: 10px;
+  
+  
+  
+  
 }
 
 /* .aside-about h2 {
@@ -362,6 +379,7 @@ p {
   margin-bottom: 8px;
 } */
 
+
 .profile-pic {
   
   opacity: 0.7;
@@ -373,15 +391,16 @@ p {
   border-radius: 90px;
   height: 140px;
   width: 160px;
+  /* position: fixed; */
   
 }
 
 .aside-contact {
   display: flex;
   flex-direction: column;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-top: 80px;
   padding: 17px;
   min-height: 80vh;
   border-radius: 20px; 
@@ -389,6 +408,7 @@ p {
   margin-left: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: clear;
+  
   /* background-color: rgba(67, 177, 241, 0.5);  */
 }
 
@@ -405,6 +425,7 @@ p {
   color: white;
   display: flex;
   flex: wrap;
+  margin-top: 30px;
 }
 
 .aside-contact-links h2 {
@@ -432,6 +453,7 @@ p {
  flex: wrap;
  margin-bottom: 0;
  
+ 
 }
 
 button {
@@ -454,6 +476,7 @@ button {
   transition: background-color 0.2s ease;
   transition: color 0.2s ease-in-out;
   transition: text-shadow 0.2s ease-in-out;
+  
 }
 
 button:hover {
@@ -522,6 +545,8 @@ button:active {
   justify-content: space-between;
   max-width: 900px;
   margin: 0 auto;
+  
+  
 }
 
 
@@ -620,11 +645,19 @@ code {
  
 }
 
-.row{
+
+
+/* .row {
   display: flex;
   flex: column;
-  /* gap: 30px; */
-}
+
+} */
+
+
+
+
+
+
 .feature{
   width:  55%;
   padding-top: 40px;
