@@ -1,4 +1,4 @@
-
+import profile from "../assets/profile.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
 
 
@@ -16,7 +16,21 @@ export default function NewResume (){
                 Full Stack Developer<br></br>
                 Scottsdale, Arizona, United States
                 </div>
-                 
+
+            <div className="aside-contact-links">
+                    <img src={profile} className="profile-pic" alt="JosieSavill img"/>
+
+                    
+                </div>    
+
+            <div className="goals">    
+                My goal is to make information easily accessible and visually appealing.
+                <br></br>
+                <br></br>
+                I enjoy collaboration, as well as researching and creating design solutions.
+                </div>    
+                                
+           
             <div className="resumeBold">
                 Skills
                 </div>
@@ -43,7 +57,7 @@ export default function NewResume (){
             <div className="resume">
                 <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a><br></br>
                 <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>ShareMeal</a><br></br>
-                <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>To Be Announced</a><br></br>
+                <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Beagz & Cal</a><br></br>
                 </div>
             <div className="resumeBold">
                 Certifications
@@ -57,7 +71,7 @@ export default function NewResume (){
                 </div>
             <div className="resume">
                 Registered Respiratory Therapist 2006 thru current<br></br>
-                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5l2I_h8_EJTy_ubBy?e=r2OaTP"><BsArrowRightShort/>Download Full Resume</a>
+                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=OD3t2L"><BsArrowRightShort/>Download Full Resume</a>
                 </div>
             <div  className="resumeBold">
                 Contact

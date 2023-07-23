@@ -1,10 +1,11 @@
 import Nav from "./Nav";
 
-import profile from "../assets/profile.jpg";
+// import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
 import Resume from "./NewResume";
+
 
 
 
@@ -24,26 +25,26 @@ export default function About ({setScreen, screen}){
             <div className="row">
                     <aside className="aside-contact">
                         
-                        <section className="aside-contact-links">
+                        {/* <section className="aside-contact-links">
                             <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-                        </section>
+                        </section> */}
                         
-                        <section id="about" className="aside-about">
-                            <div>
+                        {/* <section id="about" className="aside-about"> */}
+                            <div className="aside-about">
                             
                                 
 
-                                <p>    
+                                {/* <p>    
                                     My goal is to make information easily accessible and visually appealing.
                                 </p>    
                                 
                                 <p>    
                                     I enjoy collaboration, as well as researching and creating design solutions.
 
-                                </p>
+                                </p> */}
 
                                 <button className="portallink">
-                                    <ul><li><a onClick={()=>setScreen("resume")} >Resume</a></li></ul>
+                                    <ul><li><a onClick={()=>setScreen("resume")} >About</a></li></ul>
                                 </button>
 
                                 <button className="portallink">
@@ -72,7 +73,7 @@ export default function About ({setScreen, screen}){
 
                             
                             
-                        </section>
+                        {/* </section> */}
 
                         
 

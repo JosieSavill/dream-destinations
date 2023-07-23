@@ -8,9 +8,9 @@ export default function Nav ({setScreen}){
          <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
             Full Stack Web Developer</span></div>
             
-        <nav>
+        {/* <nav>
        
-        <ul>
+        <ul> */}
            
             {/* <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li> */}
 
@@ -23,8 +23,9 @@ export default function Nav ({setScreen}){
             <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
             </li> */}
 
-        </ul>
-        </nav></header>
+        {/* </ul>
+        </nav> */}
+        </header>
 }
 
 
