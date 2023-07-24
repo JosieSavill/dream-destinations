@@ -829,6 +829,7 @@ code {
   .portfolio,
   .bgBox {
     flex: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     margin-left: 20px;

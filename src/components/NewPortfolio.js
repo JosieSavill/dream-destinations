@@ -36,7 +36,7 @@ export default function NewPortfolio (){
        <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/beagzcal/">
                 <div>
-                    <h3>Beagz</h3>
+                    <h3>BeagzCal</h3>
                     <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>
