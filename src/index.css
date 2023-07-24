@@ -109,11 +109,20 @@ main {
 }
 
 .resumeHeading {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 80px;
+  column-gap: 10px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+  
   font-weight: bolder;
   font-style: italic;
-  margin: 8px;
+  /* margin: 8px; */
   font-size: 50px;
-  text-align: center;
+  
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   
 }
@@ -506,7 +515,7 @@ code {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   form input[type="text"],
   form textarea {
     width: 80%;
@@ -524,21 +533,25 @@ code {
 @media (max-width: 750px) {
   .row {
     /* margin-top: 10px; */
+    display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    max-height: 60vh;
+    justify-content: center;
+    padding-top: 140px;
+    /* padding-top: 10px;
+    padding-bottom: 20px; */
+    min-height: 77px;
+    
   }
   
   .aside-contact {
     width: 90%;
     display: flex;
     flex-direction: row;
-    min-height: 22px;
-    max-height: 22vh;
+    min-height: 10px;
+    max-height: 10vh;
     justify-content: space-between;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 70px;
     gap: 40px;
     
   }
@@ -549,13 +562,13 @@ code {
   }
 
   .feature {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     z-index: -1;
-    padding-top: 5px;
+    padding-top: 0;
 
   }
 }
@@ -609,10 +622,10 @@ code {
 @media (max-width: 750px) {
   .newResume,
   .goals,
-  .resumeHeading,
   .resumeIntroduction,
   .resumeContainer,
   .resume,
+  .newResume
   .viewrepository,
   .portfolio,
   .bgBox {
@@ -620,9 +633,28 @@ code {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: -1;
     
+  }
+}
+
+@media (max-width: 750px) {
+  .profile-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22px;
+    
+  }
+
+  .resumeHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
   }
 }
 
@@ -659,9 +691,4 @@ code {
 
 }
 
-@media  (max-width: 750px) {
-  .newResume {
-    z-index: 200;
-  }
-}
 

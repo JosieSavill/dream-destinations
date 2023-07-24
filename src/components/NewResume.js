@@ -10,18 +10,18 @@ export default function NewResume (){
         <div className="resumeContainer">
 
             <div className="resumeHeading">
-                Josie Savill
+                Josie Savill<img src={profile} className="profile-pic" alt="JosieSavill img"/>
                 </div>
             <div className="resumeIntroduction">
                 Full Stack Developer<br></br>
                 Scottsdale, Arizona, United States
                 </div>
 
-            <div className="profile-img">
+            {/* <div className="profile-img">
                     <img src={profile} className="profile-pic" alt="JosieSavill img"/>
 
                     
-                </div>    
+                </div>     */}
 
             <div className="goals">    
                 My goal is to make information easily accessible and visually appealing.
