@@ -30,13 +30,13 @@ export default function NewPortfolio (){
                </div>
            </a>
            
-           <a className="viewrepository" href="https://github.com/LL8719/ShareMeal"><BsArrowRightShort/>Repository</a>
+           <a className="viewrepository" href="https://github.com/JosieSavill/TechBlog"><BsArrowRightShort/>Repository</a>
        </div>
 
        <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/beagzcal/">
                 <div>
-                    <h3>Beagz & Cal</h3>
+                    <h3>Beagz</h3>
                     <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>

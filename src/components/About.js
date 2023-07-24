@@ -29,8 +29,8 @@ export default function About ({setScreen, screen}){
                             <img src={profile} className="profile-pic" alt="JosieSavill img"/>
                         </section> */}
                         
-                        {/* <section id="about" className="aside-about"> */}
-                            <div className="aside-about">
+                        {/* <div id="about" className="aside-about"> */}
+                            {/* <div className="aside-about"> */}
                             
                                 
 
@@ -69,12 +69,14 @@ export default function About ({setScreen, screen}){
                                 
                                 
                                 
-                            </div>
+                            {/* </div> */}
 
                             
                             
-                        {/* </section> */}
+                        {/* </div> */}
+                    
 
+                        
                         
 
                     </aside>
