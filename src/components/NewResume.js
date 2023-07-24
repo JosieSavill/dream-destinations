@@ -17,7 +17,7 @@ export default function NewResume (){
                 Scottsdale, Arizona, United States
                 </div>
 
-            <div className="aside-contact-links">
+            <div className="profile-img">
                     <img src={profile} className="profile-pic" alt="JosieSavill img"/>
 
                     

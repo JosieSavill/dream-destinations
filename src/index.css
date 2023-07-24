@@ -256,53 +256,18 @@ a {
   margin: 10px;
 }
 
-
-.work-horiseon {
-  float: left;
-  margin-left: 25px;
-}
-
-.work-horiseon img {
-  max-height: 500px;
-  padding-bottom: 20px;
-}
-
-/* .work-pleiades {
-
-  margin-left: 25px;
-} */
-
-/* .work-pleiades img {
-  max-height: 400px;
-  max-width: 100%;
-} */
-
-.work-beagz-cal {
-  float: left;
-  margin-left: 25px;
-}
-
-/* .work-beagz-cal img {
-  max-width: 100%;
-
-  max-height: 250px
-} */
-
-
-
 .content {
   display: flex;
   flex: 1;
 }
 
-
-
 .profile-pic {
 
-  margin-top: 10px;
+  
   opacity: 0.6;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   box-shadow: 14px 14px 42px black;
   border-radius: 90px;
   height: 140px;
@@ -315,27 +280,27 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  margin-top: 140px;
-  margin-left: 40px;
-  padding: 17px;
-  min-height: 55vh;
+  padding-left: 88px;
+  padding-top: 144px;
+  padding-right: 88px;
+  padding-bottom: 33px;
+  min-height: 77vh;
   border-radius: 20px; 
   width: 20%;
-  margin-left: 40px;
+  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: transparent;
   
 }
 
 
-.aside-contact-links img {
+.profile-img {
   display: flex;
   flex-direction: column;
-  margin: 10px auto;
+  justify-content: center;
+  padding: 10px;
   max-width: 150px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 
@@ -548,7 +513,7 @@ code {
 
 .feature{
   width:  55%;
-  padding-top: 40px;
+  padding: 40px;
   
 }
 
@@ -573,15 +538,15 @@ code {
 
 @media (max-width: 750px) {
   .row {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 20px;
-    max-height: 70vh;
+    max-height: 60vh;
   }
   
   .aside-contact {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     max-height: 44vh;
@@ -596,7 +561,7 @@ code {
   }
 
   .feature {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -668,8 +633,8 @@ code {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     
   }
 }
