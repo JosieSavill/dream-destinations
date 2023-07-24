@@ -375,35 +375,6 @@ a {
   flex: 1;
 }
 
-/* .aside-about  {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  
-  flex: wrap;
-  font-size: 20px;
-  color:white;
-  padding: 8px;
-  margin-top: 10px;
-  margin-bottom: 8px;
-  border-radius: 10px;
-  
-  
-  
-  
-} */
-
-/* .aside-about h2 {
-  margin-bottom: 10px;
-  text-align: center;
-  display: flex;
-  flex: wrap;
-  font-size: 20px;
-  color:white;
-  padding: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-} */
 
 
 .profile-pic {
@@ -438,31 +409,6 @@ a {
   
 }
 
-/* @media (max-width: 950px) {
-  .aside-contact {
-    width: 40%;
-  }  
-} */
-
-
-
-/* .aside-contact-links {
-  margin-bottom: 0px;
-  color: white;
-  display: flex;
-  flex: wrap;
-  margin-top: 30px;
-} */
-
-/* .aside-contact-links h2 {
-  margin-bottom: 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 25px;
-  color:white;
-  display: flex;
-  flex: wrap;
-} */
 
 .aside-contact-links img {
   display: flex;
@@ -472,16 +418,6 @@ a {
   text-align: center;
 }
 
-/* .aside-contact-links a {
- color: white;
- text-decoration: none;
- font-size: 20px;
- display: flex;
- flex: wrap;
- margin-bottom: 0;
- 
- 
-} */
 
 .portallinks {
   flex-direction: column;
@@ -555,9 +491,6 @@ button:active {
   
 }
 
-/* .email:hover {
-  color: rgb(7, 23, 114);
-} */
 
 .downloadresume:hover {
   font-style: bolder;
@@ -718,19 +651,6 @@ code {
 }
 
 
-
-/* .row {
-  display: flex;
-  flex: column;
-
-} */
-
-
-
-
-
-
-
 @media (max-width: 750px) {
   .row {
     margin-top: 10px;
@@ -776,11 +696,7 @@ code {
     justify-content: center;
     text-align: center;
     padding-bottom: 20px;
-    
    
-    
-    
-    
   }
   
   .header {
@@ -798,7 +714,7 @@ code {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .work-portfolio {
     width: 100%;
     flex-direction: column;
@@ -816,15 +732,8 @@ code {
     text-align: center;
 
   }
-
-  
-
-  
-  
-
  
 }
-
 
 
 @media (max-width: 750px) {
@@ -854,10 +763,7 @@ code {
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 20px;
-    
-    
     display: column;
-    
     
   }
 
@@ -875,8 +781,6 @@ code {
     font-size: 22px;
     font-weight: bolder;
     opacity: 0.6;
-    
-    
   
   }
 
@@ -885,7 +789,6 @@ code {
     flex-direction: column;
   }
 
- 
 }
 
 @media  (max-width: 750px) {

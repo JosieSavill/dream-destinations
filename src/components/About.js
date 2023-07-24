@@ -86,7 +86,8 @@ export default function About ({setScreen, screen}){
                     </div>
             </div>
         
-        <Footer />
+        {screen === "about" && <Footer />}
+        
         
     </div>
         
