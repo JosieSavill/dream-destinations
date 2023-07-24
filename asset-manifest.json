@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.b9b9bee3.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.29a3ac2f.js",
+    "main.css": "/josie-savill-web-developer/static/css/main.88bff7eb.css",
+    "main.js": "/josie-savill-web-developer/static/js/main.6153b6b3.js",
     "static/js/787.a9677a29.chunk.js": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/techblog.png": "/josie-savill-web-developer/static/media/techblog.a6f7a1665804138931d3.png",
@@ -12,12 +12,12 @@
     "static/media/linkedin-logo.png": "/josie-savill-web-developer/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
     "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "index.html": "/josie-savill-web-developer/index.html",
-    "main.b9b9bee3.css.map": "/josie-savill-web-developer/static/css/main.b9b9bee3.css.map",
-    "main.29a3ac2f.js.map": "/josie-savill-web-developer/static/js/main.29a3ac2f.js.map",
+    "main.88bff7eb.css.map": "/josie-savill-web-developer/static/css/main.88bff7eb.css.map",
+    "main.6153b6b3.js.map": "/josie-savill-web-developer/static/js/main.6153b6b3.js.map",
     "787.a9677a29.chunk.js.map": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9b9bee3.css",
-    "static/js/main.29a3ac2f.js"
+    "static/css/main.88bff7eb.css",
+    "static/js/main.6153b6b3.js"
   ]
 }
