@@ -593,11 +593,12 @@ button:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 900px;
+  max-width: 70%;
   margin: 0 auto;
   margin-bottom: 0 auto;
   position: relative;
-  z-index: 999;
+
+  
   
   
 }
@@ -609,6 +610,14 @@ button:active {
   justify-content: space-between;
   gap: 20px;
   position: relative;
+  transition: font-weight font-size 0.15s eas;
+  
+}
+
+.footer:hover {
+  font-weight: bolder;
+  font-size: 22px;
+  
 }
 
 form{

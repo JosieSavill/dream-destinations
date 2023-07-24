@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 
-// import profile from "../assets/profile.jpg";
+
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
