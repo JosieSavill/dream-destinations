@@ -277,11 +277,13 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-evenly;
   padding-left: 88px;
   padding-top: 144px;
   padding-right: 88px;
   padding-bottom: 33px;
   min-height: 77vh;
+  max-height: 77vh;
   border-radius: 20px; 
   width: 20%;
   
