@@ -76,37 +76,16 @@ body {
   font-size: 20px;
 }
 
-
-/* .header nav ul {
-  list-style-type: none;
-} */
-
-/* .header nav ul li {
-  
-  justify-content: space-between;
-  display: inline-block;
-  margin-left: 25px;
-  margin-bottom: 25px;
-  cursor: pointer;
-  transition: color 1s;
-} */
-
-
-
-
 .header h1 {
   display: inline-block;
   font-size: 50px;
 }
-
 
 main {
   display: flex;
   flex: wrap;
 
 }
-
-
 
 .newResume {
   display: flex;
@@ -120,7 +99,6 @@ main {
   margin-bottom: 20px;
   border-radius: 20px;
   width: 100%;;
-
 
 }
 
@@ -195,34 +173,13 @@ main {
   margin-left: 40px;
   margin-top: 60px;
 }
+
 .portfolio > div{
   width: 31%;;
 }
 
 .portfolio > div img{
   width: 100% !important;
-}
-
-
-
-
-
-.work-nobots {
-  display: flex;
-  flex: wrap;
-  margin: 2%;
-  /* flex: 1 0 200px; */
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.work-pleiades {
-  flex: 1 0 200px;
-  margin: 2%;
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
 }
 
 .work-beagz-cal {
@@ -258,17 +215,13 @@ main {
 
 
 .portfolio {
-
   padding: 20px;
   clear: both;
-  
-
   height: 100%;
   /* max-width: 80%; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 25px;
   color: aliceblue;
-
 
 }
 
@@ -303,21 +256,6 @@ a {
   margin: 10px;
 }
 
-/* nav a:hover {
-  color: rgb(9, 23, 126);
-  transition: color 0.2s;
-} */
-
-/* .details {
-  font-size: 22px;
-  margin-top: 20px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  line-height: normal;
-  font-style: italic;
-
-} */
 
 .work-horiseon {
   float: left;
@@ -329,46 +267,28 @@ a {
   padding-bottom: 20px;
 }
 
-.work-pleiades {
+/* .work-pleiades {
 
   margin-left: 25px;
-}
+} */
 
-.work-pleiades img {
+/* .work-pleiades img {
   max-height: 400px;
   max-width: 100%;
-}
+} */
 
 .work-beagz-cal {
   float: left;
   margin-left: 25px;
 }
 
-.work-beagz-cal img {
+/* .work-beagz-cal img {
   max-width: 100%;
 
   max-height: 250px
-}
+} */
 
-.work-gem {
- 
-  margin-left: 25px;
-}
 
-.work-gem img {
-  max-width: 500px;
-  max-height: 200px;
-}
-
-.work-campeones {
-  float: left;
-  margin-left: 25px;
-}
-
-.work-campeones img {
-  max-height: 250px;
-  max-width: 300px;
-}
 
 .content {
   display: flex;
@@ -420,9 +340,11 @@ a {
 
 
 .portallinks {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
-  margin: 80px 40px 50px 40px;
+  gap: 20px;
 }
 
 button {
@@ -442,9 +364,8 @@ button {
   margin-top: 30px;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  transition: background-color 0.2s ease;
-  transition: color 0.2s ease-in-out;
-  transition: text-shadow 0.2s ease-in-out;
+  transition: color 0.2s ease;
+  transition: text-shadow 0.2s ease;
   
 }
 
@@ -455,12 +376,11 @@ button:hover {
   font-style: bolder;
   font-size: 22px;
   font-weight: bolder;
+  justify-content: center;
   
 }
 
-button:active {
-  opacity: 0.9;
-}
+
 
 .downloadresume {
   font-family: 'Gill Sans', sans-serif, Calibri;
@@ -661,17 +581,12 @@ code {
   }
   
   .aside-contact {
-    width: 100%;
-    flex-direction: column;
-    
-    margin-top: 120px;
-    margin-left: 30px;
-    margin-right: 40px;
-    margin-bottom: 10px;
-    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    max-height: 44vh;
+    justify-content: space-between;
     text-align: center;
-    padding-bottom: 10px;
-
     
   }
 
@@ -682,8 +597,11 @@ code {
 
   .feature {
     width: 80%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
+    text-align: center;
+    z-index: -1;
     padding-top: 5px;
 
   }
@@ -759,19 +677,19 @@ code {
 @media (max-width: 750px) {
   button {
     width: 30%;
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
-    display: column;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    padding: 8px 10px 8px 10px;
+    text-align: center;
+    transition: font-weight 0.1s ease;
+    /* transition: opacity 0.1s ease-in-out; */
+    border: none;
+    box-shadow: none;
     
   }
 
-  .button {
-    transition: font-weight 0.1s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
-    flex-direction: column;
-  }
+  
 
   
   .button:hover {
@@ -786,7 +704,8 @@ code {
 
   .portallinks {
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 18px;
   }
 
 }
