@@ -93,12 +93,10 @@ main {
   background-color: rgba(0,0,0,.5);
   border: none;
   box-shadow: 14px 14px 10px rgba(0,0,0,.5);
-  padding-top: 80px;
+  padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 80px;
   padding-left: 80px;
-  /* margin-top: 5px;
-  margin-bottom: 20px; */
   border-radius: 20px;
   width: 100%;;
 
@@ -113,7 +111,7 @@ main {
 .resumeContainer {
   display: flex;
   flex-direction: column;
-  /* margin-left: 20px; */
+  
 }
 
 .resumeHeading {
@@ -125,12 +123,9 @@ main {
   column-gap: 10px;
   padding-bottom: 20px;
   justify-content: space-evenly;
-  
   font-weight: bolder;
   font-style: italic;
-  /* margin: 8px; */
   font-size: 50px;
-  
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   
 }
@@ -177,9 +172,8 @@ main {
 .portfolio{
   display: flex;
   flex-direction: row;
-  gap: 40px;
-  margin-left: 40px;
-  margin-top: 60px;
+  gap: 60px;
+  
 }
 
 .portfolio > div{
@@ -190,30 +184,6 @@ main {
   width: 100% !important;
 }
 
-.work-beagz-cal {
-  margin: 2%;
-  flex: 1 0 200px;
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.work-gem {
-  margin: 2%;
-  flex: 1 0 200px;
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.work-campeones {
-  margin: 2%;
-  flex: 1 0 200px;
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-}
-
 .work-portfolio {
   display: flex;
   flex-direction: column;
@@ -221,12 +191,10 @@ main {
   height: 200px;
 }
 
-
 .portfolio {
   padding: 20px;
   clear: both;
   height: 100%;
-  /* max-width: 80%; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 25px;
   color: aliceblue;
@@ -237,23 +205,28 @@ main {
   color: aliceblue;
   font-size: 30px;
   padding-top: 0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .portfolio h3{
-  margin-bottom: 20px;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
+  padding-bottom: 5px;
   
 }
 
 .projects h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   color: aliceblue;
   font-size: 25px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 44px;
-  margin-right: 44px;
+  padding-bottom: 5px;
+  /* margin: 44px;
+  margin-right: 44px; */
   text-align: center;
 }
 
@@ -506,12 +479,12 @@ code {
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 1.7);
   margin: 20px;
   text-align: center;
+  transition: opacity 0.1s;
 }
 
 .bgBox:hover {
   opacity: 0.4;
-  max-width: 100%;
-  height: auto;
+  
 }
 
 .feature{
@@ -524,6 +497,7 @@ code {
 
 
 @media (max-width: 750px) {
+
   form input[type="text"],
   form textarea {
     width: 80%;
@@ -539,14 +513,13 @@ code {
 
 
 @media (max-width: 750px) {
+
   .row {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 140px;
-    
-    min-height: 77px;
+    padding-top: 107px;
+    min-height: 97vh;
     z-index: -1;
     
   }
@@ -560,15 +533,16 @@ code {
     justify-content: space-between;
     text-align: center;
     padding-top: 70px;
+    padding-left: 40px;
     gap: 40px;
-    z-index: 50;
+    z-index: 80;
     
   }
 
-  .work-portfolio {
+  /* .work-portfolio {
     width: 100%;
     
-  }
+  } */
 
   .feature {
     width: 99%;
@@ -576,21 +550,28 @@ code {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    row-gap: 10px;
     z-index: 50;
-    padding-top: 0;
-    padding-left: 20px;
-    
+    min-height: 197vh;
+    max-height: 197vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
 
   }
 }
 
 @media (max-width: 750px) {
   .footer {
-    padding-top: 10px;
+    
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 55;
+    padding-top: 0;
+    
    
   }
   
@@ -600,33 +581,27 @@ code {
   }
 
   .logo {
-    /* margin-top: 60px;
-    margin-bottom: 40px;
-    margin-left: 50px; */
     justify-content: center;
     text-align: center;
-    /* padding-top: 0;
-    padding-left: 8px;
-    padding-right: 40px; */
     z-index: 200;
+
   }
 }
 
 @media (max-width: 750px) {
-  .work-portfolio {
-    width: 100%;
-    flex-direction: column;
-  } 
-  
   .projects {
+    display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-left: 14px;
+    justify-content: center;
+    width: 100%;
+    
   }
 
   .projects h3 {
-    flex-direction: column-reverse;
-    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 14px; */
     text-align: center;
 
   }
@@ -634,10 +609,8 @@ code {
 }
 
 @media (max-width: 750px) {
-  
   .goals,
   .resumeIntroduction,
-  .resumeContainer,
   .resume,
   .viewrepository {
     flex: column;
@@ -650,14 +623,27 @@ code {
     
   }
 
+  .resumeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 50;
+
+  }
+
   .newResume {
     flex: column;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
     padding-right: 40px;
     z-index: 50;
+    margin-top: 740px;
     
 
   }
