@@ -11,7 +11,7 @@ export default function NewPortfolio (){
 
         
 
-       <div className="work-horeison">
+       <div className="projects">
            <a href="https://josiesavill.github.io/horses/">
                <div>
                    <h3>Horses</h3>
@@ -22,7 +22,7 @@ export default function NewPortfolio (){
            <a className="viewrepository" href="https://github.com/JosieSavill/horses"><BsArrowRightShort/>Repository</a> 
        </div>
 
-       <div id="horeison" className="work-horeison">
+       <div id="horeison" className="projects">
            <a href="https://josiestechblog.herokuapp.com/">
                <div>
                    <h3>TechBlog</h3>
@@ -33,7 +33,7 @@ export default function NewPortfolio (){
            <a className="viewrepository" href="https://github.com/JosieSavill/TechBlog"><BsArrowRightShort/>Repository</a>
        </div>
 
-       <div id="horeison" className="work-horeison">
+       <div id="horeison" className="projects">
             <a href="https://josiesavill.github.io/beagzcal/">
                 <div>
                     <h3>BeagzCal</h3>

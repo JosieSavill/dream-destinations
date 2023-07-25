@@ -55,11 +55,16 @@ body {
 
 
 .logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: white;
   font-size: 44px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   position: fixed;
-  margin: 40px;
+  padding-left: 40px;
+  padding-top: 60px;
+  
   
 }
 
@@ -88,9 +93,12 @@ main {
   background-color: rgba(0,0,0,.5);
   border: none;
   box-shadow: 14px 14px 10px rgba(0,0,0,.5);
-  padding: 40px 80px 40px 80px;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  /* margin-top: 5px;
+  margin-bottom: 20px; */
   border-radius: 20px;
   width: 100%;;
 
@@ -239,7 +247,7 @@ main {
   
 }
 
-.work-horiseon h3 {
+.projects h3 {
   color: aliceblue;
   font-size: 25px;
   padding-top: 20px;
@@ -563,13 +571,15 @@ code {
   }
 
   .feature {
-    width: 100%;
+    width: 99%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     z-index: 50;
     padding-top: 0;
+    padding-left: 20px;
+    
 
   }
 }
@@ -590,11 +600,14 @@ code {
   }
 
   .logo {
-    margin-top: 60px;
+    /* margin-top: 60px;
     margin-bottom: 40px;
-    margin-left: 50px;
+    margin-left: 50px; */
     justify-content: center;
     text-align: center;
+    /* padding-top: 0;
+    padding-left: 8px;
+    padding-right: 40px; */
     z-index: 200;
   }
 }
@@ -605,13 +618,13 @@ code {
     flex-direction: column;
   } 
   
-  .work-horiseon {
+  .projects {
     flex-direction: column;
     width: 80%;
     margin-left: 14px;
   }
 
-  .work-horiseon h3 {
+  .projects h3 {
     flex-direction: column-reverse;
     padding-left: 14px;
     text-align: center;
@@ -621,22 +634,51 @@ code {
 }
 
 @media (max-width: 750px) {
-  .newResume,
+  
   .goals,
   .resumeIntroduction,
   .resumeContainer,
   .resume,
-  .newResume
-  .viewrepository,
-  .portfolio,
-  .bgBox {
+  .viewrepository {
     flex: column;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-    z-index: -1;
+    z-index: 50;
+    
+  }
+
+  .newResume {
+    flex: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 50;
+    
+
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .bgBox {
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 50;
+    width: 90%;
     
   }
 }
@@ -691,5 +733,4 @@ code {
   }
 
 }
-
 

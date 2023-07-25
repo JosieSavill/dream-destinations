@@ -14,7 +14,7 @@ export default function NewResume (){
                 </div>
             <div className="resumeIntroduction">
                 Full Stack Developer<br></br>
-                Scottsdale, Arizona, United States
+                Scottsdale, Arizona
                 </div>
 
             {/* <div className="profile-img">
