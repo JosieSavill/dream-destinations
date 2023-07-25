@@ -496,6 +496,7 @@ code {
 
 
 
+
 @media (max-width: 750px) {
 
   form input[type="text"],
@@ -559,9 +560,26 @@ code {
     padding-top: 20px;
 
   }
+
+  .feature:empty{
+    min-height: 100vh;
+  }
+}
+
+.desktop{
+  display: flex;
+}
+.mobile{
+  display: none;
 }
 
 @media (max-width: 750px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+  }
   .footer {
     
     flex-direction: column;
@@ -596,6 +614,10 @@ code {
     width: 100%;
     
   }
+  .portfolio > div {
+      width: 100%;
+  }
+
 
   .projects h3 {
     display: flex;

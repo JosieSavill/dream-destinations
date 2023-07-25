@@ -5,9 +5,9 @@ import stackLogo from "../assets/stack-exchange-logo-transparent.png";
 import { FaStackExchange, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
-export default function Footer(){
+export default function Footer({type}){
 
-    return <footer className="footer">
+    return <footer className={`footer ${type}`}>
         
         <a href="https://www.linkedin.com/in/josiefiordasavill" className="linkedinlogo" >
         <FaLinkedin/> LinkedIn</a>

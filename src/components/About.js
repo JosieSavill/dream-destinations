@@ -84,13 +84,14 @@ export default function About ({setScreen, screen}){
                         
 
                     </aside>
+                    {screen === "about" && <Footer type="mobile"/>}
                     <div className="feature">
                         {screen === "portfolio" && <NewPortfolio/>  }
                         {screen === "resume" && <Resume/>  }
                     </div>
             </div>
-        
-        {screen === "about" && <Footer />}
+            {screen === "about" && <Footer type="desktop"/>}
+      
         
         
     </div>

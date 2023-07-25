@@ -10,7 +10,7 @@ import About from './components/About';
 
 function App() {
 
-  const [screen, setScreen] = useState("About");
+  const [screen, setScreen] = useState("about");
 
   return (
     <div >
