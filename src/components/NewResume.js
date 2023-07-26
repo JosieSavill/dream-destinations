@@ -13,8 +13,7 @@ export default function NewResume (){
                 Josie Savill<img src={profile} className="profile-pic" alt="JosieSavill img"/>
                 </div>
             <div className="resumeIntroduction">
-                Full Stack Developer<br></br>
-                Scottsdale, Arizona
+                Full Stack Web Developer
                 </div>
 
             {/* <div className="profile-img">
@@ -64,7 +63,7 @@ export default function NewResume (){
                 </div>
             <div className="resume">
                 University of Arizona,<br></br> 
-                Full Stack Web Developer Bootcamp 2023
+                Full Stack Web Developer Bootcamp June, 2023
                 </div>
             <div  className="resumeBold">
                 Work History

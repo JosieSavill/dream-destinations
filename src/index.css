@@ -522,6 +522,7 @@ code {
     padding-top: 107px;
     min-height: 97vh;
     z-index: -1;
+    margin-top: 8px;
     
   }
   
@@ -533,17 +534,14 @@ code {
     max-height: 10vh;
     justify-content: space-between;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 40px;
     gap: 40px;
     z-index: 80;
     
   }
 
-  /* .work-portfolio {
-    width: 100%;
-    
-  } */
+  
 
   .feature {
     width: 99%;
@@ -551,13 +549,11 @@ code {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    row-gap: 10px;
     z-index: 50;
-    min-height: 197vh;
-    max-height: 197vh;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
 
   }
 
@@ -585,10 +581,10 @@ code {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     position: relative;
     z-index: 55;
-    padding-top: 0;
+    padding-top: 40;
     
    
   }
@@ -612,12 +608,12 @@ code {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     
   }
-  .portfolio > div {
-      width: 100%;
-  }
-
 
   .projects h3 {
     display: flex;
@@ -627,31 +623,72 @@ code {
     text-align: center;
 
   }
- 
+  
+  .portfolio > div {
+      width: 100%;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    z-index: 50;
+  }
+
+  .viewrepository {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    transition: font-size  cursor 0.1s ease;
+  }
+
+  .viewrepository:hover {
+    color: white;
+    text-shadow: 4px 4px 42px black;
+    font-style: bolder;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+  }
+  
 }
 
 @media (max-width: 750px) {
   .goals,
-  .resumeIntroduction,
-  .resume,
-  .viewrepository {
+  .resume {
     flex: column;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0;
     z-index: 50;
     
+  }
+
+  .resumeIntroduction {
+    flex: column;
+    flex-direction: wrap;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    z-index: 50px;
+
   }
 
   .resumeContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0;
     z-index: 50;
 
   }
@@ -661,20 +698,14 @@ code {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0;
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     z-index: 50;
-    margin-top: 740px;
+    /* margin-top: 590px; */
     
 
-  }
-
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 50;
   }
   
   .bgBox {
