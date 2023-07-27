@@ -256,14 +256,17 @@ a {
   
 }
 
-/* .profile-img {
+.profile-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
-  max-width: 150px;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
   
-} */
+  
+}
 
 .aside-contact {
   display: flex;
@@ -659,7 +662,23 @@ code {
 }
 
 @media (max-width: 750px) {
-  .goals,
+  .goals {
+    flex: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    margin: 0;
+    z-index: 50;
+
+  }
+
+
+
+
   .resume {
     flex: column;
     flex-wrap: wrap;
@@ -676,7 +695,7 @@ code {
     flex: column;
     flex-direction: wrap;
     justify-content: center;
-    padding-top: 0;
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -731,6 +750,17 @@ code {
     
   }
 
+  .profile-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+
+  }
+
   .resumeHeading {
     display: flex;
     flex-direction: column;
@@ -772,4 +802,3 @@ code {
   }
 
 }
-

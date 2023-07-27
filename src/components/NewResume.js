@@ -10,18 +10,14 @@ export default function NewResume (){
         <div className="resumeContainer">
 
             <div className="resumeHeading">
-                Josie Savill<img src={profile} className="profile-pic" alt="JosieSavill img"/>
+                Josie Savill
                 </div>
+            <div className="profile-img">
+                <img src={profile} className="profile-pic" alt="JosieSavill img"/>
+            </div>
             <div className="resumeIntroduction">
                 Full Stack Web Developer
                 </div>
-
-            {/* <div className="profile-img">
-                    <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-
-                    
-                </div>     */}
-
             <div className="goals">    
                 My goal is to make information easily accessible and visually appealing.
                 <br></br>
@@ -54,9 +50,9 @@ export default function NewResume (){
                 Projects
                 </div>
             <div className="resume">
-                <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a><br></br>
-                <a className='gmail' href="https://josiestechblog.herokuapp.com/"><BsArrowRightShort/>TechBlog</a><br></br>
-                <a className='gmail' href="https://josiesavill.github.io/beagzcal/"><BsArrowRightShort/>BeagzCal</a><br></br>
+                <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a>
+                <a className='gmail' href="https://josiestechblog.herokuapp.com/"><BsArrowRightShort/>TechBlog</a>
+                <a className='gmail' href="https://josiesavill.github.io/beagzcal/"><BsArrowRightShort/>BeagzCal</a>
                 </div>
             <div className="resumeBold">
                 Certifications

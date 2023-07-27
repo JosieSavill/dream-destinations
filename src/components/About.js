@@ -25,24 +25,6 @@ export default function About ({setScreen, screen}){
             <div className="row">
                     <aside className="aside-contact">
                         
-                        {/* <section className="aside-contact-links">
-                            <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-                        </section> */}
-                        
-                        {/* <div id="about" className="aside-about"> */}
-                            {/* <div className="aside-about"> */}
-                            
-                                
-
-                                {/* <p>    
-                                    My goal is to make information easily accessible and visually appealing.
-                                </p>    
-                                
-                                <p>    
-                                    I enjoy collaboration, as well as researching and creating design solutions.
-
-                                </p> */}
-
                                 <button className="portallink">
                                     <ul><li><a onClick={()=>setScreen("about")}>Home</a></li></ul>
                                 </button>
@@ -55,33 +37,6 @@ export default function About ({setScreen, screen}){
                                     
                                     <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
                                 </button>
-
-                                {/* <button className="portallink">
-                                    
-                                    <ul><li><a onClick={()=>setScreen("about")}>Home</a></li></ul>
-                                </button> */}
-
-                                {/* <button className="portallink">
-                                <ul><li><a href="mailto:FiordaSavillJosie@gmail.com">Contact</a></li></ul>
-                                </button> */}
-
-                                
-                                
-
-                                
-                                
-                                
-                                
-                                
-                            {/* </div> */}
-
-                            
-                            
-                        {/* </div> */}
-                    
-
-                        
-                        
 
                     </aside>
                     {screen === "about" && <Footer type="mobile"/>}
