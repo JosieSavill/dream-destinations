@@ -89,6 +89,7 @@ main {
 .newResume {
   display: flex;
   flex-direction: columns;
+  justify-content: center;
   color: white;
   background-color: rgba(0,0,0,.5);
   border: none;
@@ -246,9 +247,10 @@ a {
 
 .profile-pic {
   opacity: 0.6;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  justify-content: center;
+  margin-left: 40px;
+  
   box-shadow: 14px 14px 42px black;
   border-radius: 90px;
   height: 140px;
@@ -259,10 +261,10 @@ a {
 .profile-img {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 280px;
+  /* justify-content: center; */
+  padding-left: 340px;
   padding-top: 10px;
-  padding-right: 40px;
+  padding-right: 340px;
   padding-bottom: 10px;
   
 }
