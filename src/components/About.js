@@ -38,6 +38,12 @@ export default function About ({setScreen, screen}){
                                     <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
                                 </button>
 
+                                <div className="footer-container">
+                
+                                    {screen === "about" && <Footer type="desktop"/>}
+
+                                </div>
+
                     </aside>
                     {screen === "about" && <Footer type="mobile"/>}
                     <div className="feature">
@@ -45,13 +51,11 @@ export default function About ({setScreen, screen}){
                         {screen === "resume" && <Resume/>  }
                     </div>
             </div>
-            <div className="footer-container">
-                <br></br>
-                <br></br>
-                <br></br>
+            {/* <div className="footer-container">
+                
                 {screen === "about" && <Footer type="desktop"/>}
 
-            </div>
+            </div> */}
             
       
         

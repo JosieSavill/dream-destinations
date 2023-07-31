@@ -276,8 +276,8 @@ a {
   padding-top: 144px;
   padding-right: 88px;
   padding-bottom: 33px;
-  min-height: 77vh;
-  max-height: 77vh;
+  min-height: 97vh;
+  max-height: 97vh;
   border-radius: 20px; 
   width: 20%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -395,9 +395,9 @@ button:hover {
   'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   font-size: 18px;
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: space-between; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   /* max-width: 30%; */
   /* padding-top: 440px; */
   /* padding-left: 20px; */
@@ -410,16 +410,17 @@ button:hover {
   
 }
 
-/* .footer-container {
+.footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   position: relative;
   margin-bottom: 30px;
   
   
 
-} */
+}
 
 .desktop{
   display: flex;
@@ -427,11 +428,14 @@ button:hover {
   justify-content: center;
   margin-left: 0;
   max-width: 30%;
-  margin-top: 360px;
-  margin-left: -40px;
+  padding-top: 100px;
+  margin-left: 0px;
   margin-right: 0px;
-  z-index: 55;
+  text-align: center;
+  position: fixed;
+  
 }
+
 .mobile{
   display: none;
 }
