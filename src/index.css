@@ -89,7 +89,6 @@ main {
 .newResume {
   display: flex;
   flex-direction: columns;
-  justify-content: center;
   color: white;
   background-color: rgba(0,0,0,.5);
   border: none;
@@ -247,10 +246,9 @@ a {
 
 .profile-pic {
   opacity: 0.6;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  margin-left: 40px;
-  
+  justify-content: center;
   box-shadow: 14px 14px 42px black;
   border-radius: 90px;
   height: 140px;
@@ -261,10 +259,10 @@ a {
 .profile-img {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  padding-left: 340px;
+  justify-content: center;
+  padding-left: 280px;
   padding-top: 10px;
-  padding-right: 340px;
+  padding-right: 40px;
   padding-bottom: 10px;
   
 }
@@ -399,12 +397,15 @@ button:hover {
   max-width: 70%;
   padding-top: 440px;
   margin: 0 auto;
-  margin-bottom: 0 auto;
+  margin-bottom: 80px;
+  
   
  
   
   
 }
+
+
 
 
 .footer ul{
@@ -600,6 +601,9 @@ code {
     padding-bottom: 40px;
     position: relative;
     z-index: 55;
+    
+    
+    margin-top: 0;
 
     
     padding-top: 10px;
