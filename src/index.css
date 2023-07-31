@@ -397,7 +397,8 @@ button:hover {
   max-width: 70%;
   padding-top: 440px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
+  margin-top: 50px;
   
   
  
