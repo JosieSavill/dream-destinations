@@ -45,7 +45,14 @@ export default function About ({setScreen, screen}){
                         {screen === "resume" && <Resume/>  }
                     </div>
             </div>
-            {screen === "about" && <Footer type="desktop"/>}
+            <div className="footer-container">
+                <br></br>
+                <br></br>
+                <br></br>
+                {screen === "about" && <Footer type="desktop"/>}
+
+            </div>
+            
       
         
         
