@@ -275,9 +275,9 @@ a {
   flex-direction: column;
   justify-items: center;
   
-  padding-left: 270px;
+  padding-left: 300px;
   padding-top: 10px;
-  padding-right: 270px;
+  padding-right: 300px;
   padding-bottom: 10px;
   
   
@@ -901,4 +901,15 @@ code {
   
   }
 
+}
+
+@media (min-width: 1400px) {
+  .feature {
+    width: 70%;
+  }
+
+  .profile-img {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
 }
