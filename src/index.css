@@ -175,6 +175,16 @@ main {
 
 }
 
+.resume-email {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 1.5;
+
+}
+
 .portfolio{
   display: flex;
   flex-direction: row;
@@ -358,6 +368,10 @@ button:hover {
 }
 
 .gmail {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
   font-style: italic;
   transition: font-weight 0.2s ease-in-out;
 }
@@ -588,7 +602,7 @@ code {
     justify-content: space-between;
     text-align: center;
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 80px;
     gap: 60px;
     position: relative;
@@ -605,10 +619,10 @@ code {
     justify-content: center;
     text-align: center;
     z-index: 50;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
     padding-top: 10px;
-    margin-top: 10px;
+    
 
   }
 
@@ -632,6 +646,9 @@ code {
     justify-content: center;
     text-align: center;
     padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
     position: relative;
     z-index: 55;
     
@@ -652,6 +669,11 @@ code {
   .logo {
     justify-content: center;
     text-align: center;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    margin: 0;
     z-index: 200;
 
   }
@@ -720,8 +742,8 @@ code {
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 20px;
     margin: 0;
     z-index: 50;
@@ -736,8 +758,8 @@ code {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
     z-index: 50;
     
@@ -760,6 +782,9 @@ code {
     flex-direction: column;
     justify-content: center;
     padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     z-index: 50;
 
   }
@@ -853,6 +878,26 @@ code {
     text-align: center;
     flex-direction: row;
     font-size: 18px;
+  }
+
+  .gmail {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    /* transition: font-weight 0.2s ease-in-out; */
+    
+  }
+
+  .resume-email {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+  
   }
 
 }

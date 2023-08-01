@@ -16,7 +16,7 @@ export default function NewResume (){
                 <img src={profile} className="profile-pic" alt="JosieSavill img"/>
             </div>
             <div className="resumeIntroduction">
-                Full Stack Web Developer
+                Scottsdale, Arizona
                 </div>
             <div className="goals">    
                 My goal is to make information easily accessible and visually appealing.
@@ -71,7 +71,7 @@ export default function NewResume (){
             <div  className="resumeBold">
                 Contact
                 </div>
-            <div className="resume">
+            <div className="resume-email">
                 1.602.502.2022<br></br>
                 <a className='gmail' href="mailto:FiordaSavillJosie@gmail.com"><BsArrowRightShort/>FiordaSavillJosie@gmail.com</a>
                 </div>
