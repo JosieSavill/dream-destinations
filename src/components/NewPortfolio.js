@@ -1,5 +1,5 @@
 import {BsArrowRightShort} from 'react-icons/bs';
-import img1 from "../assets/BeagzCal.jpg";
+import img1 from "../assets/gem.jpg";
 import img6 from "../assets/horses.png";
 import img7 from "../assets/techblog.png";
 
@@ -34,14 +34,14 @@ export default function NewPortfolio (){
        </div>
 
        <div id="horeison" className="projects">
-            <a href="https://josiesavill.github.io/beagzcal/">
+            <a href="https://josiesavill.github.io/gem/">
                 <div>
-                    <h3>BeagzCal</h3>
+                    <h3>Gem</h3>
                     <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>
             
-            <a className="viewrepository" href="https://github.com/JosieSavill/beagzcal"><BsArrowRightShort/>Repository</a>
+            <a className="viewrepository" href="https://github.com/JosieSavill/gem"><BsArrowRightShort/>Repository</a>
             
             
         </div>
