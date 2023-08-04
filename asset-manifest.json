@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/josie-savill-web-developer/static/css/main.cf74c2af.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.4d83fc09.js",
+    "main.js": "/josie-savill-web-developer/static/js/main.cb1c28dd.js",
     "static/js/787.7de8c4f3.chunk.js": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js",
     "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/techblog.png": "/josie-savill-web-developer/static/media/techblog.a6f7a1665804138931d3.png",
@@ -13,11 +13,11 @@
     "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "index.html": "/josie-savill-web-developer/index.html",
     "main.cf74c2af.css.map": "/josie-savill-web-developer/static/css/main.cf74c2af.css.map",
-    "main.4d83fc09.js.map": "/josie-savill-web-developer/static/js/main.4d83fc09.js.map",
+    "main.cb1c28dd.js.map": "/josie-savill-web-developer/static/js/main.cb1c28dd.js.map",
     "787.7de8c4f3.chunk.js.map": "/josie-savill-web-developer/static/js/787.7de8c4f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf74c2af.css",
-    "static/js/main.4d83fc09.js"
+    "static/js/main.cb1c28dd.js"
   ]
 }
