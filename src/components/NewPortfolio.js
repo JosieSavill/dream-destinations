@@ -1,7 +1,7 @@
 import {BsArrowRightShort} from 'react-icons/bs';
 import img1 from "../assets/firebird-cloud.png";
 import img6 from "../assets/horses.png";
-import img7 from "../assets/techblog.png";
+import img7 from "../assets/techblogtreesky.png";
 
 
 
