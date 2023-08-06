@@ -52,7 +52,7 @@ export default function NewResume (){
             <div className="resume">
                 <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a>
                 <a className='gmail' href="https://josiestechblog.herokuapp.com/"><BsArrowRightShort/>TechBlog</a>
-                <a className='gmail' href="https://josiesavill.github.io/gem/"><BsArrowRightShort/>Gem</a>
+                <a className='gmail' href="https://josiesavill.github.io/josie-savill-portfolio/"><BsArrowRightShort/>Josie Savill</a>
                 </div>
             <div className="resumeBold">
                 Certifications
