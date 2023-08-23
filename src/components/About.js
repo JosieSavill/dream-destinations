@@ -35,7 +35,7 @@ export default function About ({setScreen, screen}){
 
                                 <button className="portallink">
                                     
-                                    <ul><li><a onClick={()=>setScreen("portfolio")}>Portfolio</a></li></ul>
+                                    <ul><li><a onClick={()=>setScreen("portfolio")}>Listings</a></li></ul>
                                 </button>
 
                                 <div className="footer-container">

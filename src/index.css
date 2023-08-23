@@ -680,6 +680,13 @@ code {
   }
 }
 
+.logo-description {
+  font-size: 22px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
 @media (max-width: 750px) {
   .projects {
     display: flex;
