@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/josie-savill-web-developer/static/css/main.cf74c2af.css",
-    "main.js": "/josie-savill-web-developer/static/js/main.33f52c69.js",
-    "static/js/787.a9677a29.chunk.js": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js",
-    "static/media/dark-horse.mp4": "/josie-savill-web-developer/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
-    "static/media/firebird-cloud.png": "/josie-savill-web-developer/static/media/firebird-cloud.45790e5d8bc67cc81c38.png",
-    "static/media/techblogtreesky.png": "/josie-savill-web-developer/static/media/techblogtreesky.8145ca4f7732549086ae.png",
-    "static/media/horses.png": "/josie-savill-web-developer/static/media/horses.9d6a0c48c1c7fedcd0cd.png",
-    "static/media/profile.jpg": "/josie-savill-web-developer/static/media/profile.c4ceff486361b753e7c5.jpg",
-    "static/media/github-logo.jpg": "/josie-savill-web-developer/static/media/github-logo.a9654661dfa08223d7a2.jpg",
-    "static/media/linkedin-logo.png": "/josie-savill-web-developer/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
-    "static/media/stack-exchange-logo-transparent.png": "/josie-savill-web-developer/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
-    "index.html": "/josie-savill-web-developer/index.html",
-    "main.cf74c2af.css.map": "/josie-savill-web-developer/static/css/main.cf74c2af.css.map",
-    "main.33f52c69.js.map": "/josie-savill-web-developer/static/js/main.33f52c69.js.map",
-    "787.a9677a29.chunk.js.map": "/josie-savill-web-developer/static/js/787.a9677a29.chunk.js.map"
+    "main.css": "/dream-destinations/static/css/main.758f7691.css",
+    "main.js": "/dream-destinations/static/js/main.9f140c20.js",
+    "static/js/787.a9677a29.chunk.js": "/dream-destinations/static/js/787.a9677a29.chunk.js",
+    "static/media/dark-horse.mp4": "/dream-destinations/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
+    "static/media/firebird-cloud.png": "/dream-destinations/static/media/firebird-cloud.45790e5d8bc67cc81c38.png",
+    "static/media/techblogtreesky.png": "/dream-destinations/static/media/techblogtreesky.8145ca4f7732549086ae.png",
+    "static/media/horses.png": "/dream-destinations/static/media/horses.9d6a0c48c1c7fedcd0cd.png",
+    "static/media/profile.jpg": "/dream-destinations/static/media/profile.c4ceff486361b753e7c5.jpg",
+    "static/media/github-logo.jpg": "/dream-destinations/static/media/github-logo.a9654661dfa08223d7a2.jpg",
+    "static/media/linkedin-logo.png": "/dream-destinations/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
+    "static/media/stack-exchange-logo-transparent.png": "/dream-destinations/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
+    "index.html": "/dream-destinations/index.html",
+    "main.758f7691.css.map": "/dream-destinations/static/css/main.758f7691.css.map",
+    "main.9f140c20.js.map": "/dream-destinations/static/js/main.9f140c20.js.map",
+    "787.a9677a29.chunk.js.map": "/dream-destinations/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf74c2af.css",
-    "static/js/main.33f52c69.js"
+    "static/css/main.758f7691.css",
+    "static/js/main.9f140c20.js"
   ]
 }
