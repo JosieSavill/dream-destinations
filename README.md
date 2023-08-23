@@ -1,4 +1,4 @@
-# **JOSIE SAVILL WEB DEVELOPER**
+# **DREAM DESTINATIONS**
   
 
 
@@ -9,7 +9,7 @@
 
 
 
-![Desktop Img](/src/assets/homescreen.png) 
+![Desktop Img](/src/assets/dream-destinations-homepage.png) 
 
 
  
@@ -62,13 +62,13 @@ The Contact section will take you to a form where you can enter your name, email
 
 ## *GitHub Repository*  
 
-[Link Here](https://github.com/JosieSavill/josie-savill-web-developer)
+[Link Here](https://github.com/JosieSavill/dream-destinations)
 <br>
 <br>
 
 ## *Deployed Application URL on GitHub Pages*
 
-[Link Here](https://josiesavill.github.io/josie-savill-web-developer/)  
+[Link Here](https://josiesavill.github.io/dream-destinations/)  
 
 
  
