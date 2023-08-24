@@ -9,13 +9,13 @@ export default function Footer({type}){
 
     return <footer className={`footer ${type}`}>
         
-        <a href="https://www.linkedin.com/in/josiefiordasavill" className="linkedinlogo" >
+        <a href="https://www.linkedin.com/company/gtp-greek-travel-pages-tourism-&-travel-guide/about/" className="linkedinlogo" >
         <FaLinkedin/> LinkedIn</a>
-        <a href="https://github.com/JosieSavill?tab=repositories" className="githublogo">
-        <FaGithub/> GitHub</a>
-        <a href="https://stackexchange.com/users/27657333/josie-fiorda-savill" className="stacklogo">
+        {/* <a href="https://github.com/JosieSavill?tab=repositories" className="githublogo">
+        <FaGithub/> GitHub</a> */}
+        {/* <a href="https://stackexchange.com/users/27657333/josie-fiorda-savill" className="stacklogo">
             <FaStackExchange/> StackExchange
-            </a>
+            </a> */}
         
         {/* <h4>Updated: May, 2023</h4> */}
         

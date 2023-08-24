@@ -5,7 +5,7 @@ export default function Nav ({setScreen}){
 
     return <header className="header">
          <div className="logo">DREAM DESTINATIONS{' '}<br></br>
-         <span className="logo-description">Affordable Getaways</span></div>
+         <span className="logo-description">The World is your Oyster</span></div>
          {/* <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
             Affordable Getaways</span></div> */}
             

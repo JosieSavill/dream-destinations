@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/dream-one.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
 
 
@@ -10,70 +10,69 @@ export default function NewResume (){
         <div className="resumeContainer">
 
             <div className="resumeHeading">
-                Josie Savill
+                Get away from it all ...
                 </div>
             <div className="profile-img">
                 <img src={profile} className="profile-pic" alt="JosieSavill img"/>
             </div>
             <div className="resumeIntroduction">
-                Scottsdale, Arizona
+                DREAM DESTINATIONS
                 </div>
             <div className="goals">    
-                My goal is to make information easily accessible and visually appealing.
+                Our goal is to make travel and home ownership easily accessible and stress free.
                 <br></br>
                 <br></br>
-                I enjoy collaboration, as well as researching and creating design solutions.
+                We enjoy working with potential buyers as well as travellers.
                 </div>    
                                 
            
             <div className="resumeBold">
-                Skills
+                History
                 </div>
             <div className="resume">
-                HTML, CSS/SCSS, JavaScript, 
-                Node/Express, REST, MySQL, MongoDB
+                Our company has been providing services globally for a 20 years.
                 </div>
             <div className="resumeBold">
-                Libraries
+                Location
                 </div>
             <div className="resume">
-                Chakra, Bootstrap, Skroller, Sequelize
+                Our offices are headquartered in beautiful New York, NY, United States.
                 </div>
             <div className="resumeBold">
-                Frameworks
+                Travellers
                 </div>
             <div className="resume">
-                React
+                After selecting a potential destination, submit an email to our offices at the address listed below.
                 </div>
             
             <div className="resumeBold">
-                Projects
+                Buyers
                 </div>
             <div className="resume">
-                <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a>
+                {/* <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a>
                 <a className='gmail' href="https://josiestechblog.herokuapp.com/"><BsArrowRightShort/>TechBlog</a>
-                <a className='gmail' href="https://josiesavill.github.io/josie-savill-portfolio/"><BsArrowRightShort/>Josie Savill</a>
+                <a className='gmail' href="https://josiesavill.github.io/josie-savill-portfolio/"><BsArrowRightShort/>Josie Savill</a> */}
+                Please indicate which property you are interested in and contact us at the email address listed below.
                 </div>
             <div className="resumeBold">
                 Certifications
                 </div>
             <div className="resume">
-                University of Arizona,<br></br> 
-                Full Stack Web Developer Bootcamp June, 2023
+                Global Hospitality Brokers<br></br> 
+                Certified Hospitalier June, 2003
                 </div>
             <div  className="resumeBold">
-                Work History
+                Fees
                 </div>
             <div className="resume">
-                Registered Respiratory Therapist 2006 thru current<br></br>
-                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=OD3t2L"><BsArrowRightShort/>Download Full Resume</a>
+                <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5g-NDcHm7ATLHYItS1A?e=RlHTo5"><BsArrowRightShort/>Download Pricing PDF</a>
                 </div>
             <div  className="resumeBold">
                 Contact
                 </div>
             <div className="resume-email">
-                1.602.502.2022<br></br>
-                <a className='gmail' href="mailto:FiordaSavillJosie@gmail.com"><BsArrowRightShort/>FiordaSavillJosie@gmail.com</a>
+                1.888.888.2023<br></br>
+                <a className='gmail' href="mailto:FiordaSavillJosie@gmail.com"><BsArrowRightShort/>DreamDestinations@dream.com</a>
                 </div>
 
         </div>

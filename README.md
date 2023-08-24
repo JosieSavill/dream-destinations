@@ -29,7 +29,7 @@
 <br>
 <br>
 
-JOSIE SAVILL WEB DEVELOPER is a react app that is deployed to GitHub Pages.  This application is a place where I can introduce myself  and my latest projects to potential employers, contacts.
+DREAM DESTINATIONS is a react app that is deployed to GitHub Pages.  This application is a place where affordable getaways can be showcased to potential travelers, buyers.
 
 Technologies used in building this site were React, Pexels for *.mp4 download.
 
@@ -43,15 +43,11 @@ To view the site click on  GitHub deployed link at bottom of README.
 
 The nav bar provides links to several sections.
 
-The About section gives a brief description of how I approach each project.  
+The Home section introduces the website and at bottom icons are listed for social media accounts.  
 
-The Resume section displays  my proficiencies as a junior developer as well a link to view and download my resume.  
+The About sections provides criteria on how to submit your property for display on this website and contact information is provided.  
 
-The Porfolio section displays all of my latest works, along with a link to corresponding repository.  
-
-Be sure to click on an image to visit the site itself!  
-
-The Contact section will take you to a form where you can enter your name, email address and send me a message.  
+The Listings section displays an array of showcased getaways where with one click, visitors can obtain a virtual tour.  
 
 
 

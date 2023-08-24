@@ -1,7 +1,7 @@
 import {BsArrowRightShort} from 'react-icons/bs';
-import img1 from "../assets/firebird-cloud.png";
-import img6 from "../assets/horses.png";
-import img7 from "../assets/techblogtreesky.png";
+import img1 from "../assets/dream-two.jpg";
+import img6 from "../assets/dream-four.jpg";
+import img7 from "../assets/dream-three.jpg";
 
 
 
@@ -12,36 +12,36 @@ export default function NewPortfolio (){
         
 
        <div className="projects">
-           <a href="https://josiesavill.github.io/horses/">
+           <a href="https://youtu.be/2sr9MGkkeks">
                <div>
-                   <h3>Horses</h3>
+                   <h3>Swedish Fjords</h3>
                <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
                   
                </div>
            </a>
-           <a className="viewrepository" href="https://github.com/JosieSavill/horses"><BsArrowRightShort/>Repository</a> 
+           <a className="viewrepository" href="https://1drv.ms/w/s!AhfCqpI38Ls5g-M9CstLxjYJJ_sgjg?e=RrjkRv"><BsArrowRightShort/>Current Listings</a> 
        </div>
 
        <div id="horeison" className="projects">
-           <a href="https://josiestechblog.herokuapp.com/">
+           <a href="https://youtube.com/shorts/7caLsT1_Ios?si=UQOEW4zrJp3kfCS5">
                <div>
-                   <h3>TechBlog</h3>
+                   <h3>Amazing Tibet</h3>
                    <div className="bgBox" style={{backgroundImage: `url(${img7})`}}></div>
                </div>
            </a>
            
-           <a className="viewrepository" href="https://github.com/JosieSavill/TechBlog"><BsArrowRightShort/>Repository</a>
+           <a className="viewrepository" href="https://1drv.ms/w/s!AhfCqpI38Ls5g-M_qlUotcvnklwAsw?e=KM2RKn"><BsArrowRightShort/>Current Listings</a>
        </div>
 
        <div id="horeison" className="projects">
-            <a href="https://josiesavill.github.io/josie-savill-portfolio/">
+            <a href="https://youtu.be/bAEprBbAfZM">
                 <div>
-                    <h3>Josie Savill</h3>
+                    <h3>Sunny Greece</h3>
                     <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>
             
-            <a className="viewrepository" href="https://github.com/JosieSavill/josie-savill-portfolio"><BsArrowRightShort/>Repository</a>
+            <a className="viewrepository" href="https://1drv.ms/w/s!AhfCqpI38Ls5g-NBvWorHluQd0SwOw?e=KIBn3L"><BsArrowRightShort/>Current Listings</a>
             
             
         </div>
