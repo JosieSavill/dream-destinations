@@ -69,11 +69,9 @@ body {
   flex-direction: column;
   justify-content: center;
   color: white;
-  font-size: 44px;
+  font-size: 66px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   position: fixed;
-  
-
   padding-left: 35%;
   padding-top: 10%;
   
@@ -700,7 +698,7 @@ code {
 }
 
 .logo-description {
-  font-size: 22px;
+  font-size: 44px;
   font-style: italic;
   color: white;
   text-align: center;
