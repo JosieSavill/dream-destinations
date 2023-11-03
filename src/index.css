@@ -45,11 +45,15 @@ body {
 
 .header {
   padding: 20px;
-  clear: both;
+  /* clear: both; */
   font-family: "Trebuchet MS", sans-serif, Arial;
   color: #000;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #07294d;
+  height: auto;
+
  
 }
 
@@ -62,17 +66,23 @@ body {
   font-size: 44px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   position: fixed;
-  padding-left: 40px;
-  padding-top: 60px;
+  
+
+  padding-left: 35%;
+  padding-top: 10%;
   
   
 }
 
 .header nav {
+  display: flex; 
+  justify-content: space-evenly;
   padding-top: 10px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   font-family: 'Gill Sans', sans-serif, Calibri;
   font-size: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .header h1 {
@@ -285,20 +295,20 @@ a {
 
 .aside-contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
-  padding-left: 88px;
-  padding-top: 100px;
-  padding-right: 88px;
-  padding-bottom: 20px;
-  min-height: 97vh;
-  max-height: 97vh;
+  padding-left: 30px;
+  padding-top:  30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  min-height: 20%;
+  max-height: 20%;
   border-radius: 20px; 
-  width: 20%;
+  width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: transparent;
-  max-width: 70%;
+  max-width: 100%;
 
 
   position: fixed;
@@ -308,7 +318,7 @@ a {
 
 .portallinks {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   padding-top: 8px;

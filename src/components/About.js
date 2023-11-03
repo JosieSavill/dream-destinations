@@ -51,6 +51,9 @@ export default function About ({setScreen, screen}){
                         {screen === "resume" && <Resume/>  }
                     </div>
             </div>
+
+            <div className="logo">DREAM DESTINATIONS{' '}<br></br>
+            <span className="logo-description">The World is your Oyster</span></div>
             {/* <div className="footer-container">
                 
                 {screen === "about" && <Footer type="desktop"/>}

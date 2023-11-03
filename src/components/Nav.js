@@ -1,31 +1,51 @@
 // import { useNavigate } from "react-router-dom"
 
+
+
 export default function Nav ({setScreen}){
 
 
     return <header className="header">
-         <div className="logo">DREAM DESTINATIONS{' '}<br></br>
-         <span className="logo-description">The World is your Oyster</span></div>
-         {/* <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
-            Affordable Getaways</span></div> */}
+
+
+
+        {/* <nav> */}
             
-        {/* <nav>
-       
-        <ul> */}
-           
-            {/* <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li> */}
+        {/* <button className="portallink">
+            <ul><li><a onClick={()=>setScreen("about")}>Home</a></li></ul>
+        </button>
 
-      
+        <button className="portallink">
+            <ul><li><a onClick={()=>setScreen("resume")} >About</a></li></ul>
+        </button>
 
-            {/* <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> */}
+        <button className="portallink">
+            <ul><li><a onClick={()=>setScreen("portfolio")}>Listings</a></li></ul>
+        </button> */}
 
-            {/* <li>
+
+                <ul>
+                
+                    <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li>
+
+
+
             
-            <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
-            </li> */}
 
-        {/* </ul>
-        </nav> */}
+                    <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> 
+
+                    <li>
+                    
+                    <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
+                    </li> 
+
+                 </ul>
+        {/* </nav> */}
+        {/* <div className="logo">DREAM DESTINATIONS{' '}<br></br>
+        <span className="logo-description">The World is your Oyster</span></div> */}
+         
+            
+        
         </header>
 }
 
