@@ -26,17 +26,13 @@ export default function Nav ({setScreen}){
 
                 <ul>
                 
-                    <li><a className="gmail" onClick={()=>setScreen("About")}>Home</a></li>
+                    <li><a className="gmail" onClick={()=>setScreen("About")}>Reservations</a></li>
 
+                    <li><a className="gmail" onClick={()=>setScreen("About")}>Listings</a></li>
 
+                    <li><a className="gmail" onClick={()=>setScreen("About")}>Agents</a></li>
 
-            
-
-                    <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> 
-
-                    <li>
-                    
-                    <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
+                    <li><a className="gmail" href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
                     </li> 
 
                  </ul>
