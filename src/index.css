@@ -67,13 +67,19 @@ body {
 .logo{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
   color: white;
-  font-size: 66px;
+  font-size: 44px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
   position: fixed;
-  padding-left: 35%;
+  padding-left: 40%;
+  padding-right: 40%;
   padding-top: 10%;
+  padding-bottom: 10%;
+  width: 30%;
+  height: auto;
   
   
 }
@@ -345,7 +351,7 @@ button {
   text-align: center;
   padding-top: 12px;
   transition: 0.1s;
-  box-shadow: 14px 14px 42px black;
+  /* box-shadow: 14px 14px 42px black; */
   padding-bottom: 40px;
   transition: color 0.2s ease;
   transition: text-shadow 0.2s ease;
@@ -698,7 +704,7 @@ code {
 }
 
 .logo-description {
-  font-size: 44px;
+  font-size: 22px;
   font-style: italic;
   color: white;
   text-align: center;

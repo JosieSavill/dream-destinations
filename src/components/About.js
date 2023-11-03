@@ -36,15 +36,15 @@ export default function About ({setScreen, screen}){
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>America</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio-america")}>America</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Europe</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio-mediterranean")}>Mediterranean</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Mediterranean</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio-europe")}>Europe</a></li></ul>
                     </button>
 
                 </aside>
@@ -63,11 +63,11 @@ export default function About ({setScreen, screen}){
                     {screen === "about" && <Footer type="desktop"/>}
 
                 </div>
-                {/* <div className="footer-container">
+                <div className="footer-container">
                     
                     {screen === "about" && <Footer type="desktop"/>}
 
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
