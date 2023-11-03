@@ -452,8 +452,9 @@ button:hover {
   justify-content: center;
   text-align: center;
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  
+  /* margin-top: 20px;
+  margin-bottom: 30px; */
   
   
 
@@ -470,6 +471,8 @@ button:hover {
   padding-right: 0px;
   text-align: center;
   position: fixed;
+  height: auto;
+  padding-top: 40%;
   
 }
 
