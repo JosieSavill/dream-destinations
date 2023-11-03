@@ -23,7 +23,7 @@ export default function About ({setScreen, screen}){
             </video>
         </div>
 
-        <div className="main">
+        
             <div className="row">
                 <aside className="aside-contact">
                         
@@ -36,25 +36,23 @@ export default function About ({setScreen, screen}){
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio-america")}>America</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>America</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio-mediterranean")}>Mediterranean</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>Mediterranean</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio-europe")}>Europe</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>Europe</a></li></ul>
                     </button>
-
+                    
                 </aside>
-                    {screen === "about" && <Footer type="mobile"/>}
-                    <div className="feature">
-                        {screen === "portfolio" && <NewPortfolio/>  }
-                        {screen === "resume" && <Resume/>  }
-                    </div>
-                
-
+                {screen === "about" && <Footer type="mobile"/>}
+                <div className="feature">
+                    {screen === "portfolio" && <NewPortfolio/>  }
+                    {screen === "resume" && <Resume/>  }
+                </div>
                 <div className="logo">DREAM DESTINATIONS{' '}<br></br>
                 <span className="logo-description">The World is your Oyster</span></div>
 
@@ -63,9 +61,12 @@ export default function About ({setScreen, screen}){
                     {screen === "about" && <Footer type="desktop"/>}
 
                 </div>
-                
+                {/* <div className="feature">
+                    {screen === "portfolio" && <NewPortfolio/>  }
+                    {screen === "resume" && <Resume/>  }
+                </div> */}
             </div>
-        </div>
+        
     </div>
         
 }
