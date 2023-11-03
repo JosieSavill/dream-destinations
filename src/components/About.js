@@ -63,11 +63,7 @@ export default function About ({setScreen, screen}){
                     {screen === "about" && <Footer type="desktop"/>}
 
                 </div>
-                <div className="footer-container">
-                    
-                    {screen === "about" && <Footer type="desktop"/>}
-
-                </div>
+                
             </div>
         </div>
     </div>
