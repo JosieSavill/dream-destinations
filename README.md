@@ -6,7 +6,7 @@
 
 <br>
 <br>
-
+--watch scss/styles.scss:css/styles.css --style compressed
 
 
 ![Desktop Img](/src/assets/dream-destinations-homepage.png) 
