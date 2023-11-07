@@ -3,6 +3,11 @@
   padding: 0px;
   margin: 0;
 }
+:root{
+  --navyblue: #07294d; 
+  --navyblueO: #07294d70; /*to add transperncy just additional nuumbers to the hex rgba(0,0,0,.5)*/
+
+}
 
 html {
   height: 100%;
@@ -50,7 +55,7 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding: 5px 20px;
   /* clear: both; */
   font-family: "Trebuchet MS", sans-serif, Arial;
   color: #000;
@@ -946,4 +951,12 @@ code {
     padding-left: 370px;
     padding-right: 370px;
   }
+}
+
+.aside{
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  padding: 30px;
+  background-color: var(--navyblueO);
 }

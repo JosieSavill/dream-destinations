@@ -5,7 +5,7 @@ import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
 import Resume from "./NewResume";
-
+import Home from "./Home"
 
 
 
@@ -28,11 +28,11 @@ export default function About ({setScreen, screen}){
                 <aside className="aside-contact">
                         
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("about")}>Home</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("home")}>Home</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("resume")} >About</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("resume")}>About</a></li></ul>
                     </button>
 
                     <button className="portallink">
@@ -48,23 +48,16 @@ export default function About ({setScreen, screen}){
                     </button>
                     
                 </aside>
-                {screen === "about" && <Footer type="mobile"/>}
+                {/* {screen === "about" && <Footer type="mobile"/>} */}
                 <div className="feature">
                     {screen === "portfolio" && <NewPortfolio/>  }
                     {screen === "resume" && <Resume/>  }
+                    {screen === "home" && <Home/> }
                 </div>
-                <div className="logo">DREAM DESTINATIONS{' '}<br></br>
-                <span className="logo-description">The World is your Oyster</span></div>
-
-                <div className="footer-container">
-    
-                    {screen === "about" && <Footer type="desktop"/>}
-
-                </div>
-                {/* <div className="feature">
-                    {screen === "portfolio" && <NewPortfolio/>  }
-                    {screen === "resume" && <Resume/>  }
-                </div> */}
+                
+               
+                
+              
             </div>
         
     </div>
