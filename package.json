@@ -24,6 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass" : "sass --watch scss/styles.scss:css/styles.css --style compressed"
+    
   },
   "eslintConfig": {
     "extends": [
