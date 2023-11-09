@@ -51,10 +51,15 @@ export default function About ({setScreen, screen}){
                         <ul><li><a onClick={()=>setScreen("portfolio")}>Asia</a></li></ul>
                     </button>
 
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Create Account</a></li></ul>
-                    </button>
                     
+                    <button className="portallink createAccount" style={{ border: '2px solid white', padding: '10px' }}>
+                        <ul>
+                            <li>
+                            <a onClick={() => setScreen("portfolio")}>Create Account</a>
+                            </li>
+                        </ul>
+                    </button>
+
                 </aside>
                 {/* {screen === "about" && <Footer type="mobile"/>} */}
                 <div className="feature">
