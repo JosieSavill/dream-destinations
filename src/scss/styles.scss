@@ -1,5 +1,8 @@
 @import "app.scss";
 @import "header.scss";
+@import "home.scss";
+@import "portfolio.scss";
+
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -1056,5 +1059,11 @@ code {
     border: none;
     box-shadow: none;
     
+  }
+
+  .video-background{
+    position: relative;
+    max-height: none;
+    z-index: 100;
   }
 }
