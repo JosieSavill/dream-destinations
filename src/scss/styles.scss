@@ -545,10 +545,13 @@ code {
 
 .page-wrapper {
   position: relative;
+  width: 90%;
   z-index: 1;
   display: flex;
-  width: 90%;
-  height: auto; /* set a higher z-index value for the content to appear in foreground */
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 12%;
+  text-align: center; /* set a higher z-index value for the content to appear in foreground */
 }
 
 .bgBox{
@@ -578,6 +581,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 

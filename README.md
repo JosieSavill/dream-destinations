@@ -9,7 +9,7 @@
 --watch scss/styles.scss:css/styles.css --style compressed
 
 
-![Desktop Img](/src/assets/dream-destinations-homepage.png) 
+![Desktop Img](/src/assets/dreamDesktop3.png) 
 
 
  
@@ -35,6 +35,8 @@ Technologies used in building this site were React, Pexels for *.mp4 download.
 
 <br>
 <br>
+
+![Mobile Img](/src/assets/dreamMobile.png) 
 
 ## *Instructions*  
 <br>
