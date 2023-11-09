@@ -84,7 +84,7 @@ body {
   width: 80%;
   height: auto;
   z-index: 50;
-  padding-top: 17%;
+  padding-top: 22%;
   padding-left: 0;
   gap: 5px;
   
@@ -334,6 +334,7 @@ a {
   background-color: transparent;
   max-width: 90%;
   position: fixed;
+  z-index: 80;
 }
 
 
@@ -383,6 +384,7 @@ button {
   transition: text-shadow 0.2s ease;
   justify-content: center;
   gap: 10px;
+  
 }
 
 button:hover {
