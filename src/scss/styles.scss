@@ -1,5 +1,5 @@
-@import "_app.scss";
-
+@import "app.scss";
+@import "header.scss";
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -100,6 +100,13 @@ body {
   letter-spacing: 0.2em;
   padding-top: 10px;
   font-style: italic;
+}
+
+.oyster {
+  max-width: 5%;
+  max-height: auto;
+  justify-content: center;
+  mix-blend-mode: multiply;
 }
 
 .header nav {
@@ -614,6 +621,9 @@ code {
   align-items: center;
   text-align: center;
 }
+.feature-mobile{
+  display: none;
+}
 
 
 
@@ -663,6 +673,43 @@ code {
     position: relative;
     z-index: 80;
     
+  }
+
+  @media (max-width: 600px) {
+    .feature{
+      display: none !important;
+    }
+    .feature-mobile{
+      position: absolute;
+      top: 0px;
+      display: block;
+    }
+    .logo {
+      font-size: 14px;
+      padding-left: 0px !important;
+    }
+
+    .logo-description {
+      font-size: 12px !important;
+      padding-left: 0px;
+    }
+    .row{
+      padding-top: 100px;
+      min-height: 0px;
+    }
+    .aside-contact {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      padding: 0px;
+      gap: 0px;
+      font-size: 12px;
+      z-index: 120;
+      margin-top: 10px;
+
+    }
   }
 
   
@@ -981,4 +1028,33 @@ code {
   right: 0px;
   padding: 30px;
   background-color: var(--navyblueO);
+}
+
+.aside:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: var(--navyblueO);
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
+
+@media (max-width: 600px) {
+  button {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+    transition: font-weight 0.1s ease;
+    /* transition: opacity 0.1s ease-in-out; */
+    border: none;
+    box-shadow: none;
+    
+  }
 }

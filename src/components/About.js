@@ -1,5 +1,5 @@
 import Nav from "./Nav";
-
+import { FaStackExchange, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
@@ -21,6 +21,13 @@ export default function About ({setScreen, screen}){
                 <source src={myVideo} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+            
+            <div className="feature-mobile">
+                <div className="logo">DREAM DESTINATIONS{' '}<br></br>
+                    <span className="logo-description">The World is your Oyster</span>
+                    
+                </div>
+            </div>
         </div>
 
         
@@ -62,16 +69,23 @@ export default function About ({setScreen, screen}){
 
                 </aside>
                 {/* {screen === "about" && <Footer type="mobile"/>} */}
-                <div className="feature">
-                    {screen === "portfolio" && <NewPortfolio/>  }
-                    {screen === "resume" && <Resume/>  }
-                    {screen === "home" && <Home/> }
-                </div>
+                
                 
                
                 
               
             </div>
+            <div className="row">
+            <div className="feature">
+                    {screen === "portfolio" && <NewPortfolio/>  }
+                    {screen === "resume" && <Resume/>  }
+                    {screen === "home" && <Home/> }
+                </div>
+            </div>
+            <div className="aside">
+                <a href="https://www.linkedin.com/company/gtp-greek-travel-pages-tourism-&-travel-guide/about/" className="linkedinlogo" >
+                <FaLinkedin/> LinkedIn</a>
+            </div>  
         
     </div>
         
