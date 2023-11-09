@@ -36,15 +36,23 @@ export default function About ({setScreen, screen}){
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>America</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>North America</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Mediterranean</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>South America</a></li></ul>
                     </button>
 
                     <button className="portallink">
                         <ul><li><a onClick={()=>setScreen("portfolio")}>Europe</a></li></ul>
+                    </button>
+
+                    <button className="portallink">
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>Asia</a></li></ul>
+                    </button>
+
+                    <button className="portallink">
+                        <ul><li><a onClick={()=>setScreen("portfolio")}>Create Account</a></li></ul>
                     </button>
                     
                 </aside>
