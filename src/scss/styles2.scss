@@ -545,7 +545,10 @@ code {
 
 .page-wrapper {
   position: relative;
-  z-index: 1; /* set a higher z-index value for the content to appear in foreground */
+  z-index: 1;
+  display: flex;
+  width: 90%;
+  height: auto; /* set a higher z-index value for the content to appear in foreground */
 }
 
 .bgBox{
