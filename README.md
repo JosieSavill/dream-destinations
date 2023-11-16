@@ -8,8 +8,17 @@
 <br>
 --watch scss/styles.scss:css/styles.css --style compressed
 
+## *GitHub Repository*  
 
-![Desktop Img](/src/assets/dreamDesktop3.png) 
+[Link Here](https://github.com/JosieSavill/dream-destinations)
+<br>
+<br>
+
+## *Deployed Application URL on GitHub Pages*
+
+[Link Here](https://josiesavill.github.io/dream-destinations/)  
+
+![Desktop Img](/src/assets/dream-desktop.png) 
 
 
  
@@ -38,18 +47,7 @@ Technologies used in building this site were React, Pexels for *.mp4 download.
 
 ![Mobile Img](/src/assets/dreamMobile.png) 
 
-## *Instructions*  
-<br>
-
-To view the site click on  GitHub deployed link at bottom of README.
-
-The nav bar provides links to several sections.
-
-The Home section introduces the website and at bottom icons are listed for social media accounts.  
-
-The About sections provides criteria on how to submit your property for display on this website and contact information is provided.  
-
-The Listings section displays an array of showcased getaways where with one click, visitors can obtain a virtual tour.  
+ 
 
 
 
@@ -58,15 +56,7 @@ The Listings section displays an array of showcased getaways where with one clic
 
 
 
-## *GitHub Repository*  
-
-[Link Here](https://github.com/JosieSavill/dream-destinations)
-<br>
-<br>
-
-## *Deployed Application URL on GitHub Pages*
-
-[Link Here](https://josiesavill.github.io/dream-destinations/)  
+ 
 
 
  
