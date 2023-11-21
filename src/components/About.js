@@ -9,7 +9,8 @@ import SouthAmerica from "./SouthAmerica";
 import Asia from "./Asia";
 import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
-import logoImg from "../assets/castle.svg"
+import logoImg from "../assets/castle.svg";
+import oysterImg from "../assets/oyster.jpg";
 
 
 export default function About ({setScreen, screen}){
@@ -24,7 +25,10 @@ export default function About ({setScreen, screen}){
             <div className="feature-mobile">
                 <div className="logo">DREAM DESTINATIONS{' '}<br></br>
                     <span className="logo-description">The World is your Oyster
-                    <img src={logoImg} width={190} height={120}/>
+                    {/* <img src={logoImg} width={190} height={120}/> */}
+                    </span>
+                    <span className="oyster-logo">
+                    <img src={oysterImg} width={99} height={96}/>
                     </span>
                     
                 </div>
