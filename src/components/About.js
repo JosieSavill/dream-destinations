@@ -1,6 +1,5 @@
 import Nav from "./Nav";
-import { FaStackExchange, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import {  FaLinkedin } from 'react-icons/fa';
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
@@ -80,6 +79,7 @@ export default function About ({setScreen, screen}){
                     {screen === "portfolio" && <NewPortfolio/>  }
                     {screen === "resume" && <Resume/>  }
                     {screen === "home" && <Home/> }
+                    {screen === "north" && <NorthAmerica/> }
                 </div>
             </div>
             <div className="aside">

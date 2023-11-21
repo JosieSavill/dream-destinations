@@ -1,7 +1,7 @@
-import {BsArrowRightShort} from 'react-icons/bs';
-import img1 from "../assets/dream-two.jpg";
-import img6 from "../assets/dream-four.jpg";
-import img7 from "../assets/dream-three.jpg";
+// import {BsArrowRightShort} from 'react-icons/bs';
+// import img1 from "../assets/dream-two.jpg";
+// import img6 from "../assets/dream-four.jpg";
+// import img7 from "../assets/dream-three.jpg";
 
 
 
