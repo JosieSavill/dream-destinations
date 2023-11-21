@@ -630,13 +630,16 @@ code {
 }
 
 .feature{
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 30px;
+  
 }
+
 .feature-mobile{
   display: none;
 }

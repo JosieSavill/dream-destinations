@@ -42,7 +42,7 @@ export default function About ({setScreen, screen}){
             <div className="row">
                 <aside className="aside-contact">
                 <div>
-                    <img src={logoImg} width={237} height={150}/>
+                    <img src={logoImg} width={140} height={82}/>
                 </div>
                     <button className="portallink">
                         <ul><li><a onClick={()=>setScreen("home")}>Home</a></li></ul>
