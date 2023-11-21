@@ -6,7 +6,7 @@ export default function Nav ({setScreen}){
 
 
     return <header className="header">
-
+                
 
 
         {/* <nav> */}
