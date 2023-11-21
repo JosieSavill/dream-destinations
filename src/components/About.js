@@ -8,7 +8,7 @@ import Resume from "./NewResume";
 import Home from "./Home"
 
 
-
+import NorthAmerica from "./NorthAmerica";
 
 
 
@@ -43,7 +43,7 @@ export default function About ({setScreen, screen}){
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>North America</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("north")}>North America</a></li></ul>
                     </button>
 
                     <button className="portallink">
