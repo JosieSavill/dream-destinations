@@ -11,6 +11,7 @@ import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
 import logoImg from "../assets/castle.svg";
 import oysterImg from "../assets/oyster.jpg";
+import oyster from "../assets/oyster.jpg";
 
 
 export default function About ({setScreen, screen}){
@@ -28,7 +29,9 @@ export default function About ({setScreen, screen}){
                     {/* <img src={logoImg} width={190} height={120}/> */}
                     </span>
                     <span className="oyster-logo">
-                    <img src={oysterImg} width={99} height={96}/>
+                    {/* <img src={oysterImg} width={99} height={96}/> */}
+                    <img src={oyster} width={150} height={100}/>
+                    
                     </span>
                     
                 </div>
