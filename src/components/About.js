@@ -30,7 +30,7 @@ export default function About ({setScreen, screen}){
                     </span>
                     <span className="oyster-logo">
                     {/* <img src={oysterImg} width={99} height={96}/> */}
-                    <img src={oyster} width={150} height={100}/>
+                    <img src={oyster} width={90} height={60}/>
                     
                     </span>
                     
@@ -42,7 +42,7 @@ export default function About ({setScreen, screen}){
             <div className="row">
                 <aside className="aside-contact">
                 <div>
-                    <img src={logoImg} width={140} height={82}/>
+                    <img src={logoImg} width={154} height={90}/>
                 </div>
                     <button className="portallink">
                         <ul><li><a onClick={()=>setScreen("home")}>Home</a></li></ul>

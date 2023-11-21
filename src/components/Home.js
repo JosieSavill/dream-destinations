@@ -17,7 +17,7 @@ export default function Home({ setScreen }) {
                 </span>
                 <span className="oyster-logo">
                 {/* <img src={oysterImg} width={99} height={96}/> */}
-                <img src={oyster} width={150} height={100}/>
+                <img src={oyster} width={90} height={60}/>
                 </span>
                 
                 

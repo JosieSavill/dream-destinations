@@ -154,6 +154,9 @@ main {
   display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
 }
 
 .resumeContainer {
@@ -296,14 +299,15 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 15%;
+  padding-top: 10%;
+  
   
   
 }
 
-.oyster-logo {
-  background: transparent;
-}
+// .oyster-logo {
+  
+// }
 
 a {
   color: aliceblue;
