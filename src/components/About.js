@@ -4,11 +4,11 @@ import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
 import Resume from "./NewResume";
-import Home from "./Home"
-
-
+import Home from "./Home";
+import SouthAmerica from "./SouthAmerica";
+import Asia from "./Asia";
 import NorthAmerica from "./NorthAmerica";
-
+import Europe from "./Europe";
 
 
 
@@ -46,15 +46,15 @@ export default function About ({setScreen, screen}){
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>South America</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("south")}>South America</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Europe</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("europe")}>Europe</a></li></ul>
                     </button>
 
                     <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("portfolio")}>Asia</a></li></ul>
+                        <ul><li><a onClick={()=>setScreen("asia")}>Asia</a></li></ul>
                     </button>
 
                     
@@ -80,6 +80,9 @@ export default function About ({setScreen, screen}){
                     {screen === "resume" && <Resume/>  }
                     {screen === "home" && <Home/> }
                     {screen === "north" && <NorthAmerica/> }
+                    {screen === "south" && <SouthAmerica/>}
+                    {screen === "asia" && <Asia/>}
+                    {screen === "europe" && <Europe/>}
                 </div>
             </div>
             <div className="aside">
