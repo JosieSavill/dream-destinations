@@ -1,0 +1,21 @@
+.header {
+  padding: 5px 20px;
+  /* clear: both; */
+  font-family: "Trebuchet MS", sans-serif, Arial;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #07294d;
+  height: auto;
+  z-index: 60;
+}
+
+.gmail {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+  transition: font-weight 0.2s ease-in-out;
+}
