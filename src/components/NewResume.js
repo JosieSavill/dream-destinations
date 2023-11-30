@@ -42,33 +42,7 @@ export default function NewResume (){
             <div className="resume">
                 Our offices are headquartered in beautiful New York, NY, United States.
                 </div>
-            <div className="resumeBold">
-                Travellers
-                </div>
-            <div className="resume">
-                After selecting a potential destination, submit an email to our offices at the address listed below.
-                </div>
-            
-            <div className="resumeBold">
-                Buyers
-                </div>
-            <div className="resume">
-                {/* <a className='gmail' href="https://josiesavill.github.io/horses/"><BsArrowRightShort/>Horses In America</a>
-                <a className='gmail' href="https://josiestechblog.herokuapp.com/"><BsArrowRightShort/>TechBlog</a>
-                <a className='gmail' href="https://josiesavill.github.io/josie-savill-portfolio/"><BsArrowRightShort/>Josie Savill</a> */}
-                Please indicate which property you are interested in and contact us at the email address listed below.
-                </div>
-           
-            <div className="resumeBold">
-                Certifications
-                </div>
-            <div className="resume">
-                Global Hospitality Brokers<br></br> 
-                Certified Hospitalier June, 2003
-                </div>
-            <div  className="resumeBold">
-                Fees
-                </div>
+        
             <div className="resume">
                 <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5g-NDcHm7ATLHYItS1A?e=RlHTo5"><BsArrowRightShort/>Download Pricing PDF</a>
                 </div>
