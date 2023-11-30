@@ -24,9 +24,9 @@
 .resumeHeading {
   display: flex;
   flex-direction: row-reverse;
-  padding-left: 80px;
+  padding-left: 40px;
   padding-top: 80px;
-  padding-right: 80px;
+  padding-right: 40px;
   column-gap: 10px;
   padding-bottom: 20px;
   justify-content: space-evenly;
@@ -39,12 +39,13 @@
 
 .profile-img {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: center;
+  justify-content: center;
   
-  padding-left: 300px;
+  
   padding-top: 10px;
-  padding-right: 300px;
+  
   padding-bottom: 10px;
   
   

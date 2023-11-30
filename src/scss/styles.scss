@@ -393,15 +393,17 @@ code {
 }
 
 .feature{
-  width: 100%;
-  max-width: 100%;
+  // width: 100%;
+  // max-width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+  align-items: center;
   align-items: center;
   text-align: center;
-  padding-top: 30px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-top: 8%;
+  
+
+ 
   
 }
 
@@ -793,10 +795,9 @@ code {
     width: 80%;
   }
 
-  .profile-img {
-    padding-left: 370px;
-    padding-right: 370px;
-  }
+  // .profile-img {
+    
+  // }
 }
 
 .aside{
