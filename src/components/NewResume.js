@@ -1,5 +1,6 @@
 import profile from "../assets/dream-one.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
+import oyster from "../assets/oyster.jpg";
 
 
 export default function NewResume (){
@@ -10,11 +11,13 @@ export default function NewResume (){
         <div className="resumeContainer">
 
             <div className="resumeHeading">
-                Get away from it all ...
+                The World is Your Oyster
                 </div>
-            <div className="profile-img">
-                <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-            </div>
+
+                <div className="img"> 
+                    <img src={oyster} className="oyster-pic" alt="oyster logo img"/>
+                </div>
+            
             <div className="resumeIntroduction">
                 DREAM DESTINATIONS
                 </div>
@@ -31,7 +34,8 @@ export default function NewResume (){
                 </div>
             <div className="resume">
                 Our company has been providing services globally for a 20 years.
-                </div>
+            </div>
+            
             <div className="resumeBold">
                 Location
                 </div>
@@ -54,6 +58,7 @@ export default function NewResume (){
                 <a className='gmail' href="https://josiesavill.github.io/josie-savill-portfolio/"><BsArrowRightShort/>Josie Savill</a> */}
                 Please indicate which property you are interested in and contact us at the email address listed below.
                 </div>
+           
             <div className="resumeBold">
                 Certifications
                 </div>
@@ -67,6 +72,10 @@ export default function NewResume (){
             <div className="resume">
                 <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5g-NDcHm7ATLHYItS1A?e=RlHTo5"><BsArrowRightShort/>Download Pricing PDF</a>
                 </div>
+
+            <div className="img">
+                <img src={profile} className="profile-pic" alt="iceland img"/>
+            </div>
             <div  className="resumeBold">
                 Contact
                 </div>
