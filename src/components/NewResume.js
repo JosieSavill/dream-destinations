@@ -14,10 +14,11 @@ export default function NewResume (){
             <div className="resumeHeading">
                 The World is Your Oyster
                 </div>
-
-                <div className="img"> 
-                    <img src={tanOyster} className="tanOyster-pic" alt="oyster logo img"/>
-                </div>
+                <span className="oyster-logo">
+                
+                <img src={tanOyster} width={194} height={152}/>
+                </span>
+               
             
             <div className="resumeIntroduction">
                 DREAM DESTINATIONS
