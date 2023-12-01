@@ -40,6 +40,7 @@
 
 .img {
   display: flex;
+  width: 100%;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -59,14 +60,26 @@
   
 }
 
-.oyster-pic {
+// .oyster-pic {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-evenly;
+//   // box-shadow: 14px 14px 42px black;
+//   border-radius: 90px;
+//   height: 300px;
+//   width: 300px;
+//   z-index: 30;
+  
+// }
+
+.tanOyster-pic {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   // box-shadow: 14px 14px 42px black;
   border-radius: 90px;
-  height: 300px;
-  width: 300px;
+  height: 324px;
+  width: 190px;
   z-index: 30;
   
 }

@@ -1,6 +1,7 @@
 import profile from "../assets/dream-one.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
-import oyster from "../assets/oyster.jpg";
+// import oyster from "../assets/oyster.jpg";
+import tanOyster from "../assets/oyster-tan-gray.gif";
 
 
 export default function NewResume (){
@@ -15,7 +16,7 @@ export default function NewResume (){
                 </div>
 
                 <div className="img"> 
-                    <img src={oyster} className="oyster-pic" alt="oyster logo img"/>
+                    <img src={tanOyster} className="tanOyster-pic" alt="oyster logo img"/>
                 </div>
             
             <div className="resumeIntroduction">

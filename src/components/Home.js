@@ -1,7 +1,8 @@
 import React from "react";
 // import logoImg from "../assets/castle.svg";
-import oysterImg from "../assets/oyster.jpg";
-import oyster from "../assets/oyster.jpg";
+// import oysterImg from "../assets/oyster.jpg";
+// import oyster from "../assets/oyster.jpg";
+import tanOyster from "../assets/oyster-tan-gray.gif";
 
 
 export default function Home({ setScreen }) {
@@ -17,7 +18,7 @@ export default function Home({ setScreen }) {
                 </span>
                 <span className="oyster-logo">
                 {/* <img src={oysterImg} width={99} height={96}/> */}
-                <img src={oyster} width={90} height={60}/>
+                <img src={tanOyster} width={129} height={76}/>
                 </span>
                 
                 
