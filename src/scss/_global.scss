@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+:root{
+  --navyblue: #07294d; 
+  --navyblueO: #07294d70; /*to add transperncy just additional nuumbers to the hex rgba(0,0,0,.5)*/
+  --navyblueDark: #07294d90;
+}
+
+html {
+  height: 100%;
+  
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(44, 44, 44);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+input, select, option, optgroup, textarea, button, pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+
+
+
+
+
+main {
+  display: flex;
+  flex: wrap;
+
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+}

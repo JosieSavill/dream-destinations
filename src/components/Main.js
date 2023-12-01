@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import Nav from "./TopNav";
 import {  FaLinkedin } from 'react-icons/fa';
 import myVideo  from "../assets/dark-horse.mp4";
 import Footer from "./Footer";
@@ -12,11 +12,13 @@ import Europe from "./Europe";
 import logoImg from "../assets/castle.svg";
 import oysterImg from "../assets/oyster.jpg";
 import oyster from "../assets/oyster.jpg";
+import MainNav from "./MainNav";
+import Header from "./Header";
 
 
-export default function About ({setScreen, screen}){
+export default function Main ({setScreen, screen}){
     return <div>
-        <Nav setScreen={setScreen}/>
+        <Header setScreen={setScreen}/>
         <div className="video-background">
             <video autoPlay loop muted style={{width: "100%"}}>
                 <source src={myVideo} type="video/mp4" />
@@ -44,43 +46,11 @@ export default function About ({setScreen, screen}){
                 <div>
                     <img src={logoImg} width={154} height={90}/>
                 </div>
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("home")}>Home</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("resume")}>About</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("north")}>North America</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("south")}>South America</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("europe")}>Europe</a></li></ul>
-                    </button>
-
-                    <button className="portallink">
-                        <ul><li><a onClick={()=>setScreen("asia")}>Asia</a></li></ul>
-                    </button>
-
-                    
-                    <button className="portallink createAccount" style={{ border: '2px solid white', padding: '10px' }}>
-                        <ul>
-                            <li>
-                            <a onClick={() => setScreen("portfolio")}>Create Account</a>
-                            </li>
-                        </ul>
-                    </button>
-
+                <MainNav setScreen={setScreen} />
                 </aside>
                 {/* {screen === "about" && <Footer type="mobile"/>} */}
                 
-                
+               
                
                 
               

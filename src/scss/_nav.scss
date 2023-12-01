@@ -1,17 +1,66 @@
 .header {
-  padding: 5px 20px;
+  // padding: 5px 20px;
+  display: flex;
+  
   position: fixed;
   width: 100%;
+  height: 50px;
   /* clear: both; */
   font-family: "Trebuchet MS", sans-serif, Arial;
   color: #000;
   display: flex;
   flex-direction: row;
   justify-content: end;
+  align-items: center;
   background-color: #07294d;
-  height: auto;
+  
   z-index: 60;
 }
+
+.header nav {
+  display: flex; 
+  justify-content: space-evenly;
+  padding-top: 10px;
+  /* margin-right: 20px; */
+  font-family: 'Gill Sans', sans-serif, Calibri;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.header ul{
+  gap: 80px;
+  width: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  height: auto;
+  z-index: 70;
+}
+.portallink ul{
+  list-style: none;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+
+
 
 .gmail {
   display: flex;
