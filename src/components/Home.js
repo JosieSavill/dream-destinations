@@ -1,7 +1,4 @@
 import React from "react";
-// import logoImg from "../assets/castle.svg";
-// import oysterImg from "../assets/oyster.jpg";
-// import oyster from "../assets/oyster.jpg";
 import tanOyster from "../assets/oyster-tan-gray.gif";
 
 

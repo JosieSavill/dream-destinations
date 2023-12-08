@@ -1,6 +1,6 @@
 import linkLogo from "../assets/linkedin-logo.png";
-import githubLogo from "../assets/github-logo.jpg";
-import stackLogo from "../assets/stack-exchange-logo-transparent.png";
+// import githubLogo from "../assets/github-logo.jpg";
+// import stackLogo from "../assets/stack-exchange-logo-transparent.png";
 
 import { FaStackExchange, FaLinkedin, FaGithub } from 'react-icons/fa';
 

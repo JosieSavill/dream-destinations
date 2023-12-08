@@ -1,11 +1,8 @@
 .header {
-  // padding: 5px 20px;
   display: flex;
-  
   position: fixed;
   width: 100%;
   height: 50px;
-  /* clear: both; */
   font-family: "Trebuchet MS", sans-serif, Arial;
   color: #000;
   display: flex;
@@ -21,7 +18,6 @@
   display: flex; 
   justify-content: space-evenly;
   padding-top: 10px;
-  /* margin-right: 20px; */
   font-family: 'Gill Sans', sans-serif, Calibri;
   font-size: 20px;
   width: 100%;
@@ -58,9 +54,6 @@ a {
   justify-content: center;
   margin: 10px;
 }
-
-
-
 
 .gmail {
   display: flex;

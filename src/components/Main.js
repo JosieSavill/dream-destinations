@@ -10,8 +10,7 @@ import Asia from "./Asia";
 import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
 import logoImg from "../assets/castle.svg";
-import oysterImg from "../assets/oyster.jpg";
-import oyster from "../assets/oyster.jpg";
+import oyster from "../assets/oyster-tan-gray.gif";
 import MainNav from "./MainNav";
 import Header from "./Header";
 

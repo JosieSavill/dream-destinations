@@ -1,6 +1,5 @@
 import profile from "../assets/dream-one.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
-// import oyster from "../assets/oyster.jpg";
 import tanOyster from "../assets/oyster-tan-gray.gif";
 
 
