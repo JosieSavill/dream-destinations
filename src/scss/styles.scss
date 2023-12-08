@@ -13,47 +13,6 @@
 @import "contact.scss";
 
 
-.portfolio > div{
-  width: 31%;;
-}
-
-.portfolio > div img{
-  width: 100% !important;
-}
-
-.work-portfolio {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 200px;
-}
-
-.portfolio {
-  padding: 20px;
-  clear: both;
-  height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
-  color: aliceblue;
-
-}
-
-.portfolio h2 {
-  color: aliceblue;
-  font-size: 30px;
-  padding-top: 0;
-  padding-bottom: 5px;
-}
-
-.portfolio h3{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 5px;
-  
-}
-
 h3 {
   display: flex;
   flex-direction: row;
@@ -191,26 +150,7 @@ button:hover {
   font-weight: bolder;
 }
 
-.footer {
-  clear: both;
-  font-family: 'Trebuchet MS', 
-  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-}
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-
-}
 
 .desktop{
   display: flex;
@@ -232,15 +172,7 @@ button:hover {
   display: none;
 }
 
-.footer ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-  position: relative;
-  transition: font-weight font-size 0.15s eas;
-  
-}
+
 
 form{
   max-width: 500px;
