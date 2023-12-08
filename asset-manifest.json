@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/dream-destinations/static/css/main.b3304628.css",
-    "main.js": "/dream-destinations/static/js/main.1cbe9d1b.js",
+    "main.css": "/dream-destinations/static/css/main.5f432949.css",
+    "main.js": "/dream-destinations/static/js/main.da13be53.js",
     "static/js/787.a9677a29.chunk.js": "/dream-destinations/static/js/787.a9677a29.chunk.js",
     "static/media/dark-horse.mp4": "/dream-destinations/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
-    "static/media/oyster.jpg": "/dream-destinations/static/media/oyster.2792a374c8b3ba0c6137.jpg",
-    "static/media/github-logo.jpg": "/dream-destinations/static/media/github-logo.a9654661dfa08223d7a2.jpg",
     "static/media/oyster-tan-gray.gif": "/dream-destinations/static/media/oyster-tan-gray.aebd125450434273a212.gif",
     "static/media/linkedin-logo.png": "/dream-destinations/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
-    "static/media/stack-exchange-logo-transparent.png": "/dream-destinations/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "static/media/castle.svg": "/dream-destinations/static/media/castle.beddd311a6538bec60f424658496d24f.svg",
     "index.html": "/dream-destinations/index.html",
-    "main.b3304628.css.map": "/dream-destinations/static/css/main.b3304628.css.map",
-    "main.1cbe9d1b.js.map": "/dream-destinations/static/js/main.1cbe9d1b.js.map",
+    "main.5f432949.css.map": "/dream-destinations/static/css/main.5f432949.css.map",
+    "main.da13be53.js.map": "/dream-destinations/static/js/main.da13be53.js.map",
     "787.a9677a29.chunk.js.map": "/dream-destinations/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3304628.css",
-    "static/js/main.1cbe9d1b.js"
+    "static/css/main.5f432949.css",
+    "static/js/main.da13be53.js"
   ]
 }
