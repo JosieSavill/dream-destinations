@@ -1,3 +1,43 @@
+header{
+  .topNav{
+    background: blue;
+    color: white;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    @media screen and (max-width:600px) {
+      flex-direction: column
+  }
+  }
+
+  .mainNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+      font-size: 25px;
+      justify-content: space-evenly;
+      gap: 20px;
+      align-items: center;
+    }
+    
+    @media screen and (max-width:600px) {
+        
+        flex-direction: column
+    }
+  }
+  ul{
+    display: flex;
+    list-style-type: none !important;
+  }
+}
+
+
+
+
+
+
+/*
 .header {
   display: flex;
   position: fixed;
@@ -63,3 +103,4 @@ a {
   font-style: italic;
   transition: font-weight 0.2s ease-in-out;
 }
+*/
