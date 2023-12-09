@@ -12,7 +12,7 @@ import Europe from "./Europe";
 import logoImg from "../assets/castle.svg";
 import oyster from "../assets/oyster-tan-gray.gif";
 import MainNav from "./MainNav";
-import Header from "./Header";
+// import Header from "./Header";
 import Nav from "./Nav";
 
 
@@ -30,10 +30,8 @@ export default function Main ({setScreen, screen}){
             <div className="feature-mobile">
                 <div className="logo">DREAM DESTINATIONS{' '}<br></br>
                     <span className="logo-description">The World is your Oyster
-                    {/* <img src={logoImg} width={190} height={120}/> */}
                     </span>
                     <span className="oyster-logo">
-                    {/* <img src={oysterImg} width={99} height={96}/> */}
                     <img src={oyster} width={90} height={60}/>
                     
                     </span>
@@ -44,13 +42,13 @@ export default function Main ({setScreen, screen}){
 
         
             <div className="row">
-                <aside className="aside-contact">
+                {/* <aside className="aside-contact">
                 <div>
                     <img src={logoImg} width={154} height={90}/>
                 </div>
                 <MainNav setScreen={setScreen} />
-                </aside>
-                {/* {screen === "about" && <Footer type="mobile"/>} */}
+                </aside> */}
+                
             </div>
             <div className="row">
             <div className="feature">
