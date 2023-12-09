@@ -51,11 +51,6 @@ export default function Main ({setScreen, screen}){
                 <MainNav setScreen={setScreen} />
                 </aside>
                 {/* {screen === "about" && <Footer type="mobile"/>} */}
-                
-               
-               
-                
-              
             </div>
             <div className="row">
             <div className="feature">
