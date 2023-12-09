@@ -29,151 +29,6 @@ h3 {
   flex: 1;
 }
 
-.aside-contact {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-evenly;
-  padding-top:  80px;
-  min-height: 20%;
-  max-height: 20%;
-  width: 100%;
-  font-family: Lato;
-  background-color: transparent;
-  max-width: 90%;
-  position: fixed;
-  z-index: 50;
-}
-
-
-.portallinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  padding-top: 8px;
-  padding-left: 10px;
-  padding-bottom: 8px;
-  padding-right: 10px;
-  z-index: 300;
-}
-
-.createAccount {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  padding: 0px;
-  z-index: 300;
-  border: white;
-  border-width: 2px;
-}
-
-button {
-  display: flex;
-  flex: column;
-  background-color: transparent;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  border: none;
-  height: 70px;
-  width: 170px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 12px;
-  transition: 0.1s;
-  padding-bottom: 40px;
-  transition: color 0.2s ease;
-  transition: text-shadow 0.2s ease;
-  justify-content: center;
-  gap: 10px;
-  
-}
-
-button:hover {
-  background-color: transparent;
-  color: white;
-  text-shadow: 4px 4px 42px black;
-  font-style: bolder;
-  font-size: 22px;
-  font-weight: bolder;
-  justify-content: center;
-  
-}
-
-.downloadresume {
-  font-family: 'Gill Sans', sans-serif, Calibri;
-  font-size: 20px;
- 
-  transition: font-weight 0.2s ease-in-out;
-  color: white;
-  margin: 8px;
-  transition: text-shadow 0.2s ease;
-  text-align: center;
-}
-
-.email {
-  font-size: 20px;
-  color: white;
-  margin-bottom: 0;
-
-}
-
-
-.gmail:hover {
-  font-size: 20px;
-  font-weight: bold;
-  
-}
-
-.downloadresume:hover {
-  font-style: bolder;
-  font-size: 22px;
-  text-shadow: 4px 4px 42px black; 
-  
-}
-
-.viewrepository {
-  flex: row;
-  justify-content: center;
-  text-align: center;
-  font-style: italic;
-  color: white;
-  font-size: 20px;
-  transition: font-weight 0.2s;
-  
-}
-
-.viewrepository:hover {
-  font-weight: bolder;
-}
-
-
-
-.desktop{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 0;
-  max-width: 30%;
-  padding-top: 80px;
-  padding-left: 0px;
-  padding-right: 0px;
-  text-align: center;
-  position: fixed;
-  height: auto;
-  padding-top: 40%;
-  
-}
-
-.mobile{
-  display: none;
-}
-
-
-
 form{
   max-width: 500px;
   display: flex;
@@ -187,7 +42,6 @@ form{
   flex-direction: column;
   min-height: 100vh;
 }
-
 
 body {
   margin: 0;
@@ -233,397 +87,11 @@ code {
   padding-top: 10%;
 }
 
-
-@media (max-width: 750px) {
-
-  form input[type="text"],
-  form textarea {
-    width: 80%;
-    /* other styles */
-  }
-  .video-background{
-    position: fixed;
-    max-height: 33vh;
-    z-index: 100;
-  }
- 
-}
-
-
-@media (max-width: 750px) {
-
-  .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 107px;
-    min-height: 97vh;
-    z-index: -1;
-    margin-top: 8px;
-    
-  }
-  
-  .aside-contact {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    min-height: 10px;
-    max-height: 10vh;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 80px;
-    gap: 60px;
-    position: relative;
-    z-index: 80;
-    
-  }
-
-  @media (max-width: 600px) {
-    .feature{
-      display: none !important;
-    }
-    .feature-mobile{
-      position: absolute;
-      top: 0px;
-      display: block;
-    }
-    .logo {
-      font-size: 14px;
-      padding-left: 0px !important;
-    }
-
-    .logo-description {
-      font-size: 12px !important;
-      padding-left: 0px;
-    }
-    .row{
-      padding-top: 100px;
-      min-height: 0px;
-    }
-    .aside-contact {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 100%;
-      padding: 0px;
-      gap: 0px;
-      font-size: 12px;
-      z-index: 120;
-      margin-top: 10px;
-
-    }
-  }
-
-  
-
-  .feature {
-    width: 99%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    z-index: 50;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    
-
-  }
-
-  .feature:empty{
-    min-height: 100vh;
-  }
-}
-
-
-
-@media (max-width: 750px) {
-  .desktop{
-    display: none;
-  }
-  .mobile{
-    display: flex;
-  }
-  .footer {
-    
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 40px;
-    position: relative;
-    z-index: 55;
-    
-    
-    margin-top: 0;
-
-    
-    padding-top: 10px;
-    
-   
-  }
-  
-  .header {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .logo {
-    justify-content: center;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 60px;
-    padding-right: 40px;
-    padding-bottom: 0px;
-    margin: 0;
-    z-index: 200;
-
-  }
-}
-
 .logo-description {
   font-size: 22px;
   font-style: italic;
   color: white;
   text-align: center;
-}
-
-@media (max-width: 750px) {
-  .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-  }
-
-  .projects h3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* padding-left: 14px; */
-    text-align: center;
-
-  }
-  
-  .portfolio > div {
-      width: 100%;
-  }
-
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 0;
-    z-index: 50;
-  }
-
-  .viewrepository {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 0;
-    padding-bottom: 5px;
-    margin: 0;
-    transition: font-size  cursor 0.1s ease;
-  }
-
-  .viewrepository:hover {
-    color: white;
-    text-shadow: 4px 4px 42px black;
-    font-style: bolder;
-    font-size: 22px;
-    cursor: pointer;
-    font-weight: bolder;
-    
-  }
-  
-}
-
-@media (max-width: 750px) {
-  .goals {
-    flex: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    margin: 0;
-    z-index: 50;
-
-  }
-
-
-
-
-  .resume {
-    flex: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0;
-    z-index: 50;
-    
-  }
-
-  .resumeIntroduction {
-    flex: column;
-    flex-direction: wrap;
-    justify-content: center;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    z-index: 50px;
-
-  }
-
-  .resumeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    z-index: 50;
-
-  }
-
-  .newResume {
-    flex: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    z-index: 50;
-    /* margin-top: 590px; */
-    
-
-  }
-  
-  .bgBox {
-    display: flex;
-    flex: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    z-index: 50;
-    width: 90%;
-    
-  }
-}
-
-@media (max-width: 750px) {
-  .profile-pic {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin-left: 22px; */
-    
-  }
-
-  .profile-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 55px;
-    padding-top: 10px;
-    padding-right: 55px;
-    padding-bottom: 10px;
-
-  }
-
-  .resumeHeading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-@media (max-width: 750px) {
-  button {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    row-gap: 20px;
-    padding: 8px 10px 8px 10px;
-    text-align: center;
-    transition: font-weight 0.1s ease;
-    /* transition: opacity 0.1s ease-in-out; */
-    border: none;
-    box-shadow: none;
-    
-  }
-
-  .button:hover {
-    color: white;
-    text-shadow: 4px 4px 42px black;
-    font-style: bolder;
-    font-size: 22px;
-    font-weight: bolder;
-    opacity: 0.6;
-  
-  }
-
-  .portallinks {
-    text-align: center;
-    flex-direction: row;
-    font-size: 18px;
-  }
-
-  .gmail {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    font-style: italic;
-    /* transition: font-weight 0.2s ease-in-out; */
-    
-  }
-
-  .resume-email {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1.5;
-  
-  }
-
-}
-
-@media (min-width: 1400px) {
-  .feature {
-    width: 80%;
-  }
-
-  // .profile-img {
-    
-  // }
 }
 
 .aside{
@@ -646,25 +114,508 @@ code {
 }
 
 
-@media (max-width: 600px) {
-  button {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    row-gap: 5px;
-    padding: 0px;
-    font-size: 12px;
-    text-align: center;
-    transition: font-weight 0.1s ease;
-    /* transition: opacity 0.1s ease-in-out; */
-    border: none;
-    box-shadow: none;
-    
-  }
 
-  .video-background{
-    position: relative;
-    max-height: none;
-    z-index: 100;
-  }
-}
+
+
+// button {
+//   display: flex;
+//   flex: column;
+//   background-color: transparent;
+//   color: white;
+//   font-weight: bold;
+//   font-size: 20px;
+//   letter-spacing: 0.1em;
+//   border: none;
+//   height: 70px;
+//   width: 170px;
+//   cursor: pointer;
+//   text-align: center;
+//   padding-top: 12px;
+//   transition: 0.1s;
+//   padding-bottom: 40px;
+//   transition: color 0.2s ease;
+//   transition: text-shadow 0.2s ease;
+//   justify-content: center;
+//   gap: 10px;
+  
+// }
+
+// button:hover {
+//   background-color: transparent;
+//   color: white;
+//   text-shadow: 4px 4px 42px black;
+//   font-style: bolder;
+//   font-size: 22px;
+//   font-weight: bolder;
+//   justify-content: center;
+  
+// }
+
+// .downloadresume {
+//   font-family: 'Gill Sans', sans-serif, Calibri;
+//   font-size: 20px;
+ 
+//   transition: font-weight 0.2s ease-in-out;
+//   color: white;
+//   margin: 8px;
+//   transition: text-shadow 0.2s ease;
+//   text-align: center;
+// }
+
+// .email {
+//   font-size: 20px;
+//   color: white;
+//   margin-bottom: 0;
+
+// }
+
+
+// .gmail:hover {
+//   font-size: 20px;
+//   font-weight: bold;
+  
+// }
+
+// .downloadresume:hover {
+//   font-style: bolder;
+//   font-size: 22px;
+//   text-shadow: 4px 4px 42px black; 
+  
+// }
+
+// .viewrepository {
+//   flex: row;
+//   justify-content: center;
+//   text-align: center;
+//   font-style: italic;
+//   color: white;
+//   font-size: 20px;
+//   transition: font-weight 0.2s;
+  
+// }
+
+// .viewrepository:hover {
+//   font-weight: bolder;
+// }
+
+
+
+// .desktop{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   margin-left: 0;
+//   max-width: 30%;
+//   padding-top: 80px;
+//   padding-left: 0px;
+//   padding-right: 0px;
+//   text-align: center;
+//   position: fixed;
+//   height: auto;
+//   padding-top: 40%;
+  
+// }
+
+// .mobile{
+//   display: none;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width: 750px) {
+
+//   form input[type="text"],
+//   form textarea {
+//     width: 80%;
+//     /* other styles */
+//   }
+//   .video-background{
+//     position: fixed;
+//     max-height: 33vh;
+//     z-index: 100;
+//   }
+ 
+// }
+
+
+// @media (max-width: 750px) {
+
+//   .row {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     padding-top: 107px;
+//     min-height: 97vh;
+//     z-index: -1;
+//     margin-top: 8px;
+    
+//   }
+  
+
+
+//   @media (max-width: 600px) {
+//     .feature{
+//       display: none !important;
+//     }
+//     .feature-mobile{
+//       position: absolute;
+//       top: 0px;
+//       display: block;
+//     }
+//     .logo {
+//       font-size: 14px;
+//       padding-left: 0px !important;
+//     }
+
+//     .logo-description {
+//       font-size: 12px !important;
+//       padding-left: 0px;
+//     }
+//     .row{
+//       padding-top: 100px;
+//       min-height: 0px;
+//     }
+    
+//   }
+
+  
+
+//   .feature {
+//     width: 99%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: center;
+//     z-index: 50;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     padding-top: 10px;
+    
+
+//   }
+
+//   .feature:empty{
+//     min-height: 100vh;
+//   }
+// }
+
+
+
+// @media (max-width: 750px) {
+//   .desktop{
+//     display: none;
+//   }
+//   .mobile{
+//     display: flex;
+//   }
+//   .footer {
+    
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: center;
+//     padding-bottom: 40px;
+//     padding-top: 20px;
+//     padding-left: 10px;
+//     padding-right: 40px;
+//     position: relative;
+//     z-index: 55;
+    
+    
+//     margin-top: 0;
+
+    
+//     padding-top: 10px;
+    
+   
+//   }
+  
+//   .header {
+//     width: 100%;
+//     flex-direction: column;
+//   }
+
+//   .logo {
+//     justify-content: center;
+//     text-align: center;
+//     padding-left: 20px;
+//     padding-top: 60px;
+//     padding-right: 40px;
+//     padding-bottom: 0px;
+//     margin: 0;
+//     z-index: 200;
+
+//   }
+// }
+
+
+// @media (max-width: 750px) {
+//   .projects {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     width: 100%;
+//     padding-top: 0;
+//     padding-bottom: 0;
+//     padding-left: 10px;
+//     padding-right: 10px;
+    
+//   }
+
+//   .projects h3 {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+    
+//     text-align: center;
+
+//   }
+  
+//   .portfolio > div {
+//       width: 100%;
+//   }
+
+//   .portfolio {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     padding-top: 0;
+//     z-index: 50;
+//   }
+
+//   .viewrepository {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-evenly;
+//     padding-top: 0;
+//     padding-bottom: 5px;
+//     margin: 0;
+//     transition: font-size  cursor 0.1s ease;
+//   }
+
+//   .viewrepository:hover {
+//     color: white;
+//     text-shadow: 4px 4px 42px black;
+//     font-style: bolder;
+//     font-size: 22px;
+//     cursor: pointer;
+//     font-weight: bolder;
+    
+//   }
+  
+// }
+
+// @media (max-width: 750px) {
+//   .goals {
+//     flex: column;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     text-align: center;
+//     padding-top: 10px;
+//     padding-left: 40px;
+//     padding-right: 40px;
+//     padding-bottom: 20px;
+//     margin: 0;
+//     z-index: 50;
+
+//   }
+
+
+
+
+//   .resume {
+//     flex: column;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     text-align: center;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     margin: 0;
+//     z-index: 50;
+    
+//   }
+
+//   .resumeIntroduction {
+//     flex: column;
+//     flex-direction: wrap;
+//     justify-content: center;
+//     padding-top: 10px;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     padding-bottom: 20px;
+//     z-index: 50px;
+
+//   }
+
+//   .resumeContainer {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     padding-top: 0;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     padding-bottom: 20px;
+//     z-index: 50;
+
+//   }
+
+//   .newResume {
+//     flex: column;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     text-align: center;
+//     padding-top: 0;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     padding-bottom: 20px;
+//     z-index: 50;
+    
+    
+
+//   }
+  
+//   .bgBox {
+//     display: flex;
+//     flex: column;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     text-align: center;
+//     padding-left: 40px;
+//     padding-right: 40px;
+//     z-index: 50;
+//     width: 90%;
+    
+//   }
+// }
+
+// @media (max-width: 750px) {
+//   .profile-pic {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+    
+    
+//   }
+
+//   .profile-img {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     padding-left: 55px;
+//     padding-top: 10px;
+//     padding-right: 55px;
+//     padding-bottom: 10px;
+
+//   }
+
+//   .resumeHeading {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     gap: 30px;
+//     padding-top: 10px;
+//     padding-left: 40px;
+//     padding-right: 40px;
+//   }
+// }
+
+// @media (max-width: 750px) {
+//   button {
+//     width: 30%;
+//     display: flex;
+//     flex-direction: row;
+//     row-gap: 20px;
+//     padding: 8px 10px 8px 10px;
+//     text-align: center;
+//     transition: font-weight 0.1s ease;
+    
+//     border: none;
+//     box-shadow: none;
+    
+//   }
+
+//   .button:hover {
+//     color: white;
+//     text-shadow: 4px 4px 42px black;
+//     font-style: bolder;
+//     font-size: 22px;
+//     font-weight: bolder;
+//     opacity: 0.6;
+  
+//   }
+
+//   .portallinks {
+//     text-align: center;
+//     flex-direction: row;
+//     font-size: 18px;
+//   }
+
+//   .gmail {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+//     justify-content: center;
+//     font-style: italic;
+    
+    
+//   }
+
+//   .resume-email {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     line-height: 1.5;
+  
+//   }
+
+// }
+
+// @media (min-width: 1400px) {
+//   .feature {
+//     width: 80%;
+//   }
+
+  
+// }
+
+
+
+
+
+
+// @media (max-width: 600px) {
+//   button {
+//     width: 30%;
+//     display: flex;
+//     flex-direction: row;
+//     row-gap: 5px;
+//     padding: 0px;
+//     font-size: 12px;
+//     text-align: center;
+//     transition: font-weight 0.1s ease;
+    
+//     border: none;
+//     box-shadow: none;
+    
+//   }
+
+//   .video-background{
+//     position: relative;
+//     max-height: none;
+//     z-index: 100;
+//   }
+// }

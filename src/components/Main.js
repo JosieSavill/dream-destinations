@@ -1,7 +1,5 @@
-import TopNav from "./TopNav";
 import {  FaLinkedin } from 'react-icons/fa';
 import myVideo  from "../assets/dark-horse.mp4";
-import Footer from "./Footer";
 import NewPortfolio from "./NewPortfolio";
 import Resume from "./NewResume";
 import Home from "./Home";
@@ -9,17 +7,17 @@ import SouthAmerica from "./SouthAmerica";
 import Asia from "./Asia";
 import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
-import logoImg from "../assets/castle.svg";
 import oyster from "../assets/oyster-tan-gray.gif";
-import MainNav from "./MainNav";
-// import Header from "./Header";
 import Nav from "./Nav";
+// import TopNav from "./TopNav";
+// import Footer from "./Footer";
+// import logoImg from "../assets/castle.svg";
+// import MainNav from "./MainNav";
 
 
 export default function Main ({setScreen, screen}){
     return <div>
         <Nav setScreen={setScreen}/>
-        { /* <Header setScreen={setScreen}/> */}
 
         <div className="video-background">
             <video autoPlay loop muted style={{width: "100%"}}>
@@ -33,24 +31,12 @@ export default function Main ({setScreen, screen}){
                     </span>
                     <span className="oyster-logo">
                     <img src={oyster} width={90} height={60}/>
-                    
                     </span>
-                    
                 </div>
             </div>
         </div>
-
-        
-            <div className="row">
-                {/* <aside className="aside-contact">
-                <div>
-                    <img src={logoImg} width={154} height={90}/>
-                </div>
-                <MainNav setScreen={setScreen} />
-                </aside> */}
-                
-            </div>
-            <div className="row">
+            
+        <div className="row">
             <div className="feature">
                     {screen === "portfolio" && <NewPortfolio/>  }
                     {screen === "resume" && <Resume/>  }
@@ -59,12 +45,13 @@ export default function Main ({setScreen, screen}){
                     {screen === "south" && <SouthAmerica/>}
                     {screen === "asia" && <Asia/>}
                     {screen === "europe" && <Europe/>}
-                </div>
             </div>
-            <div className="aside">
+        </div>
+
+        <div className="aside">
                 <a href="https://www.linkedin.com/company/gtp-greek-travel-pages-tourism-&-travel-guide/about/" className="linkedinlogo" >
                 <FaLinkedin/> LinkedIn</a>
-            </div>  
+        </div>  
         
     </div>
         
