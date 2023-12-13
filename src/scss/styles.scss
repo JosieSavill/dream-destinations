@@ -11,6 +11,7 @@
 @import "europe.scss";
 @import "footer.scss";
 @import "contact.scss";
+@import "main.scss";
 
 
 h3 {
@@ -78,40 +79,9 @@ code {
   
 }
 
-.feature{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 10%;
-}
 
-.logo-description {
-  font-size: 22px;
-  font-style: italic;
-  color: white;
-  text-align: center;
-}
 
-.aside{
-  position: fixed;
-  bottom: 50px;
-  right: 0px;
-  padding: 30px;
-  background-color: var(--navyblueO);
-}
 
-.aside:before {
-  content: "";
-  position: absolute;
-  right: 100%;
-  top: 0;
-  bottom: 0;
-  width: 30px;
-  background-color: var(--navyblueO);
-  clip-path: polygon(100% 0, 100% 100%, 0 50%);
-}
 
 
 

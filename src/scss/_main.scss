@@ -1,0 +1,24 @@
+.aside{
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  padding: 30px;
+
+  background-color: var(--navyblueO);
+}
+
+.aside:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: var(--navyblueO);
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
+.aside a.linkedinlogo {
+  text-decoration: none;
+  color: white;
+}
