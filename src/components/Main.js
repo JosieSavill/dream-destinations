@@ -1,7 +1,7 @@
 import {  FaLinkedin } from 'react-icons/fa';
 import myVideo  from "../assets/dark-horse.mp4";
-import NewPortfolio from "./NewPortfolio";
-import Resume from "./NewResume";
+import CreateAccount from "./CreateAccount";
+import About from "./About";
 import Home from "./Home";
 import SouthAmerica from "./SouthAmerica";
 import Asia from "./Asia";
@@ -9,10 +9,7 @@ import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
 import oyster from "../assets/oyster-tan-gray.gif";
 import Nav from "./Nav";
-// import TopNav from "./TopNav";
-// import Footer from "./Footer";
-// import logoImg from "../assets/castle.svg";
-// import MainNav from "./MainNav";
+
 
 
 export default function Main ({setScreen, screen}){
@@ -38,8 +35,8 @@ export default function Main ({setScreen, screen}){
             
         <div className="row">
             <div className="feature">
-                    {screen === "portfolio" && <NewPortfolio/>  }
-                    {screen === "resume" && <Resume/>  }
+                    {screen === "portfolio" && <CreateAccount/>  }
+                    {screen === "resume" && <About/>  }
                     {screen === "home" && <Home/> }
                     {screen === "north" && <NorthAmerica/> }
                     {screen === "south" && <SouthAmerica/>}

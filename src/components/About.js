@@ -3,7 +3,7 @@ import {BsArrowRightShort} from 'react-icons/bs';
 import tanOyster from "../assets/oyster-tan-gray.gif";
 
 
-export default function NewResume (){
+export default function About (){
 
 
     return <div className="newResume">

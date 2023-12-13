@@ -24,9 +24,9 @@ header{
       align-items: center;
     }
 
-    @media screen and (max-width:600px) {
-      flex-direction: column
-  }
+    // @media screen and (max-width:600px) {
+    //   flex-direction: column
+    // }
   }
 
   .mainNav{
@@ -53,45 +53,63 @@ header{
       align-items: center;
     }
 
-    // .createAccount {
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: center;
-    //   text-align: center;
-    //   padding: 0px;
-    //   z-index: 300;
-    //   border: white;
-    //   border-width: 2px;
-    // }
+    .createAccount {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      padding: 0px;
+      z-index: 300;
+      border: white;
+      border-width: 2px;
+    }
 
-    // .portallinks {
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: center;
-    //   text-align: center;
-    //   padding-top: 8px;
-    //   padding-left: 10px;
-    //   padding-bottom: 8px;
-    //   padding-right: 10px;
-    //   z-index: 300;
-    // }
+    .portallinks {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      padding-top: 8px;
+      padding-left: 10px;
+      padding-bottom: 8px;
+      padding-right: 10px;
+      z-index: 300;
+    }
 
     li {
       padding: 5px;
     }
     
-    @media screen and (max-width:600px) {
+    // @media screen and (max-width:600px) {
         
-        flex-direction: column
-    }
+    //     flex-direction: column
+    // }
   }
-  // ul{
-  //   display: flex;
-  //   list-style-type: none !important;
-  // }
+  
 }
 
-
+// button {
+//   display: flex;
+//   flex: column;
+//   background-color: transparent;
+//   color: white;
+//   font-weight: bold;
+//   font-size: 20px;
+//   letter-spacing: 0.1em;
+//   border: none;
+//   height: 70px;
+//   width: 170px;
+//   cursor: pointer;
+//   text-align: center;
+//   padding-top: 12px;
+//   transition: 0.1s;
+//   padding-bottom: 40px;
+//   transition: color 0.2s ease;
+//   transition: text-shadow 0.2s ease;
+//   justify-content: center;
+//   gap: 10px;
+  
+// }
 
 
 

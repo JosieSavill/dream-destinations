@@ -1,4 +1,4 @@
-export default function NewPortfolio (){
+export default function CreateAccount (){
 
     return  <section className="portfolio">
 
