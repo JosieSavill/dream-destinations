@@ -1,4 +1,5 @@
 header{
+
   .topNav{
     background-color: var(--navyblue);
     color: white;
@@ -50,7 +51,7 @@ header{
     max-height: 20%;
     width: 100%;
     // max-width: 90%;
-    padding-top: 80px;
+    padding-top: 5px;
     position: fixed;
     text-align: center;
     z-index: 60;
@@ -69,6 +70,8 @@ header{
       align-items: center;
     }
 
+    
+
     ul a:hover {
       color: var(--navyblue);
       font-weight: bolder;
@@ -84,7 +87,16 @@ header{
     
 
     li {
-      padding: 10px;
+      
+      padding: 20px;
+    }
+
+    li:last-child a {
+      border: 2px solid white; 
+      border-color: white;
+      background-color: none;
+      padding: 20px 20px;
+      border-radius: 5px;
     }
     
     // @media screen and (max-width:600px) {
