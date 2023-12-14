@@ -11,24 +11,19 @@ export default function About (){
         <div className="resumeContainer">
 
             <div className="resumeHeading">
-                The World is Your Oyster
-                </div>
-                <span className="oyster-logo">
-                
-                <img src={tanOyster} width={194} height={152}/>
-                </span>
-               
-            
-            <div className="resumeIntroduction">
                 DREAM DESTINATIONS
-                </div>
+            </div>
+
+            <div className="img">
+                <img src={profile} className="profile-pic" alt="iceland img"/>
+            </div>
+
             <div className="goals">    
                 Our goal is to make travel and home ownership easily accessible and stress free.
                 <br></br>
                 <br></br>
                 We enjoy working with potential buyers as well as travellers.
-                </div>    
-                                
+            </div>    
            
             <div className="resumeBold">
                 History
@@ -48,9 +43,14 @@ export default function About (){
                 <a className='gmail' href="https://1drv.ms/w/s!AhfCqpI38Ls5g-NDcHm7ATLHYItS1A?e=RlHTo5"><BsArrowRightShort/>Download Pricing PDF</a>
                 </div>
 
-            <div className="img">
-                <img src={profile} className="profile-pic" alt="iceland img"/>
-            </div>
+            <div className="resumeIntroduction">
+                The World Is Your Oyster 
+            </div>    
+
+            <span className="oyster-logo">
+                <img src={tanOyster} width={194} height={152}/>
+            </span>
+
             <div  className="resumeBold">
                 Contact
                 </div>

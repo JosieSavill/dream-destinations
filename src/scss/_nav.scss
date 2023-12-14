@@ -100,6 +100,28 @@ header{
       border-radius: 5px;
     }
     
+
+    .accountButton {
+      display: flex;
+      flex: column;
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+      border: none;
+      height: 70px;
+      width: 170px;
+      cursor: pointer;
+      text-align: center;
+      padding-top: 12px;
+      transition: 0.1s;
+      padding-bottom: 40px;
+      transition: color 0.2s ease;
+      transition: text-shadow 0.2s ease;
+      justify-content: center;
+      gap: 10px;
+    }
     // @media screen and (max-width:600px) {
         
     //     flex-direction: column

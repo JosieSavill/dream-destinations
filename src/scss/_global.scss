@@ -24,6 +24,51 @@ body {
 }
 
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgBox{
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  padding-top: 100%;
+  padding-left: 100%;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 1.7);
+  margin: 20px;
+  text-align: center;
+  transition: opacity 0.1s;
+}
+
+.bgBox:hover {
+  opacity: 0.4;
+  
+}
+
+
+
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   color: white;
@@ -40,6 +85,16 @@ input, select, option, optgroup, textarea, button, pre, code {
   font-family: inherit;
 }
 
+.content {
+  display: flex;
+  flex: 1;
+}
+
+form{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -60,4 +115,19 @@ main {
   width: 100%;
   height: auto;
   padding-left: 0;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
