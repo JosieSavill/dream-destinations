@@ -19,16 +19,17 @@ export default function CreateAccount () {
         <div className="projects">
 
         <form>
-        <label className="accountLabel">
+        <label className="account-label">
         Enter Email Address:
         <input
           type="text"
           
         />
         </label>
-        <button type="submit" className="accountButton">Submit</button>
+        <button type="submit" className="submit-button">Create Account</button>
         </form>
 
         </div>
+      
     </section>
 }
