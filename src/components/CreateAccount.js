@@ -14,7 +14,7 @@
 
 export default function CreateAccount () {
 
-    return <section className="portfolio">
+    return <section className="create-account">
 
         <div className="projects">
 

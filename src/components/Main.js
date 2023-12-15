@@ -9,15 +9,16 @@ import NorthAmerica from "./NorthAmerica";
 import Europe from "./Europe";
 import oyster from "../assets/oyster-tan-gray.gif";
 import Nav from "./Nav";
-
-
+import MobileNav from "./MobileNav";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Main ({setScreen, screen}){
     return <div>
+        <MobileNav setScreen={setScreen} />
         <Nav setScreen={setScreen}/>
 
         <div className="video-background">
-            <video autoPlay loop muted style={{width: "100%"}}>
+            <video autoPlay loop muted>
                 <source src={myVideo} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
