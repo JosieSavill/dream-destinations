@@ -32,15 +32,9 @@ header{
       align-items: center;
       text-align: center;
       text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
-      // text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
       transition: font-weight 0.1s ease-in-out;
     }
-
     
-
-    // @media screen and (max-width:600px) {
-    //   flex-direction: column
-    // }
   }
 
   .mainNav {
@@ -51,7 +45,6 @@ header{
     align-items: center;
     max-height: 20%;
     width: 100%;
-    // max-width: 90%;
     padding-top: 5px;
     position: fixed;
     text-align: center;
@@ -82,10 +75,6 @@ header{
       text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
       transition: font-weight 0.1s ease-in-out;
     }
-
-   
-
-    
 
     li {
       

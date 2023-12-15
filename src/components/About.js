@@ -1,4 +1,6 @@
 import profile from "../assets/dream-one.jpg";
+import temple from "../assets/dream-three.jpg";
+import greece from "../assets/dream-two.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
 import tanOyster from "../assets/oyster-tan-gray.gif";
 
@@ -15,7 +17,13 @@ export default function About (){
             </div>
 
             <div className="img">
-                <img src={profile} className="profile-pic" alt="iceland img"/>
+
+                <img src={temple} className="profile-pic" alt="chinese temple img"/>
+
+                <img src={profile} className="profile-pic" alt="iceland aurora borealis img"/>
+
+                <img src={greece} className="profile-pic" alt="greece white domed building img"/>
+
             </div>
 
             <div className="goals">    
@@ -47,8 +55,8 @@ export default function About (){
                 The World Is Your Oyster 
             </div>    
 
-            <span className="oyster-logo">
-                <img src={tanOyster} width={194} height={152}/>
+            <span className="oyster-logo-about">
+                <img src={tanOyster} width={129} height={76}/>
             </span>
 
             <div  className="resumeBold">
