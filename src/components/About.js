@@ -1,4 +1,4 @@
-import profile from "../assets/dream-one.jpg";
+import iceland from "../assets/dream-one.jpg";
 import temple from "../assets/dream-three.jpg";
 import greece from "../assets/dream-two.jpg";
 import {BsArrowRightShort} from 'react-icons/bs';
@@ -20,7 +20,7 @@ export default function About (){
 
                 <img src={temple} className="profile-pic" alt="chinese temple img"/>
 
-                <img src={profile} className="profile-pic" alt="iceland aurora borealis img"/>
+                <img src={iceland} className="profile-pic" alt="iceland aurora borealis img"/>
 
                 <img src={greece} className="profile-pic" alt="greece white domed building img"/>
 
