@@ -1,24 +1,24 @@
 import logoImg from "../assets/castle.svg";
 
 export default function Nav({setScreen}){
-    const topNav = [
-        {
-            title: "Reservation",
-            screen: "About"
-        },
-        {
-            title: "Listing",
-            screen: "About"
-        },
-        {
-            title: "Agent",
-            screen: "About"
-        }, {
-            title: "Contact",
-            screen: "About"
-        }
+    // const topNav = [
+    //     {
+    //         title: "Reservation",
+    //         screen: "About"
+    //     },
+    //     {
+    //         title: "Listing",
+    //         screen: "About"
+    //     },
+    //     {
+    //         title: "Agent",
+    //         screen: "About"
+    //     }, {
+    //         title: "Contact",
+    //         screen: "About"
+    //     }
 
-    ]
+    // ]
 
     const mainNav = [
         {
@@ -55,15 +55,26 @@ export default function Nav({setScreen}){
     
     return <header>
         <nav className="topNav">
-            <ul>
+            {/* <ul>
                 {
                     topNav.map( m => {
                         return  <li><a onClick={()=>setScreen(m.screen)}>{m.title}</a></li>
                     })
                 }
+            </ul> */}
+
+            <ul>
+                <li>
+                        <img src={logoImg} width={154} height={90}/>
+                </li>
+                {
+                    mainNav.map( m => {
+                        return  <li><a onClick={()=>setScreen(m.screen)}>{m.title}</a></li>
+                    })
+                }
             </ul>
         </nav>
-        <nav className="mainNav">
+        {/* <nav className="mainNav">
                 
             <ul>
                 <li>
@@ -76,7 +87,7 @@ export default function Nav({setScreen}){
                 }
             </ul>
 
-        </nav>
+        </nav> */}
         
         </header>
 }
