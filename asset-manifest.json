@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dream-destinations/static/css/main.462dc2df.css",
-    "main.js": "/dream-destinations/static/js/main.a48cddaa.js",
+    "main.js": "/dream-destinations/static/js/main.d52cd478.js",
     "static/js/787.a9677a29.chunk.js": "/dream-destinations/static/js/787.a9677a29.chunk.js",
     "static/media/dark-horse.mp4": "/dream-destinations/static/media/dark-horse.2abdd8e24a21f036365d.mp4",
     "static/media/oyster-tan-gray.gif": "/dream-destinations/static/media/oyster-tan-gray.aebd125450434273a212.gif",
@@ -9,11 +9,11 @@
     "static/media/castle.svg": "/dream-destinations/static/media/castle.beddd311a6538bec60f424658496d24f.svg",
     "index.html": "/dream-destinations/index.html",
     "main.462dc2df.css.map": "/dream-destinations/static/css/main.462dc2df.css.map",
-    "main.a48cddaa.js.map": "/dream-destinations/static/js/main.a48cddaa.js.map",
+    "main.d52cd478.js.map": "/dream-destinations/static/js/main.d52cd478.js.map",
     "787.a9677a29.chunk.js.map": "/dream-destinations/static/js/787.a9677a29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.462dc2df.css",
-    "static/js/main.a48cddaa.js"
+    "static/js/main.d52cd478.js"
   ]
 }
