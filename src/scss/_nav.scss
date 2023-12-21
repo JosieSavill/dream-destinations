@@ -30,6 +30,7 @@ header{
       gap: 40px;
       align-items: center;
       text-shadow: 2px 2px 4px rgba(10, 0, 0, 0.986);
+      margin-bottom: 0;
       
      
     }
@@ -48,7 +49,7 @@ header{
       }
 
 
-      padding: 20px;
+      // padding: 20px;
       &:last-child{
 
         a{
