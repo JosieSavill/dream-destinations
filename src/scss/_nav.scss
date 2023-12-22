@@ -1,7 +1,7 @@
 header{
   width: 100%;
   .topNav{
-    background-color: var(--navyblue);
+    /* background-color: var(--navyblue); */
     color: white;
     display:flex;
     flex-wrap: wrap;
@@ -14,6 +14,10 @@ header{
     
     z-index: 60;
     position: fixed;
+
+    @media (max-width: 993px) {
+      display: none;
+    }
 
     ul {
       display: flex;

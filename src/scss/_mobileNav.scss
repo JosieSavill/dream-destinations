@@ -1,11 +1,30 @@
 
 
 .mobile-nav {
+  background-color: var(--navyblue);
   width: 100%;
   margin: 0;
-  
+  color: white;
   font-size: larger;
  
   font-style: italic;
   
+
 }
+
+
+.nav-link {
+  color: white !important;
+}
+#basic-navbar-nav{
+  justify-content: end;
+}
+/*
+#basic-nav-dropdown{
+  display: none;
+  @media (max-width: 993px) {
+    display: block;
+  }
+
+}
+*/
