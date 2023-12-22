@@ -38,7 +38,7 @@
       font-size: 36px;
       font-weight: bold;
       align-self: flex-start;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 1.0)
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 1.0);
 
       
       
@@ -46,7 +46,9 @@
 
     form .account-label:hover {
       color:#0b1c2e;
-      text-shadow: 0, 0, 0, 2.0;
+      text-shadow: none;
+      
+
     }
 
     form input[type="text"],
@@ -65,6 +67,7 @@
       margin-top: 20px;
       background-color: #0b1c2e;
       color: white;
+      font-weight: bold;
       border: none;
       cursor: pointer;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 1.7);
@@ -76,7 +79,7 @@
       margin-top: 20px;
       background-color: #0b1c2e;
       color: white;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
       cursor: pointer;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0);
@@ -85,7 +88,9 @@
 
     .submit-button:hover {
       color:#0b1c2e;
-      background-color: white; 
+      background-color: white;
+      border-color: #0b1c2e;
+      font-weight: bolder; 
     }
 
     @media (max-width: 600px) {
