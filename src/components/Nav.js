@@ -20,7 +20,7 @@ export default function Nav({setScreen}){
 
     // ]
 
-    const mainNav = [
+    const topNav = [
         {
             title: "Home",
             screen: "home"
@@ -68,7 +68,7 @@ export default function Nav({setScreen}){
                         <img src={logoImg} width={154} height={90}/>
                 </li>
                 {
-                    mainNav.map( m => {
+                    topNav.map( m => {
                         return  <li><a onClick={()=>setScreen(m.screen)}>{m.title}</a></li>
                     })
                 }
