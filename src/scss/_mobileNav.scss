@@ -8,6 +8,17 @@
   font-size: larger;
  
   font-style: italic;
+
+  .dropdown-menu.show {
+    color: white; /* Set font color to white */
+    background-color: var(--navyblue); /* Set background color to the value of the --navyblue variable */
+
+    .dropdown-item {
+      color: white;
+      
+    }
+  }
+  
   
 
 }
@@ -16,9 +27,20 @@
 .nav-link {
   color: white !important;
 }
+
 #basic-navbar-nav{
-  justify-content: end;
+  justify-content: end; 
 }
+
+.mobile-nav-container {
+
+
+  color: white;
+  background-color: var(--navyblue);
+}
+
+
+
 /*
 #basic-nav-dropdown{
   display: none;
@@ -28,3 +50,14 @@
 
 }
 */
+
+// .basic-navbar-nav {
+
+//   font-size: 30px!important;
+
+// }
+
+// #basic-nav-dropdown {
+//   color: white!important;
+//   fill: var(--navyblue)!important;
+// }
