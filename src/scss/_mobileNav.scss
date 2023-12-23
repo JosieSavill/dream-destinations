@@ -13,9 +13,14 @@
     color: white; /* Set font color to white */
     background-color: var(--navyblue); /* Set background color to the value of the --navyblue variable */
 
+    
+
     .dropdown-item {
       color: white;
-      
+      &:hover {
+        color: var(--navyblue);
+        font-weight: bolder;
+      }
     }
   }
   
@@ -32,12 +37,7 @@
   justify-content: end; 
 }
 
-.mobile-nav-container {
 
-
-  color: white;
-  background-color: var(--navyblue);
-}
 
 
 
