@@ -26,11 +26,13 @@ export default function About (){
 
             </div>
 
-            <div className="goals">    
+            <div className="goals">  
+                <div> 
                 Our goal is to make travel and home ownership easily accessible and stress free.
                 <br></br>
                 <br></br>
                 We enjoy working with potential buyers as well as travellers.
+                </div>  
             </div>    
            
             <div className="resumeBold">

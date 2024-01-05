@@ -1,19 +1,57 @@
-// export default function MainNav({setScreen}){
-//   return <>
-   
-//         <ul><li><a onClick={()=>setScreen("home")}>Home</a></li></ul>
+import logoImg from "../assets/castle.svg";
+
+export default function MainNav({setScreen}){
     
-//         <ul><li><a onClick={()=>setScreen("resume")}>About</a></li></ul>
+
+    const mainNav = [
+        {
+            title: "Home",
+            screen: "home"
+        },
+        {
+            title: "About",
+            screen: "about"
+        },
+        {
+            title: "North America",
+            screen: "north"
+        },
+         {
+            title: "South America",
+            screen: "south"
+        },
+        {
+            title: "Europe",
+            screen: "europe"
+        },
+        {
+            title: "Asia",
+            screen: "asia"
+        },
+        {
+            title: "CreateAccount",
+            screen: "createAccount"
+        }
+    ]
+
+
     
-//         <ul><li><a onClick={()=>setScreen("north")}>North America</a></li></ul>
-    
-//         <ul><li><a onClick={()=>setScreen("south")}>South America</a></li></ul>
-    
-//         <ul><li><a onClick={()=>setScreen("europe")}>Europe</a></li></ul>
-    
-//         <ul><li><a onClick={()=>setScreen("asia")}>Asia</a></li></ul>
-    
-//         <ul><li className="createAccount"><a onClick={() => setScreen("portfolio")}>Create Account</a></li></ul>
-    
-//   </>
-// }
+    return <header>
+        <nav className="mainNav">
+            
+
+            <ul>
+                <li>
+                        <img src={logoImg} width={154} height={90}/>
+                </li>
+                {
+                    mainNav.map( m => {
+                        return  <li><a onClick={()=>setScreen(m.screen)}>{m.title}</a></li>
+                    })
+                }
+            </ul>
+        </nav>
+      
+        
+        </header>
+}

@@ -2,10 +2,12 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
+  // border:solid thin red;
 }
 :root{
   --navyblue: #07294d; 
   --navyblueO: #07294d70; /*to add transperncy just additional nuumbers to the hex rgba(0,0,0,.5)*/
+  --navyblueO2: #07294d80;
   --navyblueDark: #07294d90;
 }
 
@@ -124,3 +126,9 @@ code {
 }
 
 
+.row{
+  @media (max-width: 600px) {
+    margin: 0px;
+  }
+
+}

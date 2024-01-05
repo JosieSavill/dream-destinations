@@ -1,13 +1,53 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import TopNav from "./TopNav";
+import MainNav from "./MainNav";
+import CreateAccount from './CreateAccount';
+import About from './About';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import oyster from "../assets/oyster-tan-gray.gif";
+// import oyster from "../assets/oyster-tan-gray.gif";
 import { BsList } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
-export default function MobileNav() {
+
+export default function MobileNav({setScreen}) {
+
+  const mainNav = [
+    {
+        title: "Home",
+        screen: "home"
+    },
+    {
+        title: "About",
+        screen: "about"
+    },
+    {
+        title: "North America",
+        screen: "north"
+    },
+     {
+        title: "South America",
+        screen: "south"
+    },
+    {
+        title: "Europe",
+        screen: "europe"
+    },
+    {
+        title: "Asia",
+        screen: "asia"
+    },
+    {
+        title: "CreateAccount",
+        screen: "createAccount"
+    }
+]
+
   return (
     <Navbar expand="lg" className="mobile-nav">
+
+    {/* <MainNav setScreen={setScreen}/> */}
       <Container className='mobile-nav-container'>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
@@ -15,19 +55,21 @@ export default function MobileNav() {
           </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
+
             <Nav.Link href="#home">Reservations</Nav.Link>
             <Nav.Link href="#link">Listings</Nav.Link>
             <Nav.Link href="#link">Sign In</Nav.Link>
             <NavDropdown title="More..." id="basic-nav-dropdown" className='dropdown-nav'>
-              <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">North America</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">South America</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Europe</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Asia</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Create Account
-              </NavDropdown.Item>
+
+              {/* <NavDropdown.Item as={Link} to="./About">About</NavDropdown.Item> */}
+              {
+                    mainNav.map( m => {
+                        return <NavDropdown.Item onClick={()=>setScreen(m.screen)}>{m.title}</NavDropdown.Item>
+                    })
+                }
+
+              
+             
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
