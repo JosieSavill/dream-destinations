@@ -12,19 +12,23 @@ export default function About (){
 
         <div className="resumeContainer">
 
+           
+
             <div className="resumeHeading">
                 DREAM DESTINATIONS
             </div>
 
             <div className="img">
 
-                <img src={temple} className="profile-pic" alt="chinese temple img"/>
+                {/* <img src={temple} className="profile-pic" alt="chinese temple img"/> */}
 
-                <img src={iceland} className="profile-pic" alt="iceland aurora borealis img"/>
+                {/* <img src={iceland} className="profile-pic" alt="iceland aurora borealis img"/> */}
 
                 <img src={greece} className="profile-pic" alt="greece white domed building img"/>
 
             </div>
+
+            
 
             <div className="goals">  
                 <div> 
@@ -33,13 +37,33 @@ export default function About (){
                 <br></br>
                 We enjoy working with potential buyers as well as travellers.
                 </div>  
-            </div>    
+            </div> 
+
+            <div className="img">
+
+                <img src={temple} className="profile-pic" alt="chinese temple img"/>
+
+                {/* <img src={iceland} className="profile-pic" alt="iceland aurora borealis img"/> */}
+
+                {/* <img src={greece} className="profile-pic" alt="greece white domed building img"/> */}
+
+            </div>   
            
             <div className="resumeBold">
                 History
                 </div>
             <div className="resume">
                 Our company has been providing services globally for a 20 years.
+            </div>
+
+            <div className="img">
+
+                {/* <img src={temple} className="profile-pic" alt="chinese temple img"/> */}
+
+                <img src={iceland} className="profile-pic" alt="iceland aurora borealis img"/>
+
+                {/* <img src={greece} className="profile-pic" alt="greece white domed building img"/> */}
+
             </div>
             
             <div className="resumeBold">

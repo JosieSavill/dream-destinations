@@ -111,12 +111,13 @@ main {
 
 
 .row {
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 99%;
   height: auto;
-  padding-left: 0;
+  padding-left: 20px;
 }
 
 
