@@ -15,7 +15,8 @@
   padding-bottom: 20px;
   gap: 10%;
   @media (max-width: 600px) {
-    gap: 15px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
  
 }
@@ -82,6 +83,7 @@
   @media (max-width: 600px) {
     width: 99%;
     padding-left: 5px;
+    padding-right: 5px;
     // padding: 20px 0px;
   }
 
@@ -119,6 +121,7 @@
   @media (max-width: 600px) {
     
     font-size: 30px;
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -199,5 +202,12 @@
 
 }
 
+
+.gmail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 
