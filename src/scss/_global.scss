@@ -56,9 +56,6 @@ body {
   
 }
 
-
-
-
 h3 {
   display: flex;
   flex-direction: row;
@@ -98,10 +95,6 @@ form{
   flex-direction: column;
 }
 
-
-
-
-
 main {
   display: flex;
   flex: wrap;
@@ -117,22 +110,16 @@ main {
   justify-content: center;
   width: 99%;
   height: auto;
-  // padding-left: 20px;
+  
   @media (max-width: 600px) {
     margin: 0px;
   }
-  // @media (max-width: 600px) {
-  //   margin-right: 50px;
-  //   margin-left: 0;
-  //   width: 90%;
-
-  // }
+  
 }
 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
