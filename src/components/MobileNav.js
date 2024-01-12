@@ -58,7 +58,7 @@ export default function MobileNav({setScreen}) {
             <Nav.Link href="#home">Reservations</Nav.Link>
             <Nav.Link href="#link">Listings</Nav.Link>
             <Nav.Link href="#link">Sign In</Nav.Link>
-            <NavDropdown title="More..." id="basic-nav-dropdown" className='dropdown-nav'>
+            <NavDropdown title="More..." id="basic-nav-dropdown" className='mobile-only dropdown-nav'>
 
               {/* <NavDropdown.Item as={Link} to="./About">About</NavDropdown.Item> */}
               {

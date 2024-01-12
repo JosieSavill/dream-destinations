@@ -1,5 +1,9 @@
-import TopNav from "./TopNav";
+import TopNav from './TopNav'
 
-export default function Header ({setScreen}) {
-  return <header className="header"><TopNav setScreen={setScreen} /></header>
+export default function Header({ setScreen }) {
+    return (
+        <header className="header">
+            <TopNav setScreen={setScreen} />
+        </header>
+    )
 }

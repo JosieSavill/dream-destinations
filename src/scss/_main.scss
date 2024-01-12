@@ -105,7 +105,10 @@
   width: 70%;
   height: auto;
   margin-left: 20px;
-  
+  @media(max-width: 600px){
+    width: 100%;
+    
+  }
 }
 
 .northAmerica,
