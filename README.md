@@ -21,6 +21,19 @@
 ![Desktop Img](/src/assets/dream-desktop.png) 
 
 
+
+##WorkFlow
+
+git add -A
+
+git status
+
+git commit -m ""
+
+npm run build
+
+npm run deploy 
+
  
 
 
