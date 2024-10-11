@@ -34,6 +34,17 @@ npm run build
 
 npm run deploy 
 
+###github desktop you can do commits here, not build deploy
+
+workflow:
+1. open Repository in vs code
+2. make changes in vscode
+3. open github desktop, 
+4. make sure you are in the right Repository if not select 
+in the dropdown to change to the correct repository
+5. in the changes tab, write your commit and save
+6. push to github.com
+7. then run npm run build and npm run deploy in terminal
  
 
 
